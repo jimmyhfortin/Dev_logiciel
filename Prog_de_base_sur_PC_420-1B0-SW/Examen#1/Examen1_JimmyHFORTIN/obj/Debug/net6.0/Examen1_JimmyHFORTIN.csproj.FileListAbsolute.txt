@@ -1,0 +1,15 @@
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/bin/Debug/net6.0/Examen1_JimmyHFORTIN
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/bin/Debug/net6.0/Examen1_JimmyHFORTIN.deps.json
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/bin/Debug/net6.0/Examen1_JimmyHFORTIN.runtimeconfig.json
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/bin/Debug/net6.0/Examen1_JimmyHFORTIN.dll
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/bin/Debug/net6.0/Examen1_JimmyHFORTIN.pdb
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/Examen1_JimmyHFORTIN.csproj.AssemblyReference.cache
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/Examen1_JimmyHFORTIN.GeneratedMSBuildEditorConfig.editorconfig
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/Examen1_JimmyHFORTIN.AssemblyInfoInputs.cache
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/Examen1_JimmyHFORTIN.AssemblyInfo.cs
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/Examen1_JimmyHFORTIN.csproj.CoreCompileInputs.cache
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/Examen1_JimmyHFORTIN.dll
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/ref/Examen1_JimmyHFORTIN.dll
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/Examen1_JimmyHFORTIN.pdb
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/Examen1_JimmyHFORTIN.genruntimeconfig.cache
+/home/the-pc/Documents/Developpement_logiciel/Examen1_JimmyHFORTIN/obj/Debug/net6.0/refint/Examen1_JimmyHFORTIN.dll
