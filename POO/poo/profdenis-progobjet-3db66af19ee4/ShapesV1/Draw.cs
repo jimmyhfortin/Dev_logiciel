@@ -34,13 +34,11 @@ public class Draw
         //boucle sur les y de y1 a y2
         double m = ((y2 + 0.00) - y1) / (x2 - x1);
         double b = y2 - m * x2;
-        for (int i = Math.Max(x1, 0); i < x1 + for (int i = Math.Max(x, 0); i < x + width && i < canvas.Width; i++)
+        for (int i = Math.Max(x1, 0); i < x2  && i < canvas.Width; i++)
         {
-            canvas.SetPixel(i, y, color);
-        }width && i < canvas.Width; i++)
-        {
-            canvas.SetPixel(i, y, color);
+            canvas.SetPixel(i, Convert.ToInt32(m * i + b), color);
         }
+        
     }
 
     public static void DrawRectangle(Canvas canvas, int x, int y, int width, int height, Color color)
