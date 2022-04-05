@@ -32,11 +32,19 @@ public class Draw
         //TODO: dessiner une ligne quelconque, du point (x1,y1) au point (x2,y2) /peux etre en angle.jim
         //boucle sur les x de x1 a x2 y=mx+b x=valeur de i (m*i+b) m=(y2-y1)/(x2-x1) b=(y-mx) soit b=(y2-mx2)set pixel(i,m*ib, couleur)
         //boucle sur les y de y1 a y2
-        double m = ((y2 + 0.00) - y1) / (x2 - x1);
-        double b = y2 - m * x2;
-        for (int i = Math.Max(x1, 0); i < x2  && i < canvas.Width; i++)
+        if (x1 - x2 != 0)
         {
-            canvas.SetPixel(i, Convert.ToInt32(m * i + b), color);
+            double m = ((y2 + 0.00) - y1) / (x2 - x1);
+            double b = y2 - m * x2;
+            for (int i = Math.Max(x1, 0); i < x2  && i < canvas.Width; i++)
+            {
+                canvas.SetPixel(i, Convert.ToInt32(m * i + b), color);
+            }  
+        }
+        //else if (x1 - x2 !=0 && x1 + y1 > ?) Je ne comprend pas comment trouver la valeur qui fait boucler sur les y
+        else
+        {
+            Console.WriteLine($"DrawLine: Veuillez entrer une valeur positive");
         }
         
     }
@@ -62,6 +70,9 @@ public class Draw
         //TODO: dessiner un triangle, avec les trois sommets (x1,y1), (x2,y2), et (x3,y3)
         //DrawLigne appel 
         //DrawLinge(canevas,x2,y2,x3,y3,dessin) plusiseur comme cela
+        DrawLine(canvas, x1 ,y1 ,x2 , y2, color);
+        DrawLine(canvas, x2 ,y2 ,x3 , y3, color);
+        DrawLine(canvas, x3 ,y3 ,x1 , y1, color);
     }
     
     public static void DrawCircle(Canvas canvas, int x, int y, int radius, Color color)
