@@ -17,6 +17,8 @@ namespace DrawShapes
             Draw.DrawRectangle(canvas, 50, 20, 100, 40, Color.Red);
             Draw.DrawSquare(canvas, 100, 80, 50, Color.Cyan);
             Draw.DrawLine(canvas, 100, 50, 120, 60, Color.Black);
+            
+            
             Console.WriteLine($"Writing image in file: {filename}");
             canvas.Save(filename);
         }

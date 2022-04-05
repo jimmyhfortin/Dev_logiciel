@@ -1,4 +1,7 @@
-﻿namespace ShapesV1;
+﻿using System.Drawing;
+using SixLabors.ImageSharp;
+
+namespace ShapesV1;
 
 public class Point1
 {
@@ -57,7 +60,7 @@ public class Point3
     }
 }
 
-public class Point
+public class Point //celle-ci
 {
     private int _x;
     private int _y;
@@ -90,13 +93,13 @@ public class Point
         }
     }
 
-    public Point(int x, int y)
+    public Point(int x, int y) // constructeur il a le meme nom
     {
-        X = x;
+        X = x; // maj comme le get set pour avoir une validation sur les nombres entrees.
         Y = y;
     }
 
-    public Point(Point other) : this(other.X, other.Y)
+    public Point(Point other) : this(other.X, other.Y) // deuxieme constructeur, constrcuteur de copie Point other
     {
     }
 
@@ -111,7 +114,7 @@ public class Point
         return (int)Math.Round(length, MidpointRounding.AwayFromZero);
     }
 
-    public void ScaleX(double factor)
+    public void ScaleX(double factor) // va modifier un point (c'est une mise a l'echelle).
     {
         X = (int)Math.Round(X * factor, MidpointRounding.AwayFromZero);
     }
@@ -121,16 +124,21 @@ public class Point
         Y = (int)Math.Round(Y * factor, MidpointRounding.AwayFromZero);
     }
 
-    public void Scale(double factor)
+    public void Scale(double factor) // methode qui appel d'autre methode
     {
         ScaleX(factor);
         ScaleY(factor);
     }
 
-    public Point MidPoint()
+    public Point MidPoint() // creer un nouveau point comme le point millieu
     {
-        Point temp = new Point(this);
+        Point temp = new Point(this); // nouveau point qui copie les valeurs
         temp.Scale(0.5);
         return temp;
     }
+
+    /*public void Draw(Canvas canvas)
+    {
+        canvas.SetPixel(X, Y, Color.Blue);
+    }*/
 }
