@@ -39,7 +39,7 @@ public class Point
 
     public Color DrawColor { get; set; }
 
-    public Point(int x, int y) : this(x, y, DefaultDrawColor)
+    public Point(int x, int y) : this(x, y, DefaultDrawColor) // copie du Point
     {
     }
 

@@ -27,7 +27,9 @@ namespace DrawShapesV2
 
             VLine vline = new VLine(new ShapesV2.Point(66, 88), 50, Color.Blue);
             vline.Draw(canvas);
-            
+
+            HLine hline = new HLine(new ShapesV2.Point(86, 108),50, Color.Blue);
+            hline.Draw(canvas);
             
             
             Console.WriteLine($"Writing image in file: {filename}");
