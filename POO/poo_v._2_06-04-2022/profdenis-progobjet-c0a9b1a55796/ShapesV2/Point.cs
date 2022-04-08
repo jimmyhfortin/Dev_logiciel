@@ -62,7 +62,7 @@ public class Point
         }
 
         Point other = (Point)obj;
-        return X == other.X && Y == other.Y;
+        return X == other.X && Y == other.Y; // && DrawColor == other.DrawColor
     }
 
     public override int GetHashCode()

@@ -20,11 +20,17 @@ public class Rectangle
 
     public void Draw(Canvas canvas)
     {
-        HLine v1 = new HLine(StartPoint, Width, DrawColor);
-        v1.StartPoint.X = Width+StartPoint.X;
-        DrawHLine(canvas, x, y + height - 1, width, color);
+        HLine h1 = new HLine(StartPoint, Width, DrawColor);
+        VLine v1 = new VLine(StartPoint, Height, DrawColor);
+        h1.Draw(canvas);
+        v1.Draw(canvas);
+        h1.StartPoint.Y = Height+StartPoint.Y;
+        h1.Draw(canvas);
+        h1.StartPoint.X = Width+StartPoint.X;
+        h1.Draw(canvas);
+        /*DrawHLine(canvas, x, y + height - 1, width, color);
         DrawVLine(canvas, x, y, height, color);
-        DrawVLine(canvas, x + width - 1, y, height, color);
+        DrawVLine(canvas, x + width - 1, y, height, color);*/
         
     }
 }
