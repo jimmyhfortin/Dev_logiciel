@@ -1,6 +1,7 @@
 ﻿
 
 
+using System.Runtime.CompilerServices;
 using ShapesV2;
 using SixLabors.ImageSharp;
 using Point = ShapesV2.Point;
@@ -26,15 +27,25 @@ namespace DrawShapesV2
             p1.Y = 25;
             p1.DrawColor = Color.Chartreuse;
             p1.Draw(canvas);*/
-
+            
+            //Ligne vertical
             VLine vline = new VLine(new ShapesV2.Point(66, 88), 50, Color.Blue);
             vline.Draw(canvas);
-
-            HLine hline = new HLine(new ShapesV2.Point(86, 108),50, Color.Blue);
+            //Ligne Horizontale
+            HLine hline = new HLine(new ShapesV2.Point(66, 88),50, Color.Blue);
             hline.Draw(canvas);
-
-            Rectangle rectangle = new Rectangle(new ShapesV2.Point(100, 150), 50, 60, Color.Gold);
+            //Rectangle
+            Rectangle rectangle = new Rectangle(new ShapesV2.Point(100, 120), 50, 80, Color.Gold);
             rectangle.Draw(canvas);
+            //Carre
+            Carre carre = new Carre(new ShapesV2.Point(160, 120), 50, Color.Goldenrod);
+            carre.Draw(canvas);
+            //ligne diagonale
+            Line ligne = new Line(new ShapesV2.Point(70, 20), new ShapesV2.Point(200,50), Color.Aqua);
+            ligne.Draw(canvas);
+            //Cercle
+            Circle cercle = new Circle(new ShapesV2.Point(300, 50), 50, Color.DeepPink);
+            cercle.Draw(canvas);
             
             Console.WriteLine($"Writing image in file: {filename}");
             canvas.Save(filename);

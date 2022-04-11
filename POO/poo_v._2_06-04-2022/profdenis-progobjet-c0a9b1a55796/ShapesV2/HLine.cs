@@ -8,10 +8,10 @@ public class HLine
     public int Width { get; set; }
     public Color DrawColor { get; set; }
 
-    public HLine(Point startPoint, int wight, Color drawColor)
+    public HLine(Point startPoint, int width, Color drawColor)
     {
         StartPoint = startPoint;
-        Width = wight;
+        Width = width;
         DrawColor = drawColor;
     }
 

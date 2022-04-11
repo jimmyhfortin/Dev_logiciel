@@ -26,11 +26,10 @@ public class Rectangle
         v1.Draw(canvas);
         h1.StartPoint.Y = Height+StartPoint.Y;
         h1.Draw(canvas);
-        h1.StartPoint.X = Width+StartPoint.X;
-        h1.Draw(canvas);
-        /*DrawHLine(canvas, x, y + height - 1, width, color);
-        DrawVLine(canvas, x, y, height, color);
-        DrawVLine(canvas, x + width - 1, y, height, color);*/
+        v1.StartPoint.X = StartPoint.X+Width;
+        v1.StartPoint.Y = StartPoint.Y - Height;
+        v1.Draw(canvas);
+        
         
     }
 }
