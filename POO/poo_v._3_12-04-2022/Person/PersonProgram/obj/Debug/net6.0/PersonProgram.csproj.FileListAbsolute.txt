@@ -1,0 +1,15 @@
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/bin/Debug/net6.0/PersonProgram
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/bin/Debug/net6.0/PersonProgram.deps.json
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/bin/Debug/net6.0/PersonProgram.runtimeconfig.json
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/bin/Debug/net6.0/PersonProgram.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/bin/Debug/net6.0/PersonProgram.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/PersonProgram.csproj.AssemblyReference.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/PersonProgram.GeneratedMSBuildEditorConfig.editorconfig
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/PersonProgram.AssemblyInfoInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/PersonProgram.AssemblyInfo.cs
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/PersonProgram.csproj.CoreCompileInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/PersonProgram.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/refint/PersonProgram.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/PersonProgram.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/PersonProgram.genruntimeconfig.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonProgram/obj/Debug/net6.0/ref/PersonProgram.dll
