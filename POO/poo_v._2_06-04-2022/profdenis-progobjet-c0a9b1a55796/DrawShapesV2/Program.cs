@@ -46,6 +46,10 @@ namespace DrawShapesV2
             //Cercle
             Circle cercle = new Circle(new ShapesV2.Point(300, 50), 50, Color.DeepPink);
             cercle.Draw(canvas);
+            for (int i = 0; i < cercle.Radius; i++)
+            {
+                cercle.Draw(canvas);
+            }
             
             Console.WriteLine($"Writing image in file: {filename}");
             canvas.Save(filename);
