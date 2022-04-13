@@ -19,11 +19,22 @@ namespace PersonProgram
             Console.WriteLine(person3 == person2);
             Console.WriteLine(person3.Equals(person2));
             Console.WriteLine(person1.Age);*/
-            
-            Form formulaire1 = new Form("Quelle est la plus belle ville du mexique", "", "Maxico", 5);
-            formulaire1.Reponse = "Maxico";
-            Console.WriteLine(formulaire1);
-            Console.WriteLine(formulaire1.Reponse.Equals(formulaire1.BonneReponse));
+
+            var questions = new List<Form>
+            {
+                new Form("Quelle est la plus belle ville du Mexique", "", "Cancun", 10),
+                new Form("Quelle est la capital du Mexique", "", "Mexico", 10)
+            };
+            Form formulaire1 = new Form("Quelle est la plus belle ville du mexique", "", "Mexico", 5);
+            //formulaire1.Reponse = "Maxico";
+            //Console.WriteLine(formulaire1);
+            //Console.WriteLine(formulaire1.Reponse.Equals(formulaire1.BonneReponse));
+
+            foreach (var question in questions)
+            {
+                question.AfficherQuestion();
+            }
+            //questions.AfficherQuestion();
 
 
             // person3.Name = null;

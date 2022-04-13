@@ -1,0 +1,5 @@
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3/obj/Debug/net6.0/Exercice_3.csproj.AssemblyReference.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3/obj/Debug/net6.0/Exercice_3.GeneratedMSBuildEditorConfig.editorconfig
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3/obj/Debug/net6.0/Exercice_3.AssemblyInfoInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3/obj/Debug/net6.0/Exercice_3.AssemblyInfo.cs
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3/obj/Debug/net6.0/Exercice_3.csproj.CoreCompileInputs.cache
