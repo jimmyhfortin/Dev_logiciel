@@ -2,41 +2,38 @@
 
 public class Dice
 {
-    //private static Random NbFace = new Random();
-    //private static int Face = 
     private int _NbFace;
-    private int _DiceValue;
     public int NbFace
     {
         get => _NbFace;
-        set
+        private set
         {
             if (value < 2 || value > 120)
             {
                 throw new ArgumentException("The number must be in a range of 2 to 250");
             }
-            _NbFace = NbFace;
+            _NbFace = value;
         }
     }
 
-    public int DiceValue { get; set; }
-    /*{
-        get => _DiceValue;
-        set
-        {
-            DiceValue = _NbFace;
-        }
-    }*/
+    public int DiceValue { get; private set; }
+    
 
     public Dice(int nbFace)
     {
-        _NbFace = nbFace;
+        NbFace = nbFace;
         
     }
 
     public override bool Equals(object? obj)
     {
-        return base.Equals(obj);
+        if (obj == null || this.GetType() != obj.GetType())
+        {
+            return false;
+        }
+
+        Dice other = (Dice) obj;
+        return NbFace.Equals(other.NbFace) && DiceValue.Equals(other.DiceValue);
     }
 
     public override int GetHashCode()
@@ -46,13 +43,17 @@ public class Dice
 
     public override string ToString()
     {
-        return $"Dice {_DiceValue}";
+        if (NbFace == 6)
+        {
+            return $"\u2685";
+        }
+        return $"Dice {DiceValue}";
     }
 
     public void Throw()
     {
-        Random diceValue = new Random();
-        DiceValue = diceValue.Next(1, this._NbFace);
+        Random rand = new Random();
+        DiceValue = rand.Next(1, NbFace+1);
         Console.WriteLine($"{DiceValue}");
     }
 }
