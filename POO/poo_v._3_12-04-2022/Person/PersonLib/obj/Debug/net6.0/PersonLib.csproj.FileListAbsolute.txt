@@ -1,0 +1,12 @@
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/bin/Debug/net6.0/PersonLib.deps.json
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/bin/Debug/net6.0/PersonLib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/bin/Debug/net6.0/PersonLib.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/obj/Debug/net6.0/PersonLib.csproj.AssemblyReference.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/obj/Debug/net6.0/PersonLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/obj/Debug/net6.0/PersonLib.AssemblyInfoInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/obj/Debug/net6.0/PersonLib.AssemblyInfo.cs
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/obj/Debug/net6.0/PersonLib.csproj.CoreCompileInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/obj/Debug/net6.0/PersonLib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/obj/Debug/net6.0/refint/PersonLib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/obj/Debug/net6.0/PersonLib.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._3_12-04-2022/Person/PersonLib/obj/Debug/net6.0/ref/PersonLib.dll

@@ -10,7 +10,7 @@ namespace PersonProgram
             Person person2 = new Person(2,"Alice", DateOnly.Parse("1996-02-29"));
             Person person3 = new Person(2,"Alice", DateOnly.Parse("1997-02-28"));
 
-            Console.WriteLine(person1);
+            /*Console.WriteLine(person1);
             Console.WriteLine(person2);
             person3.Name = "++";
             Console.WriteLine(person3);
@@ -18,9 +18,14 @@ namespace PersonProgram
             Console.WriteLine(person1.Equals(person2));
             Console.WriteLine(person3 == person2);
             Console.WriteLine(person3.Equals(person2));
-
-            Console.WriteLine(person1.Age);
+            Console.WriteLine(person1.Age);*/
             
+            Form formulaire1 = new Form("Quelle est la plus belle ville du mexique", "", "Maxico", 5);
+            formulaire1.Reponse = "Maxico";
+            Console.WriteLine(formulaire1);
+            Console.WriteLine(formulaire1.Reponse.Equals(formulaire1.BonneReponse));
+
+
             // person3.Name = null;
             // person3.Id = 4;
             // int y = 3;

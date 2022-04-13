@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "PersonProgram/1.0.0": {
-        "dependencies": {
-          "PersonLib": "1.0.0"
-        },
-        "runtime": {
-          "PersonProgram.dll": {}
-        }
-      },
       "PersonLib/1.0.0": {
         "runtime": {
           "PersonLib.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "PersonProgram/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "PersonLib/1.0.0": {
       "type": "project",
       "serviceable": false,
