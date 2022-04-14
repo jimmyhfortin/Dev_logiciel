@@ -16,7 +16,7 @@ public class Dice
         }
     }
 
-    public int DiceValue { get; private set; }
+    public int DiceValue { get; set; }
     
 
     public Dice(int nbFace)
@@ -56,17 +56,5 @@ public class Dice
         DiceValue = rand.Next(1, NbFace+1);
         //Console.WriteLine($"{DiceValue}");
     }
-
-    public Dice[] ArrayDice()
-    {
-        var Array5Dice = new Dice[5];
-        Array5Dice[0] = new Dice(5);
-        Array5Dice[1] = new Dice(18);
-        Array5Dice[2] = new Dice(32);
-        Array5Dice[3] = new Dice(64);
-        Array5Dice[4] = new Dice(105);
-        return Array5Dice;
-
-
-    }
+    
 }

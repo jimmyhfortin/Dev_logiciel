@@ -1,62 +1,82 @@
 ﻿using Exercice_3;
 
-
 namespace Exercice_3
 {
     public class Program
     {
-        
         static void Main(string[] args)
         {
-            var Array5Dice = new Dice[5];
-            Array5Dice[0] = new Dice(5);
-            Array5Dice[1] = new Dice(18);
-            Array5Dice[2] = new Dice(32);
-            Array5Dice[3] = new Dice(64);
-            Array5Dice[4] = new Dice(105);
             int choix;
-            
-            
-            Dice dice1 = new Dice(90);
-            Console.WriteLine(dice1.NbFace);
-            dice1.Throw();
+            Dice dice5 = new Dice(5);
+            Dice dice32 = new Dice(32);
+            Dice dice105 = new Dice(105);
             do
             {
-                Console.WriteLine($"Bienvenu a comment de dee voulez-vous jouer");
-                Console.WriteLine($"Vous pouvez choisir un nombre de face sur le dee (choix #1)\nOu vous pouvez choisir un dee deja cree (choix #2)");
+                Console.WriteLine("-----------------------------------------------------------");
+                Console.WriteLine($"-------Bienvenu a comment de dé voulez-vous jouer---------");
+                Console.WriteLine($"Vous pouvez choisir un nombre de face sur le dé (choix[1])");
+                Console.WriteLine($"----Ou vous pouvez choisir un dé deja crée (choix[2])-----");
+                Console.WriteLine("-----------------------------------------------------------");
                 choix = int.Parse(Console.ReadLine());
             } while (choix != 1 && choix != 2);
 
             if (choix == 1)
             {
-                Console.WriteLine($"Choisisse un nombre de face que vous desirez sur le dee");
+                Console.WriteLine("----------------------------------------------------------");
+                Console.WriteLine($"-Choisisser un nombre de face que vous desirez sur le dé-");
+                Console.WriteLine("----------------------------------------------------------");
                 choix = int.Parse(Console.ReadLine());
                 Dice dice2 = new Dice(choix);
                 dice2.Throw();
             }
             else
             {
-                Console.WriteLine($"Faite votre choix de dee");
-                for (int i = 0; i < Array5Dice.Length; i++)
+                do
                 {
-                    Console.Write($"Dee #{i+1}, ");
-                    Console.WriteLine($"{Array5Dice[i].NbFace} face");
+                    Console.WriteLine("----------------------------------------------------------");
+                    Console.WriteLine($"---------------Faite votre choix de dé-------------------");
+                    Console.WriteLine("------------Dé a 5 faces faite le choix [1]---------------");
+                    Console.WriteLine("------------Dé a 32 faces faite le choix [2]--------------");
+                    Console.WriteLine("-----------Dé a 105 faces faite le choix [3]--------------");
+                    Console.WriteLine("----------------------------------------------------------");
                     choix = int.Parse(Console.ReadLine());
+                } while (choix != 1 && choix != 2 && choix != 3);
+
+                switch (choix)
+                {
+                    case 1:
+                        dice5.Throw();
+                        break;
+                    case 2:
+                        dice32.Throw();
+                        break;
+                    case 3:
+                        dice105.Throw();
+                        break;
                 }
 
-                choix = int.Parse(Console.ReadLine());
-                //Array5Dice[] = choix;
+                Console.WriteLine("----------------------------------------------------------");
+                Console.WriteLine("--------Essayer de deviner le resultat obtenu-------------");
+                Console.WriteLine("----------------------------------------------------------");
+
+                while (true)
+                {
+                    choix = int.Parse(Console.ReadLine());
+                    if (choix == dice5.DiceValue || choix == dice32.DiceValue || choix == dice105.DiceValue)
+                    {
+                        Console.WriteLine("---------------Felecitation !--------------------");
+                        break;
+                    }
+                    else if (choix < dice5.DiceValue || choix < dice32.DiceValue || choix < dice105.DiceValue)
+                    {
+                        Console.WriteLine("-----------------Plus haut !----------------------");
+                    }
+                    else if (choix > dice5.DiceValue || choix > dice32.DiceValue || choix > dice105.DiceValue)
+                    {
+                        Console.WriteLine("-----------------Plus bas !----------------------");
+                    }
+                }
             }
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
