@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Partie_B/1.0.0": {
+        "dependencies": {
+          "DiceLib": "1.0.0"
+        },
+        "runtime": {
+          "Partie_B.dll": {}
+        }
+      },
+      "DiceLib/1.0.0": {
+        "runtime": {
+          "DiceLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Partie_B/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiceLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

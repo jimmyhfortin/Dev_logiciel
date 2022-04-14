@@ -1,0 +1,12 @@
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/bin/Debug/net6.0/DiceLib.deps.json
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/bin/Debug/net6.0/DiceLib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/bin/Debug/net6.0/DiceLib.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/obj/Debug/net6.0/DiceLib.csproj.AssemblyReference.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/obj/Debug/net6.0/DiceLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/obj/Debug/net6.0/DiceLib.AssemblyInfoInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/obj/Debug/net6.0/DiceLib.AssemblyInfo.cs
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/obj/Debug/net6.0/DiceLib.csproj.CoreCompileInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/obj/Debug/net6.0/DiceLib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/obj/Debug/net6.0/refint/DiceLib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/obj/Debug/net6.0/DiceLib.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._4_13-04-2022/Exercice_3.0/DiceLib/obj/Debug/net6.0/ref/DiceLib.dll

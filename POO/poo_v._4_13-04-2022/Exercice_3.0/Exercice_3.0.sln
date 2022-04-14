@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice_3.0", "Exercice_3.0\Exercice_3.0.csproj", "{4CBF197D-B326-4C7A-81EE-593010BF5F27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partie_A", "Partie_A\Partie_A.csproj", "{4CBF197D-B326-4C7A-81EE-593010BF5F27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dice", "Dice\Dice.csproj", "{F08DCE83-624F-49A3-9014-68A002264D74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceLib", "DiceLib\DiceLib.csproj", "{F08DCE83-624F-49A3-9014-68A002264D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partie_B", "Partie_B\Partie_B.csproj", "{963076DD-8F3F-4D19-B05B-1753C1450D5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{F08DCE83-624F-49A3-9014-68A002264D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F08DCE83-624F-49A3-9014-68A002264D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F08DCE83-624F-49A3-9014-68A002264D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963076DD-8F3F-4D19-B05B-1753C1450D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963076DD-8F3F-4D19-B05B-1753C1450D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963076DD-8F3F-4D19-B05B-1753C1450D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963076DD-8F3F-4D19-B05B-1753C1450D5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
