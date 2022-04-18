@@ -40,6 +40,11 @@ namespace Partie_B
                 Console.WriteLine(diceli);
             }
 
+            ArrayListe arrayListe = new ArrayListe();
+            arrayListe.ArrayDice(5);
+            
+
+
 
         }
 
