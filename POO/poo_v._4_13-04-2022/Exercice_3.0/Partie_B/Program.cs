@@ -6,6 +6,7 @@ namespace Partie_B
     {
         static void Main(string[] args)
         {
+            //Partie A.1 to 2.3
             Dice[] dice = new Dice[5];
             dice[0] = new Dice(10);
             dice[1] = new Dice(20);
@@ -39,9 +40,13 @@ namespace Partie_B
             {
                 Console.WriteLine(diceli);
             }
-
+            
+            //Partie B.1 to B.7
             ArrayListe arrayListe = new ArrayListe();
             arrayListe.ArrayDice(5);
+            
+            arrayListe.SumArray(arrayListe.ArrayDice(5));
+            
             
 
 

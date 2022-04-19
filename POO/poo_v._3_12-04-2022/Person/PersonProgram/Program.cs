@@ -4,6 +4,7 @@ namespace PersonProgram
 {
     public class Program
     {
+        static int IndexOf(Person[] data);
         static void Main(string[] args)
         {
             Person person1 = new Person(1,"Denis", DateOnly.Parse("2000-05-25"));
@@ -34,6 +35,8 @@ namespace PersonProgram
             {
                 question.AfficherQuestion();
             }
+
+            int x = IndexOf(person1);
             //questions.AfficherQuestion();
 
 
@@ -51,4 +54,5 @@ namespace PersonProgram
             // }
         }
     }
+    
 }

@@ -10,7 +10,7 @@ public class Dice
         {
             if (value < 2 || value > 120)
             {
-                throw new ArgumentException("The number must be in a range of 2 to 250");
+                throw new ArgumentException("The number must be in a range of 2 to 120");
             }
             _NbFace = value;
         }

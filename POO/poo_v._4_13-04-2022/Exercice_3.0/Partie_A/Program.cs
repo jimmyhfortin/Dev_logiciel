@@ -25,7 +25,7 @@ namespace Partie_A
                 } while (choix != 1 && choix != 2 && choix != 3);
 
                 if (choix == 3) break;
-                else if (choix == 1)
+                if (choix == 1)
                 {
                     Console.Clear();
                     Console.WriteLine("----------------------------------------------------------");

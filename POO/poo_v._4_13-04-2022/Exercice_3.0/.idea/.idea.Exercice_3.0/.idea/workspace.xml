@@ -31,7 +31,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.Partie_B">
@@ -105,7 +106,8 @@
       <updated>1649877582638</updated>
       <workItem from="1649877588331" duration="6575000" />
       <workItem from="1649951085239" duration="10638000" />
-      <workItem from="1650306752551" duration="3683000" />
+      <workItem from="1650306752551" duration="3856000" />
+      <workItem from="1650385192533" duration="4443000" />
     </task>
     <servers />
   </component>
@@ -117,5 +119,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
