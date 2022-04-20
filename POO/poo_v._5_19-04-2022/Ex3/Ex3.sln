@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3Lib", "Ex3Lib\Ex3Lib.csproj", "{2AE96AC8-4BE0-4C62-AAB1-DA87AAC88555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3App", "Ex3App\Ex3App.csproj", "{3A09CF54-E3F1-4400-BC0C-691CE915D119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3App2", "Ex3App2\Ex3App2.csproj", "{86C98C6E-E7A4-4ABB-8A9C-713E4E05E239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AE96AC8-4BE0-4C62-AAB1-DA87AAC88555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE96AC8-4BE0-4C62-AAB1-DA87AAC88555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE96AC8-4BE0-4C62-AAB1-DA87AAC88555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE96AC8-4BE0-4C62-AAB1-DA87AAC88555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A09CF54-E3F1-4400-BC0C-691CE915D119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A09CF54-E3F1-4400-BC0C-691CE915D119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A09CF54-E3F1-4400-BC0C-691CE915D119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A09CF54-E3F1-4400-BC0C-691CE915D119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C98C6E-E7A4-4ABB-8A9C-713E4E05E239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C98C6E-E7A4-4ABB-8A9C-713E4E05E239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C98C6E-E7A4-4ABB-8A9C-713E4E05E239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C98C6E-E7A4-4ABB-8A9C-713E4E05E239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -5,6 +5,7 @@ namespace Partie_A
     {
         static void Main(string[] args)
         {
+            //Part A1 to A3.3.3
             int choix;
             Dice dice5 = new Dice(5);
             Dice dice32 = new Dice(32);
@@ -93,6 +94,7 @@ namespace Partie_A
                         
                 }
             }
+            //Solution du prof
 
             
         }

@@ -57,5 +57,6 @@ public class Dice
         DiceValue = rand.Next(1, NbFace+1);
         //Console.WriteLine($"{DiceValue}");
     }
+    //Solution du prof
     
 }

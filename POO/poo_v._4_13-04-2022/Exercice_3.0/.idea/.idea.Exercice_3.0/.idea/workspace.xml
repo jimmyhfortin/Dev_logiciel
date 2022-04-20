@@ -5,7 +5,17 @@
     <projectFile>Partie B/Partie B.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c74ca6ae-08cd-472e-a298-b6dd81da1d85" name="Changes" comment="" />
+    <list default="true" id="c74ca6ae-08cd-472e-a298-b6dd81da1d85" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../poo_v._3_12-04-2022/Person/.idea/.idea.Person/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../poo_v._3_12-04-2022/Person/.idea/.idea.Person/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Exercice_3.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Exercice_3.0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiceLib/ArrayListe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiceLib/ArrayListe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiceLib/Dice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiceLib/Dice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partie_A/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Partie_A/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partie_A/obj/Debug/net6.0/Partie_A.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Partie_A/obj/Debug/net6.0/Partie_A.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partie_B/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Partie_B/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partie_B/obj/Debug/net6.0/Partie_B.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Partie_B/obj/Debug/net6.0/Partie_B.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +117,9 @@
       <workItem from="1649877588331" duration="6575000" />
       <workItem from="1649951085239" duration="10638000" />
       <workItem from="1650306752551" duration="3856000" />
-      <workItem from="1650385192533" duration="4443000" />
+      <workItem from="1650385192533" duration="5046000" />
+      <workItem from="1650469360842" duration="888000" />
+      <workItem from="1650472435446" duration="1011000" />
     </task>
     <servers />
   </component>
