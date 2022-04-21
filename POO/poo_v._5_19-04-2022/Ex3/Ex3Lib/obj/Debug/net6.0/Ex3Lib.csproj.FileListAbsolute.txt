@@ -1,0 +1,12 @@
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/bin/Debug/net6.0/Ex3Lib.deps.json
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/bin/Debug/net6.0/Ex3Lib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/bin/Debug/net6.0/Ex3Lib.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.csproj.AssemblyReference.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.GeneratedMSBuildEditorConfig.editorconfig
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.AssemblyInfoInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.AssemblyInfo.cs
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.csproj.CoreCompileInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/refint/Ex3Lib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/ref/Ex3Lib.dll

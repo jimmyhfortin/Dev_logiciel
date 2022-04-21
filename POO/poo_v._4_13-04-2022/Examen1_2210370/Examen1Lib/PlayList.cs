@@ -5,6 +5,7 @@ namespace Examen1Lib;
 public class PlayList
 {
     private string _name;
+
     public string Name
     {
         get => _name;
@@ -14,9 +15,11 @@ public class PlayList
             {
                 throw new ArgumentException("the play list name must be at least 1 characters long");
             }
+
             _name = value;
         }
     }
+
     public List<Song> SongList { get; set; }
 
     public int Count
@@ -37,12 +40,12 @@ public class PlayList
     {
         SongList = new List<Song>();
         Name = name;
-
     }
 
     public override string ToString()
     {
-        return String.Join<Song>(" \n ",SongList);
+        return String.Join<Song>("\n", SongList);
+        return String.Join(" ", SongList);
     }
 
     public int TotalLength()
@@ -52,7 +55,6 @@ public class PlayList
         {
             second += SongList[i].Seconds;
         }
-        //TimeSpan minutes = TimeSpan.FromSeconds(second);
 
         return second;
     }

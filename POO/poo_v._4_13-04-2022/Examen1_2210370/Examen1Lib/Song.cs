@@ -2,91 +2,95 @@
 
 public class Song
 {
-   private static int NextId { get; set; } = 1;
-   public int Id { get; }
-   private string _titleSong;
-   public string Title
-   {
-      get => _titleSong;
-      set
-      {
-         if (value.Length < 1)
-         {
-            throw new ArgumentException("the title must be at least 1 characters long");
-         }
-         _titleSong = value;
-      }
-   }
+    private static int NextId { get; set; } = 1;
+    public int Id { get; }
+    private string _titleSong;
 
-   private string _artistSong;
+    public string Title
+    {
+        get => _titleSong;
+        set
+        {
+            if (value.Length < 1)
+            {
+                throw new ArgumentException("the title must be at least 1 characters long");
+            }
 
-   public string Artist
-   {
-      get => _artistSong;
-      set
-      {
-         if (value.Length < 3)
-         {
-            throw new ArgumentException("the title must be at least 3 charracters long");
-         }
-         _artistSong = value;
-      }
-   }
+            _titleSong = value;
+        }
+    }
 
-   private int _secondSong;
+    private string _artistSong;
 
-   public int Seconds
-   {
-      get => _secondSong;
-      set
-      {
-         if (value < 1)
-         {
-            throw new ArgumentException("the length must be at least 1 seconds");
-         }
+    public string Artist
+    {
+        get => _artistSong;
+        set
+        {
+            if (value.Length < 3)
+            {
+                throw new ArgumentException("the title must be at least 3 charracters long");
+            }
 
-         _secondSong = value;
-      }
-   }
-   
-   public double Minutes
-   {
-      get
-      {
-         double minutes = _secondSong / 60.00;
-         minutes = Math.Round(minutes, 2);
-         //TimeSpan minutes = TimeSpan.FromSeconds(_secondSong);
-         //double x = (double) minutes.TotalMinutes;
-         return minutes;
-      }
-   }
+            _artistSong = value;
+        }
+    }
 
-   public Song(string title, string artist, int seconds)
-   {
-      Id = NextId;
-      NextId++;
-      Title = title;
-      Artist = artist;
-      Seconds = seconds;
-   }
+    private int _secondSong;
 
-   public override bool Equals(object? obj)
-   {
-      if (obj == null || this.GetType() != obj.GetType())
-      {
-         return false;
-      }
-      Song other = (Song)obj;
-      return Id == other.Id;
-   }
+    public int Seconds
+    {
+        get => _secondSong;
+        set
+        {
+            if (value < 1)
+            {
+                throw new ArgumentException("the length must be at least 1 seconds");
+            }
 
-   public override int GetHashCode()
-   {
-      return base.GetHashCode();
-   }
+            _secondSong = value;
+        }
+    }
 
-   public override string ToString()
-   {
-      return $"Song '''{Id}: {Title} ({Artist}) {Minutes}'''";
-   }
+    public double Minutes
+    {
+        get
+        {
+            double minutes = _secondSong / 60.00;
+            minutes = Math.Round(minutes, 2);
+            //TimeSpan minutes = TimeSpan.FromSeconds(_secondSong);
+            //double x = (double) minutes.TotalMinutes;
+            return minutes;
+        }
+    }
+
+    public Song(string title, string artist, int seconds)
+    {
+        Id = NextId;
+        NextId++;
+        Title = title;
+        Artist = artist;
+        Seconds = seconds;
+    }
+
+    public override bool Equals(object? obj)
+    {
+        if (obj == null || this.GetType() != obj.GetType())
+        {
+            return false;
+        }
+
+        Song other = (Song) obj;
+        return Id == other.Id;
+    }
+
+    public override int GetHashCode()
+    {
+        return base.GetHashCode();
+    }
+
+    public override string ToString()
+    {
+        return $"'''{Id}: {Title} ({Artist}) {Minutes}'''";
+    }
 }

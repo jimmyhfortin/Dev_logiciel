@@ -6,6 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c74ca6ae-08cd-472e-a298-b6dd81da1d85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/bin/Debug/net6.0/Ex3App2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/bin/Debug/net6.0/Ex3App2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/bin/Debug/net6.0/Ex3App2.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/Ex3App2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/Ex3App2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/Ex3App2.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/refint/Ex3App2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3Lib/bin/Debug/net6.0/Ex3Lib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3Lib/bin/Debug/net6.0/Ex3Lib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/refint/Ex3Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/bin/Debug/net6.0/Examen1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/bin/Debug/net6.0/Examen1App.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/bin/Debug/net6.0/Examen1App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/bin/Debug/net6.0/Examen1App.pdb" afterDir="false" />
@@ -14,18 +27,19 @@
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/ref/Examen1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/ref/Examen1App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/refint/Examen1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/refint/Examen1App.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/PlayList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/PlayList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/Song.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/Song.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/bin/Debug/net6.0/Examen1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/bin/Debug/net6.0/Examen1Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/bin/Debug/net6.0/Examen1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/bin/Debug/net6.0/Examen1Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/ref/Examen1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/ref/Examen1Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/refint/Examen1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/refint/Examen1Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Exercice_3.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Exercice_3.0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/bin/Debug/net6.0/Ex3Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/bin/Debug/net6.0/Ex3Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/bin/Debug/net6.0/Ex3Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/bin/Debug/net6.0/Ex3Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/Ex3App2.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/Ex3App2.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/Ex3App2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/Ex3App2.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/Ex3App2.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/obj/Debug/net6.0/Ex3App2.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3Lib/obj/Debug/net6.0/Ex3Lib.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +155,7 @@
       <workItem from="1650469360842" duration="888000" />
       <workItem from="1650472435446" duration="2927000" />
       <workItem from="1650544831793" duration="5789000" />
-      <workItem from="1650555749092" duration="2584000" />
+      <workItem from="1650555749092" duration="3893000" />
     </task>
     <servers />
   </component>
