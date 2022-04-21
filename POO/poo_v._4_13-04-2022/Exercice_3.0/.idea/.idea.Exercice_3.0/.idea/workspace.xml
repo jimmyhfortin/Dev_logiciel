@@ -6,14 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c74ca6ae-08cd-472e-a298-b6dd81da1d85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../poo_v._3_12-04-2022/Person/.idea/.idea.Person/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../poo_v._3_12-04-2022/Person/.idea/.idea.Person/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EX_3_Solution.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Screenshot-20220405120428-1922x1055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Screenshot-20220420083712-540x544.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Screenshot-20220420083744-1922x1055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex1.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Exercice_3.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Exercice_3.0/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiceLib/ArrayListe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiceLib/ArrayListe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiceLib/Dice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiceLib/Dice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Partie_A/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Partie_A/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Partie_A/obj/Debug/net6.0/Partie_A.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Partie_A/obj/Debug/net6.0/Partie_A.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Partie_B/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Partie_B/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Partie_B/obj/Debug/net6.0/Partie_B.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Partie_B/obj/Debug/net6.0/Partie_B.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../poo_v._5_19-04-2022/Ex3/Ex3App2/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +29,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27kwqHAHSBOzG0zgtvszVHjooGR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -119,7 +121,7 @@
       <workItem from="1650306752551" duration="3856000" />
       <workItem from="1650385192533" duration="5046000" />
       <workItem from="1650469360842" duration="888000" />
-      <workItem from="1650472435446" duration="1011000" />
+      <workItem from="1650472435446" duration="2927000" />
     </task>
     <servers />
   </component>
@@ -129,7 +131,19 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

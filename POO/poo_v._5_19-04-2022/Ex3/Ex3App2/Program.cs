@@ -15,7 +15,7 @@ public class Program
             dice.Throw();
         }
         Console.WriteLine(String.Join<Dice>(" ",  diceArray));
-        
+        //fin .1
         DiceArray array = new DiceArray(3, 6);
         array.Throw();
         Console.WriteLine(array);
