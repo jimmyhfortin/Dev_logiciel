@@ -12,7 +12,7 @@ public class Song
       {
          if (value.Length < 1)
          {
-            throw new ArgumentException("the title must be at least 1 charracters long");
+            throw new ArgumentException("the title must be at least 1 characters long");
          }
          _titleSong = value;
       }
