@@ -6,43 +6,17 @@ namespace Examen1App
 {
     public class Program
     {
-        static int ReadInt(string message)
-        {
-            bool ok = false;
-            int result = -1;
-            while (true)
-            {
-                Console.Write(message);
-                string reponse = Console.ReadLine();
-                try
-                {
-                    int reponseInt = int.Parse(reponse);
-                    return reponseInt;
-                }
-                catch
-                {
-                    Console.WriteLine("ERREUR : Vous devez rentrer un nombre");
-                }
-            }
-            /*while (result != 0)
-            {
-                Console.Write(message);
-                ok = int.TryParse(Console.ReadLine(), out result);
-            }*/
-
-            return result;
-        }
-
         static void Main(string[] args)
         {
             //### Partie C : l'application______________________________________________________________________________
+            //Creation of 3 *play list* with 4 songs each
             var metallica1 = new PlayList("Metallica");
             metallica1.SongList.Add(new Song("Fuel", "Metallica", 258));
             metallica1.SongList.Add(new Song("Heros Of The Day", "Metallica", 253));
             metallica1.SongList.Add(new Song("Kall of kluklu", "Metallica", 512));
             metallica1.SongList.Add(new Song("Master Of Puppet", "Metallica", 501));
 
-            var metallica2 = new PlayList("Symphonique Metallica");
+            var metallica2 = new PlayList("Symphonic Metallica");
             metallica2.SongList.Add(new Song("Master Of Puppet", "Metallica", 501));
             metallica2.SongList.Add(new Song("Of Wolf And Man", "Metallica", 287));
             metallica2.SongList.Add(new Song("No Leaf Clover", "Metallica", 326));
@@ -54,6 +28,7 @@ namespace Examen1App
             tomorrowland.SongList.Add(new Song("Si Soy Fuego", "Paul Kalkbrenner", 312));
             tomorrowland.SongList.Add(new Song("Stars", "Luke Bond", 205));
             
+            //Part C.2 to C.4
             while (true)
             {
                 int choice = 0;
@@ -70,13 +45,12 @@ namespace Examen1App
 
                 if (choice == 0) break;
                 if (choice == 1) Console.WriteLine($"{metallica1} \n{TimeSpan.FromSeconds(metallica1.TotalLength())}");
-                else if (choice == 2)
-                    Console.WriteLine($"{metallica2} \n{TimeSpan.FromSeconds(metallica2.TotalLength())}");
-                else if (choice == 3)
-                    Console.WriteLine($"{tomorrowland} \n{TimeSpan.FromSeconds(tomorrowland.TotalLength())}");
+                else if (choice == 2) Console.WriteLine($"{metallica2} \n{TimeSpan.FromSeconds(metallica2.TotalLength())}");
+                else if (choice == 3) Console.WriteLine($"{tomorrowland} \n{TimeSpan.FromSeconds(tomorrowland.TotalLength())}");
                 Console.WriteLine("Press any key to restart");
                 Console.ReadKey();
             }
+            //End_______________________________________________________________________________________________________
         }
     }
 }

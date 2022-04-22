@@ -29,7 +29,7 @@ public class Song
         {
             if (value.Length < 3)
             {
-                throw new ArgumentException("the title must be at least 3 charracters long");
+                throw new ArgumentException("the title must be at least 3 characters long");
             }
 
             _artistSong = value;
@@ -58,8 +58,6 @@ public class Song
         {
             double minutes = _secondSong / 60.00;
             minutes = Math.Round(minutes, 2);
-            //TimeSpan minutes = TimeSpan.FromSeconds(_secondSong);
-            //double x = (double) minutes.TotalMinutes;
             return minutes;
         }
     }
@@ -86,7 +84,7 @@ public class Song
 
     public override int GetHashCode()
     {
-        return base.GetHashCode();
+        return Id.GetHashCode();
     }
 
     public override string ToString()
