@@ -8,7 +8,7 @@ namespace Examen1App
     {
         static void Main(string[] args)
         {
-            //### Partie C : l'application______________________________________________________________________________
+            //### Part C : application______________________________________________________________________________
             //Creation of 3 *play list* with 4 songs each
             var metallica1 = new PlayList("Metallica");
             metallica1.SongList.Add(new Song("Fuel", "Metallica", 258));
@@ -27,7 +27,7 @@ namespace Examen1App
             tomorrowland.SongList.Add(new Song("Element Of A New Life", "VerWest", 195));
             tomorrowland.SongList.Add(new Song("Si Soy Fuego", "Paul Kalkbrenner", 312));
             tomorrowland.SongList.Add(new Song("Stars", "Luke Bond", 205));
-            
+
             //Part C.2 to C.4
             while (true)
             {
