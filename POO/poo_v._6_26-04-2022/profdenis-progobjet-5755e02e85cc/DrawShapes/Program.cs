@@ -31,6 +31,7 @@ namespace DrawShapes
             
             DrawSolution.DrawCircle(canvas, 400, 200, 50, Color.Indigo);
             
+            
             Console.WriteLine($"Writing image in file: {filename}");
             canvas.Save(filename);
         }

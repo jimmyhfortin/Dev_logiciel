@@ -7,13 +7,13 @@
   - ajouter la ligne suivante après la ligne `@startuml` 
   
     `!pragma layout smetana`
-  - //si cela marche pas aller sur graphviz.org/download/
+  - //si cela marche pas aller sur graphviz.org/download/jim
 
 ### Diagramme de classe V1
 
 [plantuml.com](https://www.plantuml.com/plantuml/uml/ZPBFRjmW4CRlF0NQarqtKl_SgXnIRGwfj8SgMxdjaU396jMBNHYdKhVxxiLCPec58_bW6BvlO7w6kV6e78x7JlXVnWxAgQFKdVB-Cw8p3oF25ztRlVaByfrG3nwTqaWPSj-g0UH9I7aAfw3HPrdTmgCQExnrwi-sxtedFyauXwHgKOo756KAepEjJrpkJ5kBhR9FofTXzrDl6d4MWZY-ziPYvAX-13Cifl3dSrX5kmZVssbTpeGuK4NMurYAnPBL3km1swAaimC2tS7rlwihmc2ckvsn49YgxwR1bb6YIXK89fSOXvquBkFCoyT4GNUnUR-Hrq7RlDcG7dR4XsQycl7km1nQPBuwuyiavcEdNijNly9NB_4ntilYz32vnaXihGLwoVCXyJpZW6s6oVECzCqPPGzTnE9uXi64kRq8cx8uM0FDkGp-CO6pDUq3XqR3XVqUD9ANTUJi_IzvJ9uQ8VVoZaWf7AtvfqINTqVomivn6C3juF7I9VlVetBvFv4yQ-EaPTHiqRI6bp9pM38MIRV6QRhzUzMOqJCgwNDKrd9KjcXQWqgPEIeP4we6Y-343TXcF7R_0G00)
 
-![V1](images/v1.png)
+![V1](images/v1.png) //Code markdown pour inclure une image externe/Jim
 
 ````plantuml
 @startuml
@@ -118,6 +118,7 @@ Point "1" <-- "*" Circle : center
 
 ````plantuml
 @startuml
+!pragma layout smetana
 skinparam classAttributeIconSize 0
 abstract class Shape {
   {static} +DefaultDrawColor : Color
@@ -220,6 +221,7 @@ Shape <|-- Circle
 
 ````plantuml
 @startuml
+!pragma layout smetana
 skinparam classAttributeIconSize 0
 abstract class Shape {
   {static} +DefaultDrawColor : Color
@@ -316,6 +318,7 @@ Shape <|-- Circle
 
 ````plantuml
 @startuml
+!pragma layout smetana
 !theme crt-green
 skinparam classAttributeIconSize 0
 

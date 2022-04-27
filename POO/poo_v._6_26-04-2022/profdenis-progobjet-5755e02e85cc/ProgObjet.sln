@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeApp", "TicTacToeAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesV3", "ShapesV3\ShapesV3.csproj", "{662AF5F3-5C8D-4641-BCB7-6B837115A585}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawShapesV3", "DrawShapesV3\DrawShapesV3.csproj", "{FD6EA967-D21A-419D-8DBE-2792EAD218C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{662AF5F3-5C8D-4641-BCB7-6B837115A585}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{662AF5F3-5C8D-4641-BCB7-6B837115A585}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{662AF5F3-5C8D-4641-BCB7-6B837115A585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD6EA967-D21A-419D-8DBE-2792EAD218C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6EA967-D21A-419D-8DBE-2792EAD218C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD6EA967-D21A-419D-8DBE-2792EAD218C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD6EA967-D21A-419D-8DBE-2792EAD218C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
