@@ -1,5 +1,0 @@
-/home/jimmy/Documents/Developpement_logiciel/POO/ConsoleApp1/ShapesV1/obj/Debug/net6.0/ShapesV1.csproj.AssemblyReference.cache
-/home/jimmy/Documents/Developpement_logiciel/POO/ConsoleApp1/ShapesV1/obj/Debug/net6.0/ShapesV1.GeneratedMSBuildEditorConfig.editorconfig
-/home/jimmy/Documents/Developpement_logiciel/POO/ConsoleApp1/ShapesV1/obj/Debug/net6.0/ShapesV1.AssemblyInfoInputs.cache
-/home/jimmy/Documents/Developpement_logiciel/POO/ConsoleApp1/ShapesV1/obj/Debug/net6.0/ShapesV1.AssemblyInfo.cs
-/home/jimmy/Documents/Developpement_logiciel/POO/ConsoleApp1/ShapesV1/obj/Debug/net6.0/ShapesV1.csproj.CoreCompileInputs.cache
