@@ -31,9 +31,9 @@ public class Line : Shape
 
             if (temp.X >= 0 && temp.X < canvas.Width)
             {
-                for (int j = Math.Max(Start.Y, 0); j < Start.Y + height && j < canvas.Height; j++)
+                for (int j = Math.Max(temp.Y, 0); j < temp.Y + height && j < canvas.Height; j++)
                 {
-                    canvas.SetPixel(Start.X, j, DrawColor);
+                    canvas.SetPixel(temp.X, j, DrawColor);
                 }
             }
 

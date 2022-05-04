@@ -4,7 +4,7 @@ namespace ShapesV3;
 
 public class Polygon : Shape
 {
-    public List<Point> Vertices;
+    public List<Point> Vertices { get; set; }
 
     public Polygon(List<Point> vertices, Color drawColor) : base(drawColor)
     {

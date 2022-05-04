@@ -16,7 +16,7 @@ public class VLine : Line
     {
     }
 
-    public VLine(VLine vLine) : this(vLine.Start, vLine.Height)
+    public VLine(VLine vLine) : this(vLine.Start, vLine.Height, vLine.DrawColor)
     {
     }
 }
