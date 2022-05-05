@@ -35,7 +35,7 @@ public class Point : Shape // sa veux dire que c'est une extension ou sous Class
         }
     }
     
-    public Point(int x, int y,Color drawColor) : base(drawColor)  // construteur de shapes avec argument color (base)
+    public Point(int x, int y,Color drawColor) : base(drawColor)  // appel le construteur de shapes avec argument color (base)
     {
         _x = x;
         _y = y;

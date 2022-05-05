@@ -6,7 +6,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Person person1 = new Person(1,"Denis", DateOnly.Parse("2000-05-25"));
+        /*Person person1 = new Person(1,"Denis", DateOnly.Parse("2000-05-25"));
         Person person2 = new Person(2,"Alice", DateOnly.Parse("1996-02-29"));
         Person person3 = new Person(3,"Alice", DateOnly.Parse("1997-02-28"));
 
@@ -85,7 +85,46 @@ public class Program
         }
 
         Person person4 = new Person("Denis", DateOnly.Parse("1977-08-12"));
-        Console.WriteLine(person4);
+        Console.WriteLine(person4);*/
+        //liste person
+        var personList = new List<Person>();
+        personList.Add(new Person("Paul Desmarais", DateOnly.Parse("1968-12-02")));
+        personList.Add(new Person(666,"Paul Desmarais", DateOnly.Parse("1992-02-02")));
+        foreach (var person in personList)
+        {
+            Console.WriteLine(person);
+        }
+        //list employee
+        var employeeList = new List<Employee>();
+        employeeList.Add(new Employee("Gervais Lessard", DateOnly.Parse("1992-02-02"), 666, "Achat", false ));
+        employeeList.Add(new Employee(6,"Gervais Lessard", DateOnly.Parse("1992-02-02"), 666, "Achat", true ));
+        foreach (var employee in employeeList)
+        {
+            Console.WriteLine(employee);
+        }
+        //list teacher
+        var teacherList = new List<Teacher>();
+        teacherList.Add(new Teacher("Alexandre Gagne", DateOnly.Parse("1996-08-15"), 6668, "Science", true, "T.I"));
+        teacherList.Add(new Teacher(8,"Paul Houde", DateOnly.Parse("1959-06-17"), 6669, "Administration", false, "B.A.A"));
+        foreach (var teacher in teacherList)
+        {
+            Console.WriteLine(teacher);
+        }
+        //list of student
+        var studentList = new List<Student>();
+        studentList.Add(new Student("alexandre Ouimet", DateOnly.Parse("1984-06-17"), 2235654));
+        studentList.Add(new Student(9,"Marie-Pier Simard", DateOnly.Parse("1989-06-17"), 226541)); 
+        
+        //new course new program and course added to program
+        Course DBB = new Course("bev456", "Dev_base_donne");
+        Programe tech = new Programe("Programmation");
+        tech.courses.Add(DBB);
+        //new course offering with optional teacher
+        CourseOffering fall2022 = new CourseOffering(2022, "fall", DBB);
+        
+        
+
+
     }
 
 

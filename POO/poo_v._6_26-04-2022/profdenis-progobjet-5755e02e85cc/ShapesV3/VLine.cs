@@ -19,7 +19,7 @@ public class VLine : Shape
         Height = height;
     }
 
-    public VLine(VLine vLine) : this(vLine.Start, vLine.Height) // constructeur de copie pour creer une copie et appel le contructeur avant
+    public VLine(VLine vLine) : this(vLine.Start, vLine.Height) // constructeur de copie pour creer une copie et appel le contructeur de la class
     {
         
     }
