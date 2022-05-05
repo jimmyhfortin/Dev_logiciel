@@ -115,7 +115,7 @@ public class Program
         studentList.Add(new Student("alexandre Ouimet", DateOnly.Parse("1984-06-17"), 2235654));
         studentList.Add(new Student(9,"Marie-Pier Simard", DateOnly.Parse("1989-06-17"), 226541)); 
         
-        //new course new program and course added to program
+        //new course new program and course added to program to 
         Course DBB = new Course("bev456", "Dev_base_donne");
         Programe tech = new Programe("Programmation");
         tech.courses.Add(DBB);
