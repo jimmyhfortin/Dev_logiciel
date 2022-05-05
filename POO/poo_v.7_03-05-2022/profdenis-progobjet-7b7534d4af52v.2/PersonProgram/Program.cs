@@ -121,6 +121,12 @@ public class Program
         tech.courses.Add(DBB);
         //new course offering with optional teacher
         CourseOffering fall2022 = new CourseOffering(2022, "fall", DBB);
+        CourseOffering fall2021 = new CourseOffering(2022, "fall", DBB);
+        CourseOffering fall2023 = new CourseOffering(2023, "fall", DBB, teacherList[0]);
+        Console.WriteLine(fall2023);
+        
+        
+        
         
         
 

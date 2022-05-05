@@ -20,12 +20,12 @@ public class Course
         }
 
         Course other = (Course)obj;
-        return Code == other.Code;
+        return Code.Equals(other.Code);
     }
 
     public override int GetHashCode()
     {
-        return base.GetHashCode();
+        return Code.GetHashCode();
     }
 
     public override string ToString()

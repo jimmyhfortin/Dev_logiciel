@@ -8,7 +8,7 @@ create table Element(
 idELEMENT int auto_increment,
 idLIST int,
 nomELEMENT varchar(50),
-foreign key(idLIST) references Liste(idLIST),
+foreign key(idLIST) references List(idLIST),
 primary key(idELEMENT)
 );
 
@@ -26,7 +26,7 @@ dateCreationTIRAGE datetime,
 dateEffectueeTIRAGE datetime,
 nombreElementsAtirerTIRAGE int,
 typeTIRAGE int,
-foreign key(idLIST) references Liste(idLIST)
+foreign key(idLIST) references List(idLIST)
 );
 
 create table Element_Tirage(
@@ -37,4 +37,3 @@ foreign key(idELEMENT) references Element(idELEMENT),
 foreign key(idTIRAGE) references Tirage(idTIRAGE)
 );
 drop table List;
-drop database Jeux_de_donnees;

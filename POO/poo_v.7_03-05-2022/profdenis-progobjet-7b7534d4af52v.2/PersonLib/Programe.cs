@@ -19,16 +19,16 @@ public class Programe
         }
 
         Programe other = (Programe) obj;
-        return Name == other.Name;
+        return Name.Equals(other.Name);
     }
 
     public override int GetHashCode()
     {
-        return base.GetHashCode();
+        return Name.GetHashCode();
     }
 
     public override string ToString()
     {
-        return $"Program({Name})\n{String.Join<Course>("\n", courses)};";
+        return $"Program({Name})\n{string.Join("\n", courses)};";
     }
 }

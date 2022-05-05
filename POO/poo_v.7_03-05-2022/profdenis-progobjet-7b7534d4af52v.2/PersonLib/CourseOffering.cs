@@ -1,4 +1,5 @@
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 
 namespace PersonLib;
 
@@ -6,16 +7,16 @@ public class CourseOffering
 {
     public int Year { get; set; }
     public string Semester { get; set; }
-    public List<Student> studentList { get; set; }
     public List<Course> coursesList { get; set; }
+    public Teacher Teacher { get; set; }
     
 
     public CourseOffering(int year, string semester, Course course, [Optional]Teacher teacher)
     {
         Year = year;
         Semester = semester;
-        studentList = new List<Student>();
         coursesList = new List<Course>();
+        Teacher = teacher;
     }
 
     public override bool Equals(object? obj)
@@ -26,7 +27,7 @@ public class CourseOffering
         }
 
         CourseOffering other = (CourseOffering)obj;
-        return studentList.Equals(other.coursesList) && coursesList.Equals(other.coursesList);
+        return coursesList.Equals(other.coursesList) && coursesList.Equals(other.coursesList);
     }
 
     public override int GetHashCode()
@@ -34,8 +35,8 @@ public class CourseOffering
         return base.GetHashCode();
     }
 
-    /*public override string ToString()
+    public override string ToString()
     {
-        return $"Course Offering({Year}, {Semester},{String.Join<studentList>("\n", studentList)})";
-    }*/
+        return $"Course Offering({Year}, {Semester}, {string.Join("\n", Teacher)})";
+    }
 }
