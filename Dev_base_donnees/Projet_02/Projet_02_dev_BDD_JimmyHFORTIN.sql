@@ -37,3 +37,4 @@ foreign key(idELEMENT) references Element(idELEMENT),
 foreign key(idTIRAGE) references Tirage(idTIRAGE)
 );
 drop table List;
+drop database Jeux_de_donnees;
