@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Title": "Kamikaze",
+    "Genre": "",
+    "Artist": {
+      "Id": 1,
+      "Name": "Patrice Michaud",
+      "Website": null
+    },
+    "Length": {
+      "Hours": 0,
+      "Minutes": 4,
+      "Seconds": 5
+    }
+  },
+  {
+    "Id": 2,
+    "Title": "M\u00E9caniques g\u00E9n\u00E9rales",
+    "Genre": "",
+    "Artist": {
+      "Id": 1,
+      "Name": "Patrice Michaud",
+      "Website": null
+    },
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 18
+    }
+  },
+  {
+    "Id": 3,
+    "Title": "Droit devant",
+    "Genre": "",
+    "Artist": {
+      "Id": 2,
+      "Name": "Marie-Pier Arthur",
+      "Website": null
+    },
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 38
+    }
+  },
+  {
+    "Id": 4,
+    "Title": "Pourquoi",
+    "Genre": "",
+    "Artist": {
+      "Id": 2,
+      "Name": "Marie-Pier Arthur",
+      "Website": null
+    },
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 8
+    }
+  }
+]
