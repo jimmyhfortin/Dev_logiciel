@@ -2,8 +2,8 @@ namespace PlayListLib;
 
 public class Artist
 {
-    public static int NextId { get; private set; } = 1;
-    public int Id { get; }
+    public static int NextId { get; set; } = 1;
+    public int Id { get; set; } // assurer que le id nest pas la 2 fois
     public string Name { get; set; }
     public string Website { get; set; }
 
@@ -20,6 +20,9 @@ public class Artist
     {
         Name = name;
         Website = website;
+        Id = NextId;
+        NextId++;
+
     }
 
     public Artist(int id, string name)

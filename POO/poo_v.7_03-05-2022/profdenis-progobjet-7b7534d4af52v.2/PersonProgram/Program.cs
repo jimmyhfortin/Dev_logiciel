@@ -6,7 +6,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        /*Person person1 = new Person(1,"Denis", DateOnly.Parse("2000-05-25"));
+        Person person1 = new Person(1,"Denis", DateOnly.Parse("2000-05-25"));
         Person person2 = new Person(2,"Alice", DateOnly.Parse("1996-02-29"));
         Person person3 = new Person(3,"Alice", DateOnly.Parse("1997-02-28"));
 
@@ -85,7 +85,7 @@ public class Program
         }
 
         Person person4 = new Person("Denis", DateOnly.Parse("1977-08-12"));
-        Console.WriteLine(person4);*/
+        Console.WriteLine(person4);
         //liste person
         var personList = new List<Person>();
         personList.Add(new Person("Paul Desmarais", DateOnly.Parse("1968-12-02")));

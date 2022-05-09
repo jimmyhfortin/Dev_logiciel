@@ -16,7 +16,7 @@ public class JsonArtistRepo : JsonDataRepo<Artist, int>
             var max = playLists.Select(x => x.Id).Max();
             if (max >= Artist.NextId)
             {
-                Artist.NextId = max + 1;
+                Artist.NextId = max + 1; // Demander au prof
             }
         }
 
@@ -33,7 +33,7 @@ public class JsonArtistRepo : JsonDataRepo<Artist, int>
     {
         Artist artist = new Artist
         {
-            Id = id
+            Id = id // Demander au prof
         };
         return Delete(artist);
     }

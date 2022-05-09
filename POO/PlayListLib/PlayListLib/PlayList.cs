@@ -5,6 +5,7 @@ public class PlayList
     public string Name { get; set; }
     public int Count { get; set; }
     public List<Song> song { get; set; }
+    public Duration duration { get; set; }
 
     public PlayList()
     {
@@ -24,13 +25,20 @@ public class PlayList
         this.song = new List<Song>(song);
     }
     
-    /*public int Find(Song song)
+    public int Find(int Id)
     {
-        for (int i = 0; i < ; i++)
+        for (int i = 0; i < song.Count; i++)
         {
+            if (Id.Equals(song[i]))
+            {
+                return i;
+            }
             
         }
-        
-        return [i]
-    }*/
+        return -1;
+    }
+    
+    
+    
+    
 }

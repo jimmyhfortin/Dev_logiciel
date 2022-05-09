@@ -5,11 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efcd907f-77a0-483c-b336-dc18ed601ce3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/DataRepoLib.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/DataRepoLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/DataRepoLib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/ref/DataRepoLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/refint/DataRepoLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/DataRepoLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/DataRepoLib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/ref/PlayListApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/refint/PlayListApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/ref/PlayListLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/refint/PlayListLib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/JsonArtistRepo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/JsonArtistRepo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListLib/Artist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/Artist.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListLib/Duration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/Duration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListLib/PlayList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/PlayList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListLib/Song.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/Song.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v.7_03-05-2022/profdenis-progobjet-7b7534d4af52v.2/PersonProgram/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_v.7_03-05-2022/profdenis-progobjet-7b7534d4af52v.2/PersonProgram/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +60,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PlayListLib/Duration.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28vnhh7y5jqG8Ht9JlSRTbTiJFN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -63,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652106048015</updated>
-      <workItem from="1652106054886" duration="4721000" />
+      <workItem from="1652106054886" duration="11620000" />
     </task>
     <servers />
   </component>
@@ -84,6 +133,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
