@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efcd907f-77a0-483c-b336-dc18ed601ce3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PlayListApp/artists1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlayListApp/playlists1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlayListApp/songs1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlayListLib/Artist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlayListLib/Duration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlayListLib/PlayList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlayListLib/Song.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRepoLib/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/PlayListApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/PlayListApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/PlayListApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/PlayListApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/PlayListApp.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/artists1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListApp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListApp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListApp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListApp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListApp.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/PlayListApp.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/PlayListApp.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/PlayListApp.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/playlists1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListLib/songs1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/Artist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/Artist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/Duration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/Duration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/PlayList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/PlayList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/Song.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/Song.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652106048015</updated>
-      <workItem from="1652106054886" duration="1710000" />
+      <workItem from="1652106054886" duration="4721000" />
     </task>
     <servers />
   </component>

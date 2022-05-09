@@ -18,13 +18,13 @@ public class PlayList
         Name = name;
         this.song = song;
     }
-    public PlayList(string name, Song song)
+    public PlayList(string name, params Song[] song)
     {
         Name = name;
-        this.song = new List<Song>();
+        this.song = new List<Song>(song);
     }
-
-    public int Find(Song song)
+    
+    /*public int Find(Song song)
     {
         for (int i = 0; i < ; i++)
         {
@@ -32,5 +32,5 @@ public class PlayList
         }
         
         return [i]
-    }
+    }*/
 }
