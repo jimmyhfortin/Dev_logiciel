@@ -39,4 +39,3 @@ public class CourseOffering
     {
         return $"Course Offering({Year}, {Semester}, {string.Join("\n", Teacher)})";
     }
-}

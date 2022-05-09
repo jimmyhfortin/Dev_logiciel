@@ -73,6 +73,6 @@ public class Song
 
     public override string ToString()
     {
-        return base.ToString();
+        return $"Song({Id}, {Title}, {Genre}, {Length})";
     }
 }
