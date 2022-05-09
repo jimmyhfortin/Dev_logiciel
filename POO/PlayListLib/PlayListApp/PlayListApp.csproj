@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DataRepoLib\DataRepoLib.csproj" />
+      <ProjectReference Include="..\PlayListLib\PlayListLib.csproj" />
     </ItemGroup>
 
 </Project>

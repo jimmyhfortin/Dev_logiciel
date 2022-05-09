@@ -84,6 +84,9 @@
             "projectReferences": {
               "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/PlayListLib/DataRepoLib/DataRepoLib.csproj": {
                 "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/PlayListLib/DataRepoLib/DataRepoLib.csproj"
+              },
+              "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/PlayListLib/PlayListLib/PlayListLib.csproj": {
+                "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/PlayListLib/PlayListLib/PlayListLib.csproj"
               }
             }
           }
