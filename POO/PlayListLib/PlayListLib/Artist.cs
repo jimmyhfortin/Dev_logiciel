@@ -14,7 +14,7 @@ public class Artist
     }
     public Artist(int id, string name, string website)
     {
-        Id = id; //NextId = id ???
+        Id = id;
         Name = name;
         Website = website;
     }
@@ -29,7 +29,7 @@ public class Artist
 
     public Artist(int id, string name)
     {
-        Id = id;// Nextid = id ?????
+        Id = id;
         Name = name;
     }
 

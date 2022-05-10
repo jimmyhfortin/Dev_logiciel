@@ -8,14 +8,16 @@ public class Song
     public string Title { get; set; }
     public string Genre { get; set; }
     
-    public int Length { get; set; }
+    public int Length { get; set; } //duration 
     
     public Artist artist { get; set; }
 
     public Song()
     {
+        Id = NextId;
+        NextId++;
     }
-
+    
     public Song(int id, string title, string genre, Artist artist, Duration minutes)
     {
         Id= id;
@@ -68,7 +70,7 @@ public class Song
 
     public override int GetHashCode()
     {
-        return base.GetHashCode();
+        return Id.GetHashCode();
     }
 
     public override string ToString()

@@ -1,87 +1,51 @@
 [
   {
-    "Songs": [
+    "Name": "Un",
+    "Count": 6,
+    "song": [
       {
         "Id": 1,
         "Title": "Kamikaze",
-        "Genre": "",
-        "Artist": {
-          "Id": 1,
-          "Name": "Patrice Michaud",
-          "Website": null
-        },
-        "Length": {
-          "Hours": 0,
-          "Minutes": 4,
-          "Seconds": 5
-        }
+        "Genre": null,
+        "Length": 245,
+        "artist": null
       },
       {
         "Id": 4,
         "Title": "Pourquoi",
-        "Genre": "",
-        "Artist": {
-          "Id": 2,
-          "Name": "Marie-Pier Arthur",
-          "Website": null
-        },
-        "Length": {
-          "Hours": 0,
-          "Minutes": 3,
-          "Seconds": 8
-        }
+        "Genre": null,
+        "Length": 0,
+        "artist": null
       },
       {
         "Id": 3,
         "Title": "Droit devant",
-        "Genre": "",
-        "Artist": {
-          "Id": 2,
-          "Name": "Marie-Pier Arthur",
-          "Website": null
-        },
-        "Length": {
-          "Hours": 0,
-          "Minutes": 3,
-          "Seconds": 38
-        }
+        "Genre": null,
+        "Length": 0,
+        "artist": null
       }
     ],
-    "Name": "Un"
+    "TotalLength": null
   },
   {
-    "Songs": [
+    "Name": "Deux",
+    "Count": 3,
+    "song": [
       {
         "Id": 2,
         "Title": "M\u00E9caniques g\u00E9n\u00E9rales",
-        "Genre": "",
-        "Artist": {
-          "Id": 1,
-          "Name": "Patrice Michaud",
-          "Website": null
-        },
-        "Length": {
-          "Hours": 0,
-          "Minutes": 3,
-          "Seconds": 18
-        }
+        "Genre": null,
+        "Length": 0,
+        "artist": null
       },
       {
         "Id": 1,
         "Title": "Kamikaze",
-        "Genre": "",
-        "Artist": {
-          "Id": 1,
-          "Name": "Patrice Michaud",
-          "Website": null
-        },
-        "Length": {
-          "Hours": 0,
-          "Minutes": 4,
-          "Seconds": 5
-        }
+        "Genre": null,
+        "Length": 245,
+        "artist": null
       }
     ],
-    "Name": "Deux"
+    "TotalLength": null
   }
 ]

@@ -4,18 +4,9 @@ public class PlayList
 {
     public string Name { get; set; }
 
-    public int Count
+    public int Count 
     {
-        get
-        {
-            int NumberOfSong = 0;
-            for (int i = 0; i < song.Count; i++)
-            {
-                NumberOfSong += i+1;
-            }
-
-            return NumberOfSong;
-        }
+        get => song.Count;
         set
         {
             
@@ -23,17 +14,17 @@ public class PlayList
     }
     public List<Song> song { get; set; }
 
-    public Duration totalLength
-    {
+    public Duration TotalLength { get; set; }
+    /*{
         get
         {
-            for (int i = 0; i < song.Count; i++)
+            for (int i = 0; i < song.Count; i++) //new duration 
             {
-                totalLength += song[i].Length;
+                TotalLength += song[i].Length;
             }
             
         } 
-    }
+    }*/
 
     public PlayList()
     {
@@ -41,11 +32,13 @@ public class PlayList
     public PlayList(string name)
     {
         Name = name;
+        song = new List<Song>();
     }
     public PlayList(string name, List <Song> song)
     {
         Name = name;
         this.song = song;
+        
     }
     public PlayList(string name, params Song[] song)
     {
@@ -66,9 +59,9 @@ public class PlayList
         return song[-1];
     }
 
-    public void Add(Song song)
+    public void Add(Song NewSong)
     {
-        this.song.Add(song);
+        this.song.Add(NewSong);
     }
 
     public bool Remove(Song songUser) //song
@@ -98,16 +91,23 @@ public class PlayList
 
     public override bool Equals(object? obj)
     {
-        return base.Equals(obj);
+        if (obj == null || this.GetType() != obj.GetType())
+        {
+            return false;
+        }
+
+        PlayList other = (PlayList)obj;
+        // return Name.Equals(other.Name) && Dob.Equals(other.Dob);
+        return Name == other.Name;
     }
 
     public override int GetHashCode()
     {
-        return base.GetHashCode();
+        return Name.GetHashCode();
     }
 
     public override string ToString()
     {
-        return base.ToString();
+        return $"PlayList({Name}, {TotalLength}, {string.Join("\n", song)})"; //count to add + {string.Join("\n", song)}
     }
 }
