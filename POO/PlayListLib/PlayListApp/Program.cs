@@ -10,7 +10,7 @@ public class Program
     {
         string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
 
-        /*var artistRepo = new JsonArtistRepo(Path.Combine(dir, "artists1.json"));
+        var artistRepo = new JsonArtistRepo(Path.Combine(dir, "artists1.json"));
         //artistRepo.Insert(new Artist("Patrice Michaud", "www.yoyoyyo.com"));
         //artistRepo.Insert(new Artist("Marie-Pier Arthur"));
         var artists = artistRepo.SelectAll();
@@ -37,9 +37,9 @@ public class Program
         //playListRepo.Insert(new PlayList("Un", songs[3]));
         var playLists = playListRepo.SelectAll();
         Console.WriteLine("Listes :");
-        Console.WriteLine(string.Join("\n", playLists));*/
+        Console.WriteLine(string.Join("\n", playLists));
 
-        var artistes = new List<Artist>();
+        /*var artistes = new List<Artist>();
         artistes.Add(new Artist("Metallica","www.metallica.com"));
         artistes.Add(new Artist("IronMaiden","www.ironmaiden.com"));
 
@@ -56,7 +56,7 @@ public class Program
 
         Console.WriteLine(artistes);
         Console.WriteLine(song1);
-        Console.WriteLine(playList1.song[0]);
+        Console.WriteLine(playList1.song[0]);*/
     }
     
     /* exemple de sortie de cette méthode :

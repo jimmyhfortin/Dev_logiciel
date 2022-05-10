@@ -8,7 +8,7 @@ public class Song
     public string Title { get; set; }
     public string Genre { get; set; }
     
-    public int Length { get; set; } //duration 
+    public int Length { get; set; } //duration.s
     
     public Artist artist { get; set; }
 
