@@ -26,37 +26,40 @@ public class Program
         Console.WriteLine("Chansons :");
         Console.WriteLine(string.Join("\n", songs));
         
-        Console.WriteLine(songs[1].Length); // marche pas 
-        Console.WriteLine(songs[1].Genre); // marche pas 
-        Console.WriteLine(songs[1].artist); // marche pas
-        Console.WriteLine(songs[1].Id);
-        
+       
         var playListRepo = new JsonPlayListRepo(Path.Combine(dir, "playlists1.json"));
         //playListRepo.Insert(new PlayList("Un", songs[0], songs[3], songs[2]));
         //playListRepo.Insert(new PlayList("Deux", songs[1], songs[0]));
-        //playListRepo.Insert(new PlayList("Un", songs[3]));
+        //playListRepo.Insert(new PlayList("tois", songs[3]));
         var playLists = playListRepo.SelectAll();
         Console.WriteLine("Listes :");
         Console.WriteLine(string.Join("\n", playLists));
 
         /*var artistes = new List<Artist>();
         artistes.Add(new Artist("Metallica","www.metallica.com"));
-        artistes.Add(new Artist("IronMaiden","www.ironmaiden.com"));
+        artistes.Add(new Artist("IronMaiden"));
+        Artist metallica = new Artist("Metallica");
 
         var song1 = new List<Song>();
         song1.Add(new Song("Heros Of The Day", artistes[0], 253));
         song1.Add(new Song("Master Of Puppet", artistes[0], 501));
         //Song songt = new Song()
 
-        PlayList playList1 = new PlayList("Metallaica");
+        PlayList playList1 = new PlayList("Metallica");
         playList1.Add(song1[0]);
-        playList1.song.Add(song1[1]);
-        playList1.song.Add(new Song("Title", new Artist("Hi-Lo"),225));
-        
+        playList1.Songs.Add(song1[1]);
+        playList1.Songs.Add(new Song("Title", new Artist("Hi-Lo"),225));
+        Song song3 = new Song("Memorie Romain", metallica, new Duration(266));
+        playList1.Add(song3);
 
-        Console.WriteLine(artistes);
-        Console.WriteLine(song1);
-        Console.WriteLine(playList1.song[0]);*/
+        Console.WriteLine(metallica);
+        Console.WriteLine(song3);
+        foreach (var song in playList1.Songs)
+        {
+            Console.WriteLine(playList1);
+        }*/
+       
+        //Console.WriteLine(playList1.Songs[0]);
     }
     
     /* exemple de sortie de cette méthode :

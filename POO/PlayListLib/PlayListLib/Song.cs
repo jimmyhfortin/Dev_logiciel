@@ -8,14 +8,13 @@ public class Song
     public string Title { get; set; }
     public string Genre { get; set; }
     
-    public int Length { get; set; } //duration.s
+    public Duration Length { get; set; } //duration.s
     
-    public Artist artist { get; set; }
+    public Artist Artist { get; set; }
 
     public Song()
     {
-        Id = NextId;
-        NextId++;
+        
     }
     
     public Song(int id, string title, string genre, Artist artist, Duration minutes)
@@ -23,7 +22,10 @@ public class Song
         Id= id;
         Title = title;
         Genre = genre;
-        
+        Artist = artist;
+        Length = minutes;
+
+
     }
     public Song(string title, string genre, Artist artist, Duration minutes)
     {
@@ -31,6 +33,8 @@ public class Song
         NextId++;
         Title = title;
         Genre = genre;
+        Artist = artist;
+        Length = minutes;
 
     }
     public Song(string title, string genre, Artist artist, int length)
@@ -39,7 +43,8 @@ public class Song
         NextId++;
         Title = title;
         Genre = genre;
-        Length = length;
+        Artist = artist;
+        Length = new Duration(length);
 
     }
     public Song(string title, Artist artist, Duration minutes)
@@ -47,13 +52,17 @@ public class Song
         Id = NextId;
         NextId++;
         Title = title;
+        Artist = artist;
+        Length = minutes;
     }
     public Song(string title, Artist artist, int length)
     {
         Id = NextId;
         NextId++;
         Title = title;
-        Length = length;
+        Artist = artist;
+        Length = new Duration(length);
+
     }
     
     public override bool Equals(object? obj)
@@ -75,6 +84,6 @@ public class Song
 
     public override string ToString()
     {
-        return $"Song({Id}, {Title}, {Genre}, {Length})";
+        return $"({Id}) {Title}, ({Artist.Name}), {Length}, [{Genre}])";
     }
 }

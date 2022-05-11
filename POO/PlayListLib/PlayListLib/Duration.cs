@@ -48,6 +48,6 @@ public class Duration
 
     public override string ToString()
     {
-        return $"Duration({Hours}, {Minutes}, {Seconds}, {TotalSeconds})";
+        return $"Duration({Hours}, {Minutes}, {TotalSeconds})";
     }
 }

@@ -36,6 +36,8 @@ public class Artist
     public Artist(string name)
     {
         Name = name;
+        Id = NextId;
+        NextId++;
     }
 
     public override bool Equals(object? obj)
@@ -56,6 +58,6 @@ public class Artist
 
     public override string ToString()
     {
-        return $"Artist({Id}, {Name}, {Website})";
+        return $"{Name}";
     }
 }

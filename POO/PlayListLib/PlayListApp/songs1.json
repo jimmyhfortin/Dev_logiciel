@@ -3,29 +3,64 @@
     "Id": 1,
     "Title": "Kamikaze",
     "Genre": null,
-    "Length": 245,
-    "artist": null
+    "Length": {
+      "Hours": 0,
+      "Minutes": 0,
+      "Seconds": 245,
+      "TotalSeconds": 245
+    },
+    "Artist": {
+      "Id": 1,
+      "Name": "Patrice Michaud",
+      "Website": "www.yoyoyyo.com"
+    }
   },
   {
     "Id": 2,
     "Title": "M\u00E9caniques g\u00E9n\u00E9rales",
-    "Genre": null,
-    "Length": 0,
-    "artist": null
+    "Genre": "Quebecois",
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 18,
+      "TotalSeconds": 198
+    },
+    "Artist": {
+      "Id": 1,
+      "Name": "Patrice Michaud",
+      "Website": "www.yoyoyyo.com"
+    }
   },
   {
     "Id": 3,
     "Title": "Droit devant",
     "Genre": null,
-    "Length": 0,
-    "artist": null
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 38,
+      "TotalSeconds": 218
+    },
+    "Artist": {
+      "Id": 2,
+      "Name": "Marie-Pier Arthur",
+      "Website": null
+    }
   },
   {
     "Id": 4,
     "Title": "Pourquoi",
     "Genre": null,
-    "Length": 0,
-    "artist": null
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 8,
+      "TotalSeconds": 188
+    },
+    "Artist": {
+      "Id": 2,
+      "Name": "Marie-Pier Arthur",
+      "Website": null
+    }
   }
-
 ]

@@ -4,23 +4,24 @@ public class PlayList
 {
     public string Name { get; set; }
 
-    public int Count 
-    {
-        get => song.Count;
+    public int Count { get; set; }
+    /*{
+        get => Songs.Count;
         set
         {
             
         }
-    }
-    public List<Song> song { get; set; }
+    }*/
+    public List<Song> Songs { get; set; }
 
     public Duration TotalLength { get; set; }
     /*{
         get
         {
-            for (int i = 0; i < song.Count; i++) //new duration 
+            int totLength = 0;
+            for (int i = 0; i < Songs.Count; i++) //new duration 
             {
-                TotalLength += song[i].Length;
+                if (Songs.Duration != null)
             }
             
         } 
@@ -32,57 +33,61 @@ public class PlayList
     public PlayList(string name)
     {
         Name = name;
-        song = new List<Song>();
+        Songs = new List<Song>();
+        TotalLength = new Duration(Count);
     }
-    public PlayList(string name, List <Song> song)
+    public PlayList(string name, List <Song> songs)
     {
         Name = name;
-        this.song = song;
-        
+        Songs = songs;
+        TotalLength = new Duration(Count);
+
+
     }
     public PlayList(string name, params Song[] song)
     {
         Name = name;
-        this.song = new List<Song>(song);
+        Songs = new List<Song>(song);
+        TotalLength = new Duration(Count);
     }
     
     public Song Find(int Id)
     {
-        for (int i = 0; i < song.Count; i++)
+        for (int i = 0; i < Songs.Count; i++)
         {
-            if (Id.Equals(song[i]))
+            if (Id.Equals(Songs[i]))
             {
-                return song[i];
+                return Songs[i];
             }
             
         }
-        return song[-1];
+        return Songs[-1];
     }
 
     public void Add(Song NewSong)
     {
-        this.song.Add(NewSong);
+        Songs.Add(NewSong);
     }
 
-    public bool Remove(Song songUser) //song
+    public bool Remove(Song songUser) //Songs
     {
-        for (int i = 0; i < this.song.Count; i++)
+        for (int i = 0; i < Songs.Count; i++)
         {
-            if (songUser.Equals(this.song[i]))
+            if (songUser.Equals(Songs[i]))
             {
-                this.song.Remove(songUser);
+                Songs.Remove(songUser);
                 return true;
             }
         }
         return false;
     }
-    public bool Remove(int songUserInt) //song
+    public bool Remove(int songUserInt) //Songs
     {
-        for (int i = 0; i < this.song.Count; i++)
+        for (int i = 0; i < Songs.Count; i++)
         {
-            if (songUserInt == song.Count)
+            if (songUserInt == Songs.Count)
             {
-                this.song.Remove(song[i]);
+                Songs.Remove(Songs[i]);
                 return true;
             }
         }
@@ -98,7 +103,7 @@ public class PlayList
 
         PlayList other = (PlayList)obj;
         // return Name.Equals(other.Name) && Dob.Equals(other.Dob);
-        return Name == other.Name;
+        return Name.Equals(other.Name) && Songs.Equals(other.Songs);
     }
 
     public override int GetHashCode()
@@ -108,6 +113,13 @@ public class PlayList
 
     public override string ToString()
     {
-        return $"PlayList({Name}, {TotalLength}, {string.Join("\n", song)})"; //count to add + {string.Join("\n", song)}
+        //return $"{Name} {TotalLength} \n{string.Join("\n", Songs)})";
+        foreach (var song in Songs)
+        {
+            Console.WriteLine(song.ToString());
+        }
+
+        return $"";
+        //return $"PlayList({Name}, {Count}, {TotalLength}, )"; //{string.Join("\n", Songs)}
     }
 }
