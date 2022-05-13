@@ -5,8 +5,8 @@
 create database Jeux_de_donnees;
 -- utilisation de la base donnée Jeux_de_donnees
 use Jeux_de_donnees;
--- drop database Jeux_de_donnees;
--- drop table Liste;
+drop database Jeux_de_donnees;
+-- drop table;
 
 
 -- création des tables (Element, Liste, Tirage et Element_Tirage)
@@ -43,15 +43,15 @@ foreign key(idLISTE) references Liste(idLISTE)
 );
 
 create table Element_Tirage(
--- clef primaire composite
+-- clef primaire
+Position int,
+-- clefs primaire composites
 idELEMENT int,
 idTIRAGE int,
--- attributs
-Position int,
--- Définition des clefs primarires composites
+-- Définition des clefs primarire composites
 foreign key(idELEMENT) references Element(idELEMENT),
 foreign key(idTIRAGE) references Tirage(idTIRAGE),
-primary key(idELEMENT,idTIRAGE)
+primary key(Position,idELEMENT,idTIRAGE)
 );
 
 
@@ -72,25 +72,38 @@ select * from Element;
 -- ajout de donnée à la table (Tirage)
 insert into Tirage(idTIRAGE, idLISTE, nomTIRAGE, descriptionTIRAGE, dateCreationTIRAGE, dateEffectueeTIRAGE,nombreElementsAtirerTIRAGE,typeTIRAGE) value(201,01,"Premier_Tirage", "Tirage_premiere_chance","2022-08-13","2021-08-13",1,0);
 insert into Tirage value(202,02,"Deuxieme_Tirage", "Tirage_deuxieme_chance","2022-07-10","2022-08-16",1,1), (203,02,"Troisieme_Tirage", "Tirage_troisieme_chance","2022-02-09","2022-06-22",1,1), (204,03,"Quatrieme_Tirage", "Tirage_quatrieme_chance","2022-03-10","2022-05-05",1,0),(205,04,"Cinquieme_Tirage", "Tirage_cinquieme_chance","2022-04-13","2022-04-26",1,0);
+insert into Tirage value(206,02,"Derniere_chance", "Derniere_chance","2022-05-10","2022-08-14",4,1);
 select * from Tirage;
 --
 
 -- ajout de donnée à la table (Element_Tirage)
 insert into Element_Tirage(idELEMENT, idTIRAGE, Position) value(101,201,1), (105,203,2), (104,204,3), (103,202,4),(101,205,5), (102,201,6), (105,205,7);
+insert into Element_Tirage(idELEMENT, idTIRAGE, Position) value(105,206,8);
 select * from Element_Tirage;
 --
 
 
 
 										/**//**/-- Étape 4: Requêtage des données (DQL) --/**//**/
+select * from Element_Tirage;
 
 -- Requête #1
-select idLISTE from Tirage where idLISTE = 2;
+select idTIRAGE,idELEMENT from Element_Tirage order by idTIRAGE; -- OK
+-- select idTIRAGE,idELEMENT from Element_Tirage inner join Liste order by idTIRAGE;
+
+
 -- Requête #2
--- select nombreElementsAtirerTIRAGE from Tirage group by 
+select Liste.idLISTE,count(idELEMENT),count(idTIRAGE) from Liste,Element_Tirage natural join Tirage group by Liste.idLISTE order by idLISTE; -- OK
+-- select Liste.idLISTE,count(idELEMENT),count(idTIRAGE) from Liste,Element_Tirage natural join Liste group by Liste.idLISTE order by idLISTE;
+
 
 -- Requête #3
+select nomELEMENT,idLISTE from Element where idLISTE = 2; -- GOOD
+
+
 -- Requête #4
+-- select distinct Tirage.idLISTE from Tirage where Tirage.idLISTE NOT IN(select idTIRAGE from Element_Tirage);
+select distinct Liste.idLISTE from Liste where Liste.idLISTE NOT IN(select idLISTE from Tirage); -- GOOD
 -- Requête #5
 -- Requête #6
 -- Requête #7
