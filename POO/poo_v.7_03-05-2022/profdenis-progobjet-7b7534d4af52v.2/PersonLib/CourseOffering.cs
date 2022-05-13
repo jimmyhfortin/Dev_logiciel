@@ -7,15 +7,15 @@ public class CourseOffering
 {
     public int Year { get; set; }
     public string Semester { get; set; }
-    public List<Course> coursesList { get; set; }
-    public Teacher Teacher { get; set; }
-    
+    public Course course { get; set; }
+    public Teacher? Teacher { get; set; }
 
-    public CourseOffering(int year, string semester, Course course, [Optional]Teacher teacher)
+
+    public CourseOffering(int year, string semester, Course course, [Optional] Teacher teacher) // normalement ,Teacher? teacher=null)
     {
         Year = year;
         Semester = semester;
-        coursesList = new List<Course>();
+        this.course = course;
         Teacher = teacher;
     }
 
@@ -26,8 +26,8 @@ public class CourseOffering
             return false;
         }
 
-        CourseOffering other = (CourseOffering)obj;
-        return coursesList.Equals(other.coursesList) && coursesList.Equals(other.coursesList);
+        CourseOffering other = (CourseOffering) obj;
+        return course.Equals(other.course) && course.Equals(other.course);
     }
 
     public override int GetHashCode()
@@ -39,3 +39,4 @@ public class CourseOffering
     {
         return $"Course Offering({Year}, {Semester}, {string.Join("\n", Teacher)})";
     }
+}

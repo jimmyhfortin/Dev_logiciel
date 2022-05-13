@@ -50,6 +50,7 @@ foreign key(CodeProduit) references Produits(CodeProduit),
 primary key(IDClient, CodeProduit)
 );
 -- -------------
+-- insertion de donnees
 select * from Clients;
 select Nom,Prénom from Clients;
 -- exemples d'insertions
@@ -210,3 +211,7 @@ SELECT distinct
     END 'le client 3 a déjà acheté le produit 80??'
 FROM
     Achats;
+    
+
+-- ------------------------------------------------
+-- requetes avancer 

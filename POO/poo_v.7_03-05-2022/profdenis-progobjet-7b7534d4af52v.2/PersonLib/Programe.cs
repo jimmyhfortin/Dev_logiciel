@@ -11,6 +11,12 @@ public class Programe
         courses = new List<Course>();
     }
 
+    public Programe(string name, params Course[] courses)
+    {
+        Name = name;
+        this.courses = new List<Course>(courses);
+    }
+
     public override bool Equals(object? obj)
     {
         if (obj == null || this.GetType() != obj.GetType())

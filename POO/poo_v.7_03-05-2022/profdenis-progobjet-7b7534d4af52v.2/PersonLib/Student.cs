@@ -5,18 +5,27 @@ public class Student : Person
     public int StudentId { get; set; }
     
     public List<CourseOffering> CourseList { get; set; } // pas besoin de le mettre dans le constructeur
+    public Programe Programe { get; set; }
 
 
-    public Student(int id, string name, DateOnly dob, int studentId) : base(id, name, dob)
+    public Student(int id, string name, DateOnly dob, int studentId, Programe programe) : base(id, name, dob)
     {
         StudentId = studentId;
+        Programe = programe;
         CourseList = new List<CourseOffering>();
     }
 
-    public Student(string name, DateOnly dob, int studentId) : base(name, dob)
+    public Student(string name, DateOnly dob, int studentId,Programe programe) : base(name, dob)
     {
         StudentId = studentId;
+        Programe = programe;
         CourseList = new List<CourseOffering>();
+    }
+    public Student(string name, DateOnly dob, int studentId,Programe programe, List<CourseOffering> courseList) : base(name, dob)
+    {
+        StudentId = studentId;
+        Programe = programe;
+        CourseList = courseList;
     }
 
     public override bool Equals(object? obj)
