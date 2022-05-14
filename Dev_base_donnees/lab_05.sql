@@ -35,3 +35,15 @@ insert into Chambre(Num_Chambre,Prix,Nbr_Lit,Nbr_Pers,Confort,Equ) values(25,180
 insert into Clients(Num_Client,Nom,Prenom,Adresse) values(1000,"Denez","Desmond","Marseille");
 insert into Clients(Nom,Prenom,Adresse) values("Paul","Desmarais","Tokyo");
 insert into Clients(Nom,Prenom,Adresse) values("Denez","Desmond","Marseille");
+
+insert into Reservation(Num_Client,Num_Chambre,Date_Arr, Date_Dep) values(1000,20,"2004-02-09","2004-02-21");
+insert into Reservation(Num_Client,Num_Chambre,Date_Arr) values(1001,10,"2005-06-30");
+
+select Num_Chambre,Equ from Chambre where Equ LIKE 'TV';
+select Num_Chambre,Nbr_Lit from Chambre;
+select sum(Num_Chambre) from Chambre;
+
+
+
+
+
