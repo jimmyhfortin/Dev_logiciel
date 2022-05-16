@@ -66,6 +66,7 @@ select * from Liste;
 -- ajout de donnée à la table (Element)
 insert into Element(idELEMENT, idLISTE, nomELEMENT) value(101,01,"Voiture");
 insert into Element value(102,02,"Bateaux"), (103,02,"Maison"), (104,01,"Voyage"), (105,02,"Tout-Terrain");
+insert into Element value(106,06,"Escapade_Tropicale");
 select * from Element;
 --
 
@@ -88,28 +89,36 @@ select * from Element_Tirage;
 select * from Element_Tirage;
 
 -- Requête #1
-select idTIRAGE,idELEMENT from Element_Tirage order by idTIRAGE; -- OK
+select idTIRAGE,idELEMENT,idListe from Element_Tirage,Liste order by idTIRAGE; -- OK -- une liste des elements comme la tble liste
 -- select idTIRAGE,idELEMENT from Element_Tirage inner join Liste order by idTIRAGE;
-
-
 -- Requête #2
 select Liste.idLISTE,count(idELEMENT),count(idTIRAGE) from Liste,Element_Tirage natural join Tirage group by Liste.idLISTE order by idLISTE; -- OK
 -- select Liste.idLISTE,count(idELEMENT),count(idTIRAGE) from Liste,Element_Tirage natural join Liste group by Liste.idLISTE order by idLISTE;
-
-
 -- Requête #3
-select nomELEMENT,idLISTE from Element where idLISTE = 2; -- GOOD
-
-
+select nomELEMENT,idLISTE from Element where idLISTE = 2; -- GOOD -- ajouter les type
 -- Requête #4
 -- select distinct Tirage.idLISTE from Tirage where Tirage.idLISTE NOT IN(select idTIRAGE from Element_Tirage);
 select distinct Liste.idLISTE from Liste where Liste.idLISTE NOT IN(select idLISTE from Tirage); -- GOOD
 -- Requête #5
+select distinct typeTIRAGE,idELEMENT from Tirage,Element where typeTIRAGE = 1; -- marche pas
+select distinct idELEMENT,nomELEMENT from Element inner join Tirage on typeTIRAGE = 1; -- a revoir
+select Liste.idLISTE,nomLISTE,idTIRAGE from Liste inner join Tirage on tirage.idTIRAGE = null; -- marche pas
+select idELEMENT,nomELEMENT,typeTIRAGE from Element inner join Tirage on typeTIRAGE = 1; -- ok
 -- Requête #6
+select distinct position,idELEMENT,typeTIRAGE from Element_Tirage inner join Tirage on typeTIRAGE = 1 order by Position; -- ok
+
 -- Requête #7
+select Tirage.idLISTE,idELEMENT,dateEffectueeTIRAGE from Element inner join Tirage on dateEffectueeTIRAGE < "2021-08-14";
+
 -- Requête #8
+select Element_Tirage.idTIRAGE,Tirage.idLISTE from Element_Tirage,Tirage where typeTIRAGE <= 1;
+select Tirage.idLISTE,count(typeTIRAGE) from Tirage where typeTIRAGE <= 1 group by idLISTE; -- a revoir avec quelqu'un
 -- Requête #9
+select Element_Tirage.idELEMENT,Tirage.idLISTE,idTIRAGE from Element_Tirage natural join Tirage where idELEMENT = null;
+select Element_Tirage.idELEMENT,Tirage.idLISTE,idTIRAGE from Element_Tirage natural join Tirage where idELEMENT is null; -- a voir avec le prof
 -- Requête #10
+
+
 -- faire le alter table sur la table tirage-element 
 
 
