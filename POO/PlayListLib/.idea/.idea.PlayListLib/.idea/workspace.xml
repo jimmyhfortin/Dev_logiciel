@@ -5,104 +5,205 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efcd907f-77a0-483c-b336-dc18ed601ce3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../coleguecode.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/DataRepoLib.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/IDataRepo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/IDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/JsonArtistRepo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/JsonDataRepo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/JsonPlayListRepo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/JsonSongRepo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapes/DrawShapes.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapes/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapesV2/DrawShapesV2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapesV2/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapesV3/DrawShapesV3.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapesV3/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/Ex3.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ExemplesException/ExemplesException.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ExemplesException/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Course.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/CourseOffering.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Employee.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/PersonLib.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/PersonLib.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/PersonLib.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Student.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/StudyProgram.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Teacher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonProgram/PersonProgram.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PersonProgram/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/PlayListApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/artists1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/playlists1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/songs1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ProgObjet.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ProgObjet/ProgObjet.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ProgObjet/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/Canvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/Draw.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/DrawSolution.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/Point.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/ShapesV1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Canvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Circle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/HLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Line.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Point.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/ShapesV2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Triangle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/VLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Canvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/HLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Line.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Point.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Polygon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Shape.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/ShapesV3.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Triangle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/VLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/images/v3.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/images/v3.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/images/v3.3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/images/v3.4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/shapes_class_diagram.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/TicTacToeApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/TicTacToeApp/TicTacToeApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/TicTacToeLib/Board.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/TicTacToeLib/TicTacToeLib.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/WriteImage/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/WriteImage/WriteImage.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/exercices/ex1/ex1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/exercices/ex2/ex2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/exercices/ex3/ex3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/exercices/ex3/ex3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C03/ProgObjetC03-2022-03-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C03/ProgObjetC03-2022-04-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C03/ProgObjetC03-2022-04-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C03/ProgObjetC03-2022-04-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C04/ProgObjetC04-2022-03-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C04/ProgObjetC04-2022-04-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C04/ProgObjetC04-2022-04-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C04/ProgObjetC04-2022-04-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/ProgObjetC03C04-2022-03-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/ProgObjetC03C04-2022-04-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/projet/DataRepoLib.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/projet/PlayListLib.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/projet/projet.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poo_v.9_12-05-2022/profdenis-progobjet-58d7eaeafa87/projet/projet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dev_base_donnees/Projet_02/Projet_02_dev_BDD_JimmyHFORTIN.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dev_base_donnees/Projet_02/Projet_02_dev_BDD_JimmyHFORTIN.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dev_base_donnees/exemplesDML.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dev_base_donnees/exemplesDML.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/.idea/.idea.Examen1_2210370/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/.idea/.idea.Examen1_2210370/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/.idea/.idea.Examen1_2210370/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/.idea/.idea.Examen1_2210370/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/Examen1App.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/examen1(1).sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Examen1App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Examen1App.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/Examen1App.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/Examen1Lib.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/PlayList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/Song.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Examen1Lib.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Examen1Lib.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/Examen1Lib.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1Lib/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1_2210370.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/DataRepoLib.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/IDataRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/IDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/JsonArtistRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/JsonDataRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/JsonPlayListRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DataRepoLib/JsonSongRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapes/DrawShapes.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapes/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapesV2/DrawShapesV2.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapesV2/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapesV3/DrawShapesV3.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/DrawShapesV3/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/Ex3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ExemplesException/ExemplesException.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ExemplesException/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Course.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/CourseOffering.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Employee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/PersonLib.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/PersonLib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/PersonLib.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/StudyProgram.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonLib/Teacher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonProgram/PersonProgram.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PersonProgram/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/PlayListApp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/artists1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/playlists1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/PlayListApp/songs1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ProgObjet.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ProgObjet/ProgObjet.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ProgObjet/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/Canvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/Draw.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/DrawSolution.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/Point.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV1/ShapesV1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Canvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Circle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/HLine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Line.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Point.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/ShapesV2.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/Triangle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV2/VLine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Canvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/HLine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Line.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Point.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Polygon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Shape.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/ShapesV3.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/Triangle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/VLine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/images/v3.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/images/v3.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/images/v3.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/images/v3.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/ShapesV3/shapes_class_diagram.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/TicTacToeApp/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/TicTacToeApp/TicTacToeApp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/TicTacToeLib/Board.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/TicTacToeLib/TicTacToeLib.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/WriteImage/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/WriteImage/WriteImage.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/exercices/ex1/ex1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/exercices/ex2/ex2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/exercices/ex3/ex3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/exercices/ex3/ex3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C03/ProgObjetC03-2022-03-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C03/ProgObjetC03-2022-04-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C03/ProgObjetC03-2022-04-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C03/ProgObjetC03-2022-04-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C04/ProgObjetC04-2022-03-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C04/ProgObjetC04-2022-04-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C04/ProgObjetC04-2022-04-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/C04/ProgObjetC04-2022-04-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/ProgObjetC03C04-2022-03-29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/doc/images/ProgObjetC03C04-2022-04-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/projet/DataRepoLib.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/projet/PlayListLib.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/projet/projet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../poo_v.10_16-05-2022/profdenis-progobjet-58d7eaeafa87/projet/projet.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/DataRepoLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/DataRepoLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/DataRepoLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/DataRepoLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/DataRepoLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/DataRepoLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/DataRepoLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/DataRepoLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_v.7_03-05-2022/profdenis-progobjet-7b7534d4af52v.2/PersonLib/CourseOffering.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_v.7_03-05-2022/profdenis-progobjet-7b7534d4af52v.2/PersonLib/CourseOffering.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_v.7_03-05-2022/profdenis-progobjet-7b7534d4af52v.2/PersonLib/Programe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_v.7_03-05-2022/profdenis-progobjet-7b7534d4af52v.2/PersonLib/Programe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_v.7_03-05-2022/profdenis-progobjet-7b7534d4af52v.2/PersonLib/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_v.7_03-05-2022/profdenis-progobjet-7b7534d4af52v.2/PersonLib/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/Duration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/Duration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/Song.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/Song.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/ref/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/ref/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/refint/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/refint/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/.idea/.idea.Examen1_2210370/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/.idea/.idea.Examen1_2210370/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/.idea/.idea.Examen1_2210370/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/.idea/.idea.Examen1_2210370/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/Examen1App.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/examen1(1).sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Debug/net6.0/Examen1App.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Debug/net6.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Examen1App.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Examen1App.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/Examen1App.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1App/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/Examen1Lib.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/PlayList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/Song.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Examen1Lib.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Examen1Lib.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/Examen1Lib.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1Lib/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_v._4_13-04-2022/Examen1_2210370/Examen1_2210370.sln" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,6 +267,7 @@
       <workItem from="1652198153603" duration="13070000" />
       <workItem from="1652286484809" duration="8477000" />
       <workItem from="1652372700786" duration="1783000" />
+      <workItem from="1652718127724" duration="1619000" />
     </task>
     <servers />
   </component>

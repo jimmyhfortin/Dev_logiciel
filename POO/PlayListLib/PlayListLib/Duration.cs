@@ -8,9 +8,10 @@ public class Duration
 
     public int Seconds { get; set; }
     
-    public int TotalSeconds
+    public TimeSpan TotalSeconds
     {
-        get => Hours * 3600 + Minutes * 60 + Seconds; // iteration de if prossiblle avec heur mintes etc. 
+        
+        get => TimeSpan.FromSeconds(Hours * 3600 + Minutes * 60 + Seconds); // iteration de if prossiblle avec heur mintes etc. 
     }
 
     public Duration()

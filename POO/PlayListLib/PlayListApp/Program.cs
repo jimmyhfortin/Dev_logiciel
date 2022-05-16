@@ -9,11 +9,14 @@ public class Program
     static void Main(string[] args)
     {
         string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
+        
 
         var artistRepo = new JsonArtistRepo(Path.Combine(dir, "artists1.json"));
+        var artists = artistRepo.SelectAll();
+        
         //artistRepo.Insert(new Artist("Patrice Michaud", "www.yoyoyyo.com"));
         //artistRepo.Insert(new Artist("Marie-Pier Arthur"));
-        var artists = artistRepo.SelectAll();
+        artists = artistRepo.SelectAll();
         Console.WriteLine("Artistes :");
         Console.WriteLine(string.Join("\n", artists));
 

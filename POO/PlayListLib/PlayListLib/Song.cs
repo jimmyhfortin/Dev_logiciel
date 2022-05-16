@@ -84,6 +84,6 @@ public class Song
 
     public override string ToString()
     {
-        return $"({Id}) {Title}, ({Artist.Name}), {Length}, [{Genre}])";
+        return $"({Id}) {Title}, ({Artist.Name}), {Length.TotalSeconds}";
     }
 }
