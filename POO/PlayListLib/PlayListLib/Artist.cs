@@ -48,7 +48,7 @@ public class Artist
         }
 
         Artist other = (Artist)obj;
-        return Id == other.Id;
+        return Id.Equals(other.Id) && Name.Equals(other.Name); 
     }
 
     public override int GetHashCode()

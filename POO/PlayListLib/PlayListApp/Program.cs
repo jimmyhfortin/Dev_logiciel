@@ -16,6 +16,9 @@ public class Program
         
         //artistRepo.Insert(new Artist("Patrice Michaud", "www.yoyoyyo.com"));
         //artistRepo.Insert(new Artist("Marie-Pier Arthur"));
+        //artistRepo.Insert(new Artist("Metallica"));
+        //artistRepo.Insert(new Artist("Iron Maiden"));
+        
         artists = artistRepo.SelectAll();
         Console.WriteLine("Artistes :");
         Console.WriteLine(string.Join("\n", artists));
@@ -37,8 +40,9 @@ public class Program
         var playLists = playListRepo.SelectAll();
         Console.WriteLine("Listes :");
         Console.WriteLine(string.Join("\n", playLists));
+       
 
-        /*var artistes = new List<Artist>();
+        var artistes = new List<Artist>();
         artistes.Add(new Artist("Metallica","www.metallica.com"));
         artistes.Add(new Artist("IronMaiden"));
         Artist metallica = new Artist("Metallica");
@@ -46,9 +50,9 @@ public class Program
         var song1 = new List<Song>();
         song1.Add(new Song("Heros Of The Day", artistes[0], 253));
         song1.Add(new Song("Master Of Puppet", artistes[0], 501));
-        //Song songt = new Song()
+     
 
-        PlayList playList1 = new PlayList("Metallica");
+        /*PlayList playList1 = new PlayList("Metallica");
         playList1.Add(song1[0]);
         playList1.Songs.Add(song1[1]);
         playList1.Songs.Add(new Song("Title", new Artist("Hi-Lo"),225));
@@ -56,7 +60,7 @@ public class Program
         playList1.Add(song3);
 
         Console.WriteLine(metallica);
-        Console.WriteLine(song3);
+       
         foreach (var song in playList1.Songs)
         {
             Console.WriteLine(playList1);

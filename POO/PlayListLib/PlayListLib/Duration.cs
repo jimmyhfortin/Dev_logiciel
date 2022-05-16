@@ -38,7 +38,7 @@ public class Duration
         }
 
         Duration other = (Duration)obj;
-        // return Name.Equals(other.Name) && Dob.Equals(other.Dob);
+        
         return TotalSeconds == other.TotalSeconds;
     }
 

@@ -73,8 +73,7 @@ public class Song
         }
 
         Song other = (Song)obj;
-        // return Name.Equals(other.Name) && Dob.Equals(other.Dob);
-        return Id == other.Id;
+        return Id.Equals(other.Id) && Title.Equals(other.Title);
     }
 
     public override int GetHashCode()

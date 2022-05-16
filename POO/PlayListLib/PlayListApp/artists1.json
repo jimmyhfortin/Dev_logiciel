@@ -8,5 +8,15 @@
     "Id": 2,
     "Name": "Marie-Pier Arthur",
     "Website": null
+  },
+  {
+    "Id": 3,
+    "Name": "Metallica",
+    "Website": null
+  },
+  {
+    "Id": 4,
+    "Name": "Iron Maiden",
+    "Website": null
   }
 ]
