@@ -40,6 +40,16 @@ public class Artist
         NextId++;
     }
 
+    /*public void Remove(int id) //Songs
+    {
+        if ((id = Artist.NextId) != 0 )
+        {
+            Name.Remove(Id);
+            
+        }
+            
+    }*/
+
     public override bool Equals(object? obj)
     {
         if (obj == null || this.GetType() != obj.GetType())

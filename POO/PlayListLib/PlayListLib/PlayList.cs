@@ -7,25 +7,26 @@ public class PlayList
     public int Count
     {
         get => Songs.Count;
-        set
-        {
-            
-        }
+        set { }
+
+
     }
     public List<Song> Songs { get; set; }
 
-    public Duration TotalLength { get; set; }
-    /*{
+    public Duration TotalLength
+    {
         get
         {
-            int totLength = 0;
-            for (int i = 0; i < Songs.Count; i++) //new duration 
+            Duration duration = new Duration(0);
+            foreach (var song in Songs)
             {
-                if (Songs.Duration != null)
+                duration.Seconds += Songs.Count;
             }
-            
+
+            return duration;
         } 
-    }*/
+        set {}
+    }
 
     public PlayList()
     {
@@ -119,6 +120,6 @@ public class PlayList
             Console.WriteLine(song.ToString());
         }
         return $"";*/
-        return $"{Count} {TotalLength.TotalSeconds}\n{string.Join("\n", Songs)}"; //{string.Join("\n", Songs)}
+        return $"{Count} {TotalLength}\n{string.Join("\n", Songs)}"; //{string.Join("\n", Songs)}
     }
 }
