@@ -114,12 +114,6 @@ public class PlayList
 
     public override string ToString()
     {
-        /*Console.WriteLine(TotalLength.TotalSeconds);
-        foreach (var song in Songs)
-        {
-            Console.WriteLine(song.ToString());
-        }
-        return $"";*/
         return $"{Count} {TotalLength}\n{string.Join("\n", Songs)}"; //{string.Join("\n", Songs)}
     }
 }

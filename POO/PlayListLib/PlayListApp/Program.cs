@@ -224,7 +224,7 @@ public class Program
                     Console.Clear();
                     Console.WriteLine("---------------Choisissez votre option--------------");
                     Console.WriteLine("----[1] pour afficher tout les PlayList-------------");
-                    Console.WriteLine("----[2] pour selectionner une PlayList avec son Id---");
+                    Console.WriteLine("----[2] pour selectionner une PlayList avec son Nom---");
                     Console.WriteLine("----[3] pour inserer une nouvelle PlayList-----------");
                     Console.WriteLine("----[4] pour supprimer une PlayList------------------");
                     Console.WriteLine("----[0] pour quitter le programme-------------------");
