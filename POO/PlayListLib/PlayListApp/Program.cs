@@ -14,59 +14,39 @@ public class Program
         var artistRepo = new JsonArtistRepo(Path.Combine(dir, "artists1.json"));
         var artists = artistRepo.SelectAll();
         
-        //artistRepo.Insert(new Artist("Patrice Michaud", "www.yoyoyyo.com"));
-        //artistRepo.Insert(new Artist("Marie-Pier Arthur"));
-        //artistRepo.Insert(new Artist("Metallica"));
-        //artistRepo.Insert(new Artist("Iron Maiden"));
-        
+        // artistRepo.Insert(new Artist("Metallica","www.metallica.com"));
+        // artistRepo.Insert(new Artist("Iron Maiden", "www.ironmaiden.com"));
+        // artistRepo.Insert(new Artist("Dumas"));
         artists = artistRepo.SelectAll();
         Console.WriteLine("Artistes :");
         Console.WriteLine(string.Join("\n", artists));
 
         var songRepo = new JsonSongRepo(Path.Combine(dir, "songs1.json"));
-        //songRepo.Insert(new Song("Kamikaze", artists[0], 245));
-        //songRepo.Insert(new Song("Mécaniques générales", "Quebecois", artists[0], new Duration(0, 3, 18)));
-        //songRepo.Insert(new Song("Droit devant", artists[1], new Duration(0, 3, 38)));
-        //songRepo.Insert(new Song("Pourquoi", artists[1], new Duration(0, 3, 8)));
+        // songRepo.Insert(new Song("Enter Sandman", artists[0], 331));
+        // songRepo.Insert(new Song("Sad But True", "Metal", artists[0], new Duration(0, 5, 24)));
+        // songRepo.Insert(new Song("The Uniforgiven", artists[0], new Duration(0, 3, 47)));
+        // songRepo.Insert(new Song("Of Wolf and Man", artists[0], new Duration(0, 4, 16))); 
+        // songRepo.Insert(new Song("Caught Somewhere in Time", artists[1], new Duration(0, 7, 27)));
+        // songRepo.Insert(new Song("Wasted Years", artists[1], new Duration(0, 5, 09)));
+        // songRepo.Insert(new Song("Sea of Madness", artists[1], new Duration(0, 3, 52)));
+        // songRepo.Insert(new Song("The Loneliness of the Long Distance Runner", artists[1], new Duration(0, 6, 33)));
+        // songRepo.Insert(new Song("J'erre", artists[2], new Duration(0, 2, 48)));
+        // songRepo.Insert(new Song("Ne me dis pas", artists[2], new Duration(0, 3, 23)));
+        // songRepo.Insert(new Song("Alors Alors", artists[2], new Duration(0, 3, 12)));
+        
         var songs = songRepo.SelectAll();
         Console.WriteLine("Chansons :");
         Console.WriteLine(string.Join("\n", songs));
         
        
         var playListRepo = new JsonPlayListRepo(Path.Combine(dir, "playlists1.json"));
-        //playListRepo.Insert(new PlayList("Un", songs[0], songs[3], songs[2]));
-        //playListRepo.Insert(new PlayList("Deux", songs[1], songs[0]));
-        //playListRepo.Insert(new PlayList("tois", songs[3]));
+        // playListRepo.Insert(new PlayList("Metallica", songs[0], songs[1], songs[2], songs[3]));
+        // playListRepo.Insert(new PlayList("Iron Maiden", songs[4], songs[5], songs[6], songs[7]));
+        // playListRepo.Insert(new PlayList("Dumas", songs[8], songs[9],songs[10]));
         var playLists = playListRepo.SelectAll();
         Console.WriteLine("Listes :");
         Console.WriteLine(string.Join("\n", playLists));
-       
-
-        var artistes = new List<Artist>();
-        artistes.Add(new Artist("Metallica","www.metallica.com"));
-        artistes.Add(new Artist("IronMaiden"));
-        Artist metallica = new Artist("Metallica");
-
-        var song1 = new List<Song>();
-        song1.Add(new Song("Heros Of The Day", artistes[0], 253));
-        song1.Add(new Song("Master Of Puppet", artistes[0], 501));
-     
-
-        /*PlayList playList1 = new PlayList("Metallica");
-        playList1.Add(song1[0]);
-        playList1.Songs.Add(song1[1]);
-        playList1.Songs.Add(new Song("Title", new Artist("Hi-Lo"),225));
-        Song song3 = new Song("Memorie Romain", metallica, new Duration(266));
-        playList1.Add(song3);
-
-        Console.WriteLine(metallica);
-       
-        foreach (var song in playList1.Songs)
-        {
-            Console.WriteLine(playList1);
-        }*/
-       
-        //Console.WriteLine(playList1.Songs[0]);
+        
     }
     
     /* exemple de sortie de cette méthode :

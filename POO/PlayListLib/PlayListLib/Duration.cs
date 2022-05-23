@@ -11,7 +11,7 @@ public class Duration
     public TimeSpan TotalSeconds
     {
         
-        get => TimeSpan.FromSeconds(Hours * 3600 + Minutes * 60 + Seconds); // iteration de if prossiblle avec heur mintes etc. 
+        get => TimeSpan.FromSeconds(Hours * 3600 + Minutes * 60 + Seconds); 
     }
 
     public Duration()

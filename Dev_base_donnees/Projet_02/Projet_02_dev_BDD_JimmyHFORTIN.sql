@@ -9,7 +9,9 @@ drop database Jeux_de_donnees;
 -- drop table;
 
 
--- création des tables (Element, Liste, Tirage et Element_Tirage)
+-- création des tables (Element, Liste, Tirage et Element_Tirage) --
+
+-- création de la table Element
 create table Element(
 -- clef primraire
 idELEMENT int primary key,
@@ -20,6 +22,7 @@ nomELEMENT varchar(50),
 foreign key(idLISTE) references Liste(idLISTE)
 );
 
+-- création de la table Liste
 create table Liste(
 -- clef primaire
 idLISTE int primary key,
@@ -27,6 +30,7 @@ idLISTE int primary key,
 nomLISTE varchar(50)
 );
 
+-- -- création de la table Tirage
 create table Tirage(
 -- clef primarire
 idTIRAGE int primary key,
@@ -42,6 +46,7 @@ typeTIRAGE int, -- (inclusif=1 & exculif=0)
 foreign key(idLISTE) references Liste(idLISTE)
 );
 
+-- -- création de la table Element_Tirage
 create table Element_Tirage(
 -- clef primaire
 Position int,
@@ -56,6 +61,8 @@ primary key(Position,idELEMENT,idTIRAGE)
 
 
 										/**//**/-- Étape 3: Manipulation des données (DML) --/**//**/
+
+-- ajout des données aux tables précédemment créé --
 
 -- ajout de donnée à la table (Liste)
 insert into Liste(idLISTE,nomLISTE) value(01,"Tirage_Lundi");
@@ -88,6 +95,8 @@ select * from Element_Tirage;
 										/**//**/-- Étape 4: Requêtage des données (DQL) --/**//**/
 
 
+-- interrogation demandée à la base de données 
+
 -- Requête #1
 select idTIRAGE,idELEMENT,idListe from Element_Tirage,Liste order by idLISTE; 
 
@@ -114,7 +123,7 @@ select Tirage.idLISTE,typeTIRAGE from Tirage where typeTIRAGE > 0 order by idLIS
 
 -- Requête #9
 select distinct Element.idELEMENT,Element_Tirage.idTIRAGE,Liste.idLISTE from Element,Element_Tirage,Liste where Element.idELEMENT NOT IN(select idELEMENT from Element_Tirage) order by Element.idELEMENT; 
-
+select Element.idELEMENT,Element_Tirage.idTIRAGE,Liste.idLISTE from Element,Element_Tirage,Liste where Element_Tirage.idTIRAGE=204 NOT IN(select Liste.idLISTE from Liste) order by Element.idELEMENT;
 -- Requête #10
 select Liste.idLISTE,Element.idElement from Element inner join Liste where Element.idELEMENT is null;
 select count(Liste.idLISTE),Element.idElement from Liste natural join Element where Element.idELEMENT is null group by idLISTE;
@@ -123,7 +132,7 @@ select Liste.idLISTE,Element.idELEMENT from Element inner join Liste on Element.
 select Liste.idLISTE,Element.idELEMENT from Element left join Liste on Element.idLISTE = Liste.idLISTE where Element.idELEMENT is null;
 select distinct Element.idELEMENT,Liste.idLISTE from Element,Liste where Element.idELEMENT NOT IN(select idLISTE from Liste) order by Element.idELEMENT; -- sort toute ceux qui ne sont pas tirer 
 select distinct Element.idELEMENT,count(Liste.idLISTE) from Element,Liste where Element.idELEMENT NOT IN(select idLISTE from Liste) group by Liste.idListe; -- sort toute ceux qui ne sont pas tirer 
-select count(*) as 'liste sans elements' from Liste where element.idELEMENT
--- faire le alter table sur la table tirage-element 
+select count(*) as 'liste sans elements' from Liste where element.idELEMENT = 0;
+-- faire le alter table sur la table tirage-element =0
 
 

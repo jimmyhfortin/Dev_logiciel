@@ -4,14 +4,14 @@ public class PlayList
 {
     public string Name { get; set; }
 
-    public int Count { get; set; }
-    /*{
+    public int Count
+    {
         get => Songs.Count;
         set
         {
             
         }
-    }*/
+    }
     public List<Song> Songs { get; set; }
 
     public Duration TotalLength { get; set; }
@@ -119,6 +119,6 @@ public class PlayList
             Console.WriteLine(song.ToString());
         }
         return $"";*/
-        return $"{TotalLength.TotalSeconds}\n{string.Join("\n", Songs)}"; //{string.Join("\n", Songs)}
+        return $"{Count} {TotalLength.TotalSeconds}\n{string.Join("\n", Songs)}"; //{string.Join("\n", Songs)}
     }
 }
