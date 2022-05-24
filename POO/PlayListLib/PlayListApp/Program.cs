@@ -83,12 +83,8 @@ public class Program
 
             do
             {
-                Console.WriteLine("---Choisissez le mode souhaite---");
-                Console.WriteLine("----[1] pour le mode Artiste-----");
-                Console.WriteLine("----[2] pour le mode Chanson-----");
-                Console.WriteLine("----[3] pour le mode PlayList-------");
-                Console.WriteLine("----[0] pour quitter le programme");
-                choix = ReadInt("Entrer un nombre entre 0 & 3 : ", 0, 3);
+                Board.Print("Choisissez le mode", "[1] *Artiste* [2] *Chanson* [3] *PlayList*", "[0] *Quitter*");
+                choix = ReadInt("Entrer un nombre entre 0 & 3 ->>>>: ", 0, 3);
             } while (choix != 0 && choix != 1 && choix != 2 && choix != 3);
 
             if (choix == 0) break;
@@ -96,14 +92,8 @@ public class Program
             {
                 do
                 {
-                    Console.Clear();
-                    Console.WriteLine("-------------Choisissez votre option-------------");
-                    Console.WriteLine("----[1] pour afficher tout les Artistes----------");
-                    Console.WriteLine("----[2] pour selectionner un Artiste avec son Id-");
-                    Console.WriteLine("----[3] pour inserer un nouvel Artiste-----------");
-                    Console.WriteLine("----[4] pour supprimer un Artist-----------------");
-                    Console.WriteLine("----[0] pour quitter le programme----------------");
-                    choix = ReadInt("Entrer un nombre entre 0 & 4 : ", 0, 4);
+                    Board.Print("Mode *ARTIST*", "[1] Afficher *Artiste* [2] Selection *Artist* Id [3] Creer *Artist* [4] supprimer *Artist*", "[0] *Quitter*");
+                    choix = ReadInt("Entrer un nombre entre 0 & 4 ->>>>: ", 0, 4);
                 } while (choix != 0 && choix != 1 && choix != 2 && choix != 3 && choix != 4);
 
                 switch (choix)
@@ -111,10 +101,12 @@ public class Program
                     case 0:
                         break;
                     case 1:
+                        
                         foreach (var artist in artists)
                         {
                             Console.WriteLine(artist);
                         }
+                        Thread.Sleep(10000);
 
                         break;
                     case 2:
@@ -127,13 +119,14 @@ public class Program
                                 Console.WriteLine(artist);
                             }
                         }
-
+                        Thread.Sleep(10000);
                         break;
                     case 3:
                         artists = artistRepo.SelectAll();
                         Console.WriteLine("Entrer le nom de l'Artiste a ajouter");
                         choix1 = Console.ReadLine();
                         artistRepo.Insert(new Artist(choix1));
+                        Thread.Sleep(10000);
                         break;
 
                     case 4:
@@ -148,23 +141,24 @@ public class Program
                                 artistRepo.Delete(artist);
                             }
                         }
-
+                        Thread.Sleep(10000);
                         break;
                 }
             }
 
-            if (choix == 2)
+            else if (choix == 2)
             {
                 do
                 {
-                    Console.Clear();
+                    Board.Print("Mode *CHANSON*", "[1] Afficher *Chansons* [2] Selection *Id-Chanson* [3] Creer *Chanson* [4] suprimer *Chanson*", "[0] *Quitter*");
+                    /*Console.Clear();
                     Console.WriteLine("---------------Choisissez votre option--------------");
                     Console.WriteLine("----[1] pour afficher tout les Chansons-------------");
                     Console.WriteLine("----[2] pour selectionner une Chanson avec son Id---");
                     Console.WriteLine("----[3] pour inserer une nouvelle Chanson-----------");
                     Console.WriteLine("----[4] pour supprimer une Chanson------------------");
-                    Console.WriteLine("----[0] pour quitter le programme-------------------");
-                    choix = ReadInt("Entrer un nombre entre 0 & 4 : ", 0, 4);
+                    Console.WriteLine("----[0] pour quitter le programme-------------------");*/
+                    choix = ReadInt("Entrer un nombre entre 0 & 4 ->>>>: ", 0, 4);
                 } while (choix != 0 && choix != 1 && choix != 2 && choix != 3 && choix != 4);
 
                 switch (choix)
@@ -172,8 +166,9 @@ public class Program
                     case 0:
                         break;
                     case 1:
-                        Console.Clear();
+                        
                         Console.WriteLine(string.Join("\n", songs));
+                        Thread.Sleep(10000);
 
                         break;
                     case 2:
@@ -187,7 +182,7 @@ public class Program
                                 Console.WriteLine(song);
                             }
                         }
-
+                        Thread.Sleep(10000);
                         break;
                     case 3: // plusieurs conditions a verifier manquante (si l'artist exisite et le chanson aussi)
                         songs = songRepo.SelectAll();
@@ -198,6 +193,7 @@ public class Program
                         Console.WriteLine("Entrer la duree de la Chanson a ajouter en seconde");
                         choix = int.Parse(Console.ReadLine());
                         songRepo.Insert(new Song(choix1, new Artist(choix2), choix));
+                        Thread.Sleep(10000);
                         break;
                     case 4:
                         songs = songRepo.SelectAll();
@@ -211,25 +207,27 @@ public class Program
                                 songRepo.Delete(song);
                             }
                         }
-
+                        Thread.Sleep(10000);
                         break;
                 }
             }
 
 
-            if (choix == 3)
+            else if (choix == 3)
             {
                 do
                 {
-                    Console.Clear();
-                    Console.WriteLine("---------------Choisissez votre option--------------");
-                    Console.WriteLine("----[1] pour afficher tout les PlayList-------------");
-                    Console.WriteLine("----[2] pour selectionner une PlayList avec son Nom---");
+                    Board.Print("Mode *PLAYLIST*", "[1] Afficher *PlayList* [2] Selection *PlayList* Id [3] Creer *PlayList* [4] suprimer *Chanson* [5] inserer *Chanson*","[0] *Quitter*");
+                    /*Console.Clear();
+                    Console.WriteLine("---------------Choisissez votre option-------- ------");
+                    Console.WriteLine("----[1] pour afficher tout les PlayList-------- -----");
+                    Console.WriteLine("----[2] pour selectionner une PlayList avec son Nom -");
                     Console.WriteLine("----[3] pour inserer une nouvelle PlayList-----------");
                     Console.WriteLine("----[4] pour supprimer une PlayList------------------");
-                    Console.WriteLine("----[0] pour quitter le programme-------------------");
+                    Console.WriteLine("----[5] pour inserer une Chason dans une PlayList----");
+                    Console.WriteLine("----[0] pour quitter le programme---------------- ---");*/
                     choix = ReadInt("Entrer un nombre entre 0 & 4 : ", 0, 4);
-                } while (choix != 0 && choix != 1 && choix != 2 && choix != 3 && choix != 4);
+                } while (choix != 0 && choix != 1 && choix != 2 && choix != 3 && choix != 4 && choix != 5);
 
                 switch (choix)
                 {
@@ -237,7 +235,7 @@ public class Program
                         break;
                     case 1:
                         Console.WriteLine(string.Join("\n", playLists));
-
+                        Thread.Sleep(10000);
                         break;
                     case 2:
                         Console.WriteLine("Entrer le nom de la playList :");
@@ -246,40 +244,59 @@ public class Program
                         {
                             if (choix1 == playlist.Name)
                             {
-                                Console.WriteLine(playlist.Name);
+                                Console.WriteLine(playlist);
                             }
                         }
-
+                        Thread.Sleep(10000);
                         break;
                     case 3:
                         playLists = playListRepo.SelectAll();
                         Console.WriteLine("Entrer le titre de la PlayList a ajouter");
                         choix1 = Console.ReadLine();
                         playListRepo.Insert(new PlayList(choix1));
+                        Thread.Sleep(10000);
                         break;
-                    case 4:
+                    case 4: // marche pas
                         playLists = playListRepo.SelectAll();
                         Console.WriteLine("Entrer le nom de la PlayList a suprimer");
-                        choix = int.Parse(Console.ReadLine());
-                        playLists.Remove(choix);
+                        choix1 = Console.ReadLine();
+                        //playLists.Remove(choix1);
                         for (int i = 0; i < playLists.Count; i++)
                         {
-                            if (choix == playLists[i].songs.)
+                            if (choix1 == playLists[i].Name)
                             {
                                 choix1.Remove(i);
                             }
                         }
+                        
                         /*foreach (var playlist in playLists)
                         {
                             if (choix1 == playlist.Name)
                             {
                                 playListRepo.Delete(choix1);
+                                choix.Remove(choix);
                             }
                         }*/
-
+                        Thread.Sleep(10000);
                         break;
+                    case 5:
+                        playLists = playListRepo.SelectAll();
+                        Console.WriteLine("Entrer l'Id de la Chanson a ajouter");
+                        choix = int.Parse(Console.ReadLine()); 
+                        Console.WriteLine("Entrer le nom de la PlayList a lequel la Chanson va etre ajoute");
+                        choix1 = Console.ReadLine();
+                        foreach (var song in songs)
+                        {
+                            
+                        }
+
+                        Thread.Sleep(10000);
+                        break;
+
                 }
+                
             }
+            else break;
 
 
             /* exemple de sortie de cette méthode :
