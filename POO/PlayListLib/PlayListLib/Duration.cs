@@ -8,10 +8,16 @@ public class Duration
 
     public int Seconds { get; set; }
     
-    public TimeSpan TotalSeconds
+    /*public TimeSpan TotalSeconds
     {
         
         get => TimeSpan.FromSeconds(Hours * 3600 + Minutes * 60 + Seconds); 
+    }*/
+    public int TotalSeconds
+    {
+        //TimeSpan t = TimeSpan.FromSeconds( TotalSeconds );
+        get => (Hours * 3600 + Minutes * 60 + Seconds); 
+        
     }
 
     public Duration()
@@ -49,6 +55,7 @@ public class Duration
 
     public override string ToString()
     {
-        return $"Duration{TotalSeconds}";
+        TimeSpan t = TimeSpan.FromSeconds( TotalSeconds );
+        return $"{TotalSeconds}";
     }
 }

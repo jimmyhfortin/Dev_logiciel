@@ -180,7 +180,7 @@ public class Program
                         songs = songRepo.SelectAll();
                         Console.WriteLine("Entrer l'Id de la Chanson :");
                         choix = int.Parse(Console.ReadLine());
-                        foreach (var song in songs)
+                        foreach (var song in songs) // utiliser la methode find
                         {
                             if (choix == song.Id)
                             {
@@ -244,28 +244,38 @@ public class Program
                         choix1 = Console.ReadLine();
                         foreach (var playlist in playLists)
                         {
-                            if (playLists.Equals(choix1))
+                            if (choix1 == playlist.Name)
                             {
-                                Console.WriteLine(playLists);
+                                Console.WriteLine(playlist.Name);
                             }
                         }
 
                         break;
                     case 3:
+                        playLists = playListRepo.SelectAll();
                         Console.WriteLine("Entrer le titre de la PlayList a ajouter");
                         choix1 = Console.ReadLine();
-                        playListRepo.Insert(new PlayList("choix1"));
+                        playListRepo.Insert(new PlayList(choix1));
                         break;
                     case 4:
+                        playLists = playListRepo.SelectAll();
                         Console.WriteLine("Entrer le nom de la PlayList a suprimer");
-                        choix1 = Console.ReadLine();
+                        choix = int.Parse(Console.ReadLine());
+                        playLists.Remove(choix);
                         for (int i = 0; i < playLists.Count; i++)
                         {
-                            if (playLists.Equals(choix1))
+                            if (choix == playLists[i].songs.)
                             {
                                 choix1.Remove(i);
                             }
                         }
+                        /*foreach (var playlist in playLists)
+                        {
+                            if (choix1 == playlist.Name)
+                            {
+                                playListRepo.Delete(choix1);
+                            }
+                        }*/
 
                         break;
                 }

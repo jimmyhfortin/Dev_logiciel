@@ -8,8 +8,7 @@ public class PlayList
     {
         get => Songs.Count;
         set { }
-
-
+        
     }
     public List<Song> Songs { get; set; }
 
@@ -17,13 +16,14 @@ public class PlayList
     {
         get
         {
-            Duration duration = new Duration(0);
+            Duration length = new Duration();
             foreach (var song in Songs)
             {
-                duration.Seconds += Songs.Count;
+                //duration.Seconds += Songs.Count;
+                length.Seconds += song.Length.TotalSeconds;
             }
 
-            return duration;
+            return length;
         } 
         set {}
     }
@@ -94,6 +94,16 @@ public class PlayList
         }
         return false;
     }
+    /*public int TotalLengthBord()
+    {
+        int second = 0;
+        for (int i = 0; i < Songs.Count; i++)
+        {
+            second += Songs[i].;
+        }
+
+        return second;
+    }*/
 
     public override bool Equals(object? obj)
     {
@@ -114,6 +124,10 @@ public class PlayList
 
     public override string ToString()
     {
-        return $"{Count} {TotalLength}\n{string.Join("\n", Songs)}"; //{string.Join("\n", Songs)}
+        /*double times = Convert.ToDouble(TotalLength);
+        TimeSpan.FromSeconds(times);
+        TimeSpan.FromSeconds(length)*/
+        
+        return $"{Count} {TotalLength.TotalSeconds}\n{Name}\n{string.Join("\n", Songs)}"; 
     }
 }

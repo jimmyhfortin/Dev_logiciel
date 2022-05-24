@@ -2,13 +2,13 @@ namespace PlayListLib;
 
 public class Song
 {
-    public static int NextId { get; set; } = 1; // a revoir pour le -set
+    public static int NextId { get; set; } = 1; 
     
     public int Id { get; set; }
     public string Title { get; set; }
     public string Genre { get; set; }
     
-    public Duration Length { get; set; } //duration.s
+    public Duration Length { get; set; } 
     
     public Artist Artist { get; set; }
 
