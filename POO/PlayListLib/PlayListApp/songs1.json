@@ -7,7 +7,7 @@
       "Hours": 0,
       "Minutes": 0,
       "Seconds": 331,
-      "TotalSeconds": "00:05:31"
+      "TotalSeconds": 331
     },
     "Artist": {
       "Id": 1,
@@ -23,7 +23,7 @@
       "Hours": 0,
       "Minutes": 5,
       "Seconds": 24,
-      "TotalSeconds": "00:05:24"
+      "TotalSeconds": 324
     },
     "Artist": {
       "Id": 1,
@@ -39,7 +39,7 @@
       "Hours": 0,
       "Minutes": 3,
       "Seconds": 47,
-      "TotalSeconds": "00:03:47"
+      "TotalSeconds": 227
     },
     "Artist": {
       "Id": 1,
@@ -55,7 +55,7 @@
       "Hours": 0,
       "Minutes": 4,
       "Seconds": 16,
-      "TotalSeconds": "00:04:16"
+      "TotalSeconds": 256
     },
     "Artist": {
       "Id": 1,
@@ -71,7 +71,7 @@
       "Hours": 0,
       "Minutes": 7,
       "Seconds": 27,
-      "TotalSeconds": "00:07:27"
+      "TotalSeconds": 447
     },
     "Artist": {
       "Id": 2,
@@ -87,7 +87,7 @@
       "Hours": 0,
       "Minutes": 5,
       "Seconds": 9,
-      "TotalSeconds": "00:05:09"
+      "TotalSeconds": 309
     },
     "Artist": {
       "Id": 2,
@@ -103,7 +103,7 @@
       "Hours": 0,
       "Minutes": 3,
       "Seconds": 52,
-      "TotalSeconds": "00:03:52"
+      "TotalSeconds": 232
     },
     "Artist": {
       "Id": 2,
@@ -119,7 +119,7 @@
       "Hours": 0,
       "Minutes": 6,
       "Seconds": 33,
-      "TotalSeconds": "00:06:33"
+      "TotalSeconds": 393
     },
     "Artist": {
       "Id": 2,
@@ -135,7 +135,7 @@
       "Hours": 0,
       "Minutes": 2,
       "Seconds": 48,
-      "TotalSeconds": "00:02:48"
+      "TotalSeconds": 168
     },
     "Artist": {
       "Id": 3,
@@ -151,7 +151,7 @@
       "Hours": 0,
       "Minutes": 3,
       "Seconds": 23,
-      "TotalSeconds": "00:03:23"
+      "TotalSeconds": 203
     },
     "Artist": {
       "Id": 3,
@@ -167,7 +167,7 @@
       "Hours": 0,
       "Minutes": 3,
       "Seconds": 12,
-      "TotalSeconds": "00:03:12"
+      "TotalSeconds": 192
     },
     "Artist": {
       "Id": 3,

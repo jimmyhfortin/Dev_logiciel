@@ -68,6 +68,7 @@ public class Program
         // playListRepo.Insert(new PlayList("Metallica", songs[0], songs[1], songs[2], songs[3]));
         // playListRepo.Insert(new PlayList("Iron Maiden", songs[4], songs[5], songs[6], songs[7]));
         // playListRepo.Insert(new PlayList("Dumas", songs[8], songs[9],songs[10]));
+        playListRepo.Songs.Add(songs[8]);
         var playLists = playListRepo.SelectAll();
         //Console.WriteLine("Listes :");
         //Console.WriteLine(string.Join("\n", playLists));
@@ -151,13 +152,6 @@ public class Program
                 do
                 {
                     Board.Print("Mode *CHANSON*", "[1] Afficher *Chansons* [2] Selection *Id-Chanson* [3] Creer *Chanson* [4] suprimer *Chanson*", "[0] *Quitter*");
-                    /*Console.Clear();
-                    Console.WriteLine("---------------Choisissez votre option--------------");
-                    Console.WriteLine("----[1] pour afficher tout les Chansons-------------");
-                    Console.WriteLine("----[2] pour selectionner une Chanson avec son Id---");
-                    Console.WriteLine("----[3] pour inserer une nouvelle Chanson-----------");
-                    Console.WriteLine("----[4] pour supprimer une Chanson------------------");
-                    Console.WriteLine("----[0] pour quitter le programme-------------------");*/
                     choix = ReadInt("Entrer un nombre entre 0 & 4 ->>>>: ", 0, 4);
                 } while (choix != 0 && choix != 1 && choix != 2 && choix != 3 && choix != 4);
 
@@ -199,7 +193,6 @@ public class Program
                         songs = songRepo.SelectAll();
                         Console.WriteLine("Entrer l'Id de la Chanson a supprimer");
                         choix = int.Parse(Console.ReadLine());
-                        songRepo.Delete(choix);
                         foreach (var song in songs)
                         {
                             if (choix == song.Id)
@@ -217,15 +210,7 @@ public class Program
             {
                 do
                 {
-                    Board.Print("Mode *PLAYLIST*", "[1] Afficher *PlayList* [2] Selection *PlayList* Id [3] Creer *PlayList* [4] suprimer *Chanson* [5] inserer *Chanson*","[0] *Quitter*");
-                    /*Console.Clear();
-                    Console.WriteLine("---------------Choisissez votre option-------- ------");
-                    Console.WriteLine("----[1] pour afficher tout les PlayList-------- -----");
-                    Console.WriteLine("----[2] pour selectionner une PlayList avec son Nom -");
-                    Console.WriteLine("----[3] pour inserer une nouvelle PlayList-----------");
-                    Console.WriteLine("----[4] pour supprimer une PlayList------------------");
-                    Console.WriteLine("----[5] pour inserer une Chason dans une PlayList----");
-                    Console.WriteLine("----[0] pour quitter le programme---------------- ---");*/
+                    Board.Print("Mode *PLAYLIST*", "[1] Afficher *PlayList* [2] Selection nom *PlayList* [3] Creer *PlayList* [4] suprimer *Chanson* [5] inserer *Chanson*","[0] *Quitter*");
                     choix = ReadInt("Entrer un nombre entre 0 & 4 : ", 0, 4);
                 } while (choix != 0 && choix != 1 && choix != 2 && choix != 3 && choix != 4 && choix != 5);
 
@@ -249,7 +234,7 @@ public class Program
                         }
                         Thread.Sleep(10000);
                         break;
-                    case 3:
+                    case 3: // condition si une nouvelle playlist a le meme nom
                         playLists = playListRepo.SelectAll();
                         Console.WriteLine("Entrer le titre de la PlayList a ajouter");
                         choix1 = Console.ReadLine();
@@ -258,25 +243,26 @@ public class Program
                         break;
                     case 4: // marche pas
                         playLists = playListRepo.SelectAll();
-                        Console.WriteLine("Entrer le nom de la PlayList a suprimer");
+                        Console.WriteLine("Entrer le nom de la PlayList a supprimer");
                         choix1 = Console.ReadLine();
                         //playLists.Remove(choix1);
-                        for (int i = 0; i < playLists.Count; i++)
+                        /*for (int i = 0; i < playLists.Count; i++)
                         {
-                            if (choix1 == playLists[i].Name)
+                            if (choix == playLists[i].Songs)
                             {
-                                choix1.Remove(i);
+                                playLists.Remove(choix);
                             }
-                        }
+                        }*/
                         
-                        /*foreach (var playlist in playLists)
+                        foreach (var playlist in playLists)
                         {
                             if (choix1 == playlist.Name)
                             {
-                                playListRepo.Delete(choix1);
-                                choix.Remove(choix);
+                                playListRepo.Delete(playlist);
+                                //choix.Delete(choix);
+                                
                             }
-                        }*/
+                        }
                         Thread.Sleep(10000);
                         break;
                     case 5:
@@ -285,9 +271,14 @@ public class Program
                         choix = int.Parse(Console.ReadLine()); 
                         Console.WriteLine("Entrer le nom de la PlayList a lequel la Chanson va etre ajoute");
                         choix1 = Console.ReadLine();
-                        foreach (var song in songs)
+                        foreach (var playlist in playLists)
                         {
-                            
+                            if (choix1 == playlist.Name)
+                            {
+                                playListRepo.Insert(playlist.choix1, choix);
+                                //choix.Delete(choix);
+                                
+                            }
                         }
 
                         Thread.Sleep(10000);

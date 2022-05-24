@@ -221,5 +221,27 @@
       "Seconds": 0,
       "TotalSeconds": 0
     }
+  },
+  {
+    "Name": "Jimmy",
+    "Count": 0,
+    "Songs": [],
+    "TotalLength": {
+      "Hours": 0,
+      "Minutes": 0,
+      "Seconds": 0,
+      "TotalSeconds": 0
+    }
+  },
+  {
+    "Name": "Jimmy",
+    "Count": 0,
+    "Songs": [],
+    "TotalLength": {
+      "Hours": 0,
+      "Minutes": 0,
+      "Seconds": 0,
+      "TotalSeconds": 0
+    }
   }
 ]
