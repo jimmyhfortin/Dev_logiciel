@@ -5,14 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efcd907f-77a0-483c-b336-dc18ed601ce3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../420-2B0-SW-H22.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1_2210370/Examen1App/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/bin/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataRepoLib/obj/Debug/net6.0/DataRepoLib.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/Board.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/artists1.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/artists1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/bin/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/PlayListApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/playlists1.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/playlists1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayListApp/songs1.json" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/songs1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/ref/PlayListApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/ref/PlayListApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/refint/PlayListApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListApp/obj/Debug/net6.0/refint/PlayListApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/Artist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/Artist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/bin/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PlayListLib/obj/Debug/net6.0/PlayListLib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +95,8 @@
       <workItem from="1652718127724" duration="6222000" />
       <workItem from="1653156309951" duration="764000" />
       <workItem from="1653308092328" duration="21745000" />
-      <workItem from="1653395408584" duration="16275000" />
+      <workItem from="1653395408584" duration="19075000" />
+      <workItem from="1653487848818" duration="6238000" />
     </task>
     <servers />
   </component>

@@ -32,4 +32,9 @@ public class Board
                                                             //-->PadLeft(padleft): compter de droite à gauche padleft fois 
                                                             //-->Padright(longeure) :compter de gauche à droite longeure fois
         }
+
+        public static void  Endmessage(string message1, string message2 = "")
+        {
+            Console.WriteLine($"**{message1} {message2}**");
+        }
 }

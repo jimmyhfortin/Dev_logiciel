@@ -15,6 +15,7 @@ namespace Examen1App
             metallica1.SongList.Add(new Song("Heros Of The Day", "Metallica", 253));
             metallica1.SongList.Add(new Song("Kall of kluklu", "Metallica", 512));
             metallica1.SongList.Add(new Song("Master Of Puppet", "Metallica", 501));
+            
 
             var metallica2 = new PlayList("Symphonic Metallica");
             metallica2.SongList.Add(new Song("Master Of Puppet", "Metallica", 501));
