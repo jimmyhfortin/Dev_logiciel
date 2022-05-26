@@ -1,6 +1,6 @@
 namespace Question2Lib;
 
-public class Character
+public abstract class Character
 {
     public static int NextId { get; set; } = 1;
     public int Id { get; set; }
@@ -34,5 +34,35 @@ public class Character
         Intelligence = intelligence;
         Wisdom = wisdom;
         Charisma = charisma;
+    }
+
+    public abstract string Speak();
+
+
+    public abstract string Attack();
+
+
+    public abstract string Die();
+    
+
+    public override bool Equals(object? obj)
+    {
+        if (obj == null || this.GetType() != obj.GetType())
+        {
+            return false;
+        }
+
+        Character other = (Character)obj;
+        return Id == other.Id;
+    }
+
+    public override int GetHashCode()
+    {
+        return Id.GetHashCode();
+    }
+
+    public override string ToString()
+    {
+        return $"{typeof(Character)} ({Id}) {Name} [{Strength}{Dexterity}{Constitution}{Intelligence}{Wisdom}{Charisma}]";
     }
 }
