@@ -113,6 +113,7 @@ public class Program
         //list of student
         var studentList = new List<Student>();
         studentList.Add(new Student("alexandre Ouimet", DateOnly.Parse("1984-06-17"), 2235654));
+        studentList.Add(new Student(666,"Paul Desmarais", DateOnly.Parse("1992-02-02"),222,new Programe("allo")));
         studentList.Add(new Student(9,"Marie-Pier Simard", DateOnly.Parse("1989-06-17"), 226541)); 
         
         //new course new program and course added to program to 
