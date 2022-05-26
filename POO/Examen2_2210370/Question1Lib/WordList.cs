@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 namespace Question1Lib;
 
 
@@ -37,15 +39,33 @@ public class WordList
         //FileStream fileStream = File.OpenWrite(filename);
         //Words = new List<string>(fileStream);
         //FileStream fileStream = File.OpenWrite(filename);
+        string[] lineFileName = File.ReadAllLines("/home/jimmy/filename.txt");
+        string[] listeArray = lineFileName.ToArray();
+        
         Words = new List<string> {File.ReadAllText(filename)};
     }
 
     public string GetRandomWord()
     {
         Random random = new Random();
-        int randomNum = random.Next(1, 12);
-
-        string line = null;
+        int randomNum = random.Next(1,Words.Count);
+        for (int i = 0; i < Words.Count; i++)
+        {
+            if (Words[randomNum] == Words[i])
+            {
+                Words.Remove(Words[i]);
+            }
+            else
+            {
+                Console.WriteLine(Words[i]);
+                throw new ArgumentException("No more word in the list");
+            }
+        }
+        //Regex.Replace(XML, @"\s+", "");
+        
+        return Words[randomNum];
+        
+        /*string line = null;
         int line_number = 0;
 
         using (StreamReader reader = new StreamReader("/home/jimmy/filename.txt"))
@@ -62,7 +82,7 @@ public class WordList
                     writer.WriteLine(line);
                 }
             }
-        }
+        }*/
         // int[] numbers = File.ReadAllLines("/home/jimmy/filename.txt").Select(int.Parse).ToArray();
         // Console.WriteLine($"Read: [{string.Join(", ", numbers)}]");
 
@@ -78,7 +98,6 @@ public class WordList
             File.WriteAllLines("/home/jimmy/filename.txt", File.ReadLines("/home/jimmy/filename.txt").Where(l => l != "removeme").ToList());
             Console.WriteLine(fileNameList[i]);
         }*/
-        return line;
     }
 
     public override bool Equals(object? obj)
