@@ -6,7 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a155a9-e543-451e-91ba-c6cd4ff00cb5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Question2Lib/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Character.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayListLib/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayListLib/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653578093658</updated>
-      <workItem from="1653578101656" duration="10248000" />
+      <workItem from="1653578101656" duration="11156000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efcd907f-77a0-483c-b336-dc18ed601ce3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question2Lib/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question2Lib/Character.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen2_2210370/examen2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/.idea/.idea.Examen2_2210370/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/.idea/.idea.Examen2_2210370/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question2App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question2App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
