@@ -5,21 +5,109 @@ namespace Question1App
 {
     public class Program
 {
-    /*static string GetRandomWord(List<string> liste)
+    static void AfficherMot(string mot, List<char> lettres)
     {
-        string[] listeArray = liste.ToArray();
-        Random random = new Random();
-        int randomNum = random.Next(1,listeArray.Length);
-        //int index = liste.FindIndex(1 => 1);
-        //int index = liste.IndexOf(randomNum);
-        return listeArray[randomNum];
-    }*/
-    /*static string GetRandomWord(List<string> liste)
+        for (int i = 0; i < mot.Length; i++)
+        {
+            char lettre = mot[i];
+            if (lettres.Contains(lettre))
+            {
+                Console.WriteLine(lettre + " ");
+            }
+            else
+            {
+                Console.WriteLine("_ ");
+            }
+        }
+
+        Console.WriteLine();
+    }
+
+    static bool ToutesLettresDevinees(string mot, List<char> lettres)
     {
-        Random random = new Random();
-        int randomNum = random.Next(1,liste.Count);
-        return liste[randomNum];
-    }*/
+        foreach (var lettre in lettres)
+        {
+            mot = mot.Replace(lettre.ToString(), "");
+        }
+
+        if (mot.Length == 0)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    static char DemanderUneLettre(string message = "Enter a letter")
+    {
+        while (true)
+        {
+            Console.WriteLine(message);
+            string reponse = Console.ReadLine();
+            if (reponse.Length == 1)
+            {
+                reponse = reponse.ToUpper();
+                return reponse[0];
+            }
+
+            Console.WriteLine("ERROR: you must enter a letter");
+        }
+    }
+
+    static void DevinerMot(string mot)
+    {
+        var lettresDevinees = new List<char>();
+        var lettresExclues = new List<char>();
+        int nbVie = 7;
+        int vieRestantes = nbVie;
+        while (vieRestantes > 0)
+        {
+            Console.WriteLine(nbVie- vieRestantes);// a revoir avec l'autre
+            Console.WriteLine();
+            AfficherMot(mot, lettresDevinees);
+            Console.WriteLine();
+            var lettre = DemanderUneLettre();
+            Console.Clear();
+            if (mot.Contains(lettre))
+            {
+                Console.WriteLine("This letter is in the word");
+                lettresDevinees.Add(lettre);
+                if (ToutesLettresDevinees(mot, lettresDevinees))
+                {
+                    break;
+                }
+            }
+            else
+            {
+                if (!lettresExclues.Contains(lettre))
+                {
+                    vieRestantes--;
+                    lettresExclues.Add(lettre);
+                }
+
+                Console.WriteLine($"Remaining life : {vieRestantes}");
+            }
+
+            if (lettresExclues.Count > 0)
+            {
+                Console.WriteLine($"The word does not contain the letters : {string.Join(", ", lettresExclues)}" );
+            }
+            Console.WriteLine();
+        }
+
+        Console.WriteLine(nbVie-vieRestantes);// a revoir avec l'autre
+        if (vieRestantes == 0)
+        {
+            Console.WriteLine($"Lost ! the was {mot}");
+        }
+        else
+        {
+            AfficherMot(mot, lettresDevinees);
+            Console.WriteLine();
+            Console.WriteLine("BRAVISSIMO!!!!!");
+        }
+    }
+    
     static void Main(string[] args)
     {
         string line;
