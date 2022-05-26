@@ -166,6 +166,7 @@ public abstract class Character
 
     public override string ToString()
     {
-        return $"({base.GetType()}) ({Id}) {Name} [{Strength} {Dexterity} {Constitution} {Intelligence} {Wisdom} {Charisma}]";
+        //return $"({base.GetType()}) ({Id}) {Name} [{Strength} {Dexterity} {Constitution} {Intelligence} {Wisdom} {Charisma}]";
+        return $"({GetType().Name}) ({Id}) {Name} [{Strength} {Dexterity} {Constitution} {Intelligence} {Wisdom} {Charisma}]";
     }
 }

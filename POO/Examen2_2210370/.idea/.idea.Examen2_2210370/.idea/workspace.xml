@@ -6,39 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a155a9-e543-451e-91ba-c6cd4ff00cb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/ref/Question2App.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/refint/Question2App.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/ref/Question2Lib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/refint/Question2Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2Lib/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2Lib/Cleric.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Cleric.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2Lib/Druid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Druid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2Lib/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Fighter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlayListLib/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayListLib/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653578093658</updated>
-      <workItem from="1653578101656" duration="9883000" />
+      <workItem from="1653578101656" duration="10248000" />
     </task>
     <servers />
   </component>
