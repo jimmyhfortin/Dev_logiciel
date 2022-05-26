@@ -35,7 +35,7 @@ public class PlayList
     {
         Name = name;
         Songs = new List<Song>();
-        TotalLength = new Duration(Count);
+        TotalLength = new Duration(Count); //revoir si le count est bon 
     }
     public PlayList(string name, List <Song> songs)
     {

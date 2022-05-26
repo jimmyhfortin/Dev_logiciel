@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Question1App/1.0.0": {
+        "dependencies": {
+          "Examen2_2210370": "1.0.0"
+        },
+        "runtime": {
+          "Question1App.dll": {}
+        }
+      },
+      "Examen2_2210370/1.0.0": {
+        "runtime": {
+          "Examen2_2210370.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Question1App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Examen2_2210370/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
