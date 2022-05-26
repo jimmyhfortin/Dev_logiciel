@@ -1,49 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Examen2_2210370/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Examen2_2210370.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Examen2_2210370.dll": {}
-        }
-      },
-      "Question1App/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Examen2_2210370": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Question1App.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Question1App.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Examen2_2210370/1.0.0": {
-      "type": "project",
-      "path": "../Examen2_2210370/Examen2_2210370.csproj",
-      "msbuildProject": "../Examen2_2210370/Examen2_2210370.csproj"
-    },
-    "Question1App/1.0.0": {
-      "type": "project",
-      "path": "../Question1App/Question1App.csproj",
-      "msbuildProject": "../Question1App/Question1App.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Examen2_2210370 >= 1.0.0",
-      "Question1App >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "/home/jimmy/.nuget/packages/": {}
@@ -69,14 +31,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen_2_2210370/Examen2_2210370/Examen2_2210370/Examen2_2210370.csproj": {
-              "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen_2_2210370/Examen2_2210370/Examen2_2210370/Examen2_2210370.csproj"
-            },
-            "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen_2_2210370/Examen2_2210370/Question1App/Question1App.csproj": {
-              "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen_2_2210370/Examen2_2210370/Question1App/Question1App.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

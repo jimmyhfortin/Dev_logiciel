@@ -1,4 +1,4 @@
-﻿namespace Question1App;
+﻿
 
 
 public class Program
@@ -37,14 +37,14 @@ public class Program
         // string filename = new (Path.Combine(dir, "filename.txt"));
         string text = File.ReadAllText("/home/jimmy/filename.txt");
         Console.WriteLine(text);
-        var lsitworlist = new
+        var lsitworlist = new WordList("allo");
         /*string[] lineFileName = File.ReadAllLines("/home/jimmy/filename.txt");
         for (int i = 0; i < lineFileName.Length; i++)
         {
             Console.WriteLine(lineFileName[i]);
         }*/
 
-       
+
 
     }
 }
