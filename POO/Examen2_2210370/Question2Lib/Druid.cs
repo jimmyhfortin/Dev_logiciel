@@ -12,16 +12,16 @@ public class Druid : Character
 
     public override string Speak()
     {
-        throw new NotImplementedException();
+        return $"Did we just break devoted druid?";
     }
 
     public override string Attack()
     {
-        throw new NotImplementedException();
+        return $"I knew this would happen some day";
     }
 
     public override string Die()
     {
-        throw new NotImplementedException();
+        return $"Again?";
     }
 }

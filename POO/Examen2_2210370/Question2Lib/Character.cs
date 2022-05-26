@@ -3,14 +3,117 @@ namespace Question2Lib;
 public abstract class Character
 {
     public static int NextId { get; set; } = 1;
-    public int Id { get; set; }
+    private int _id;
+    public int Id
+    {
+        get => _id;
+        set
+        {
+            if (value < 0)
+            {
+                throw new ArgumentException("Id cannot be negative");
+            }
+
+            _id = value;
+        }
+
+    }
     public string Name { get; set; }
-    public int Strength { get; set; }
-    public int Dexterity { get; set; }
-    public int Constitution { get; set; }
-    public int Intelligence { get; set; }
-    public int Wisdom { get; set; }
-    public int Charisma { get; set; }
+    private int _strength;
+    public int Strength
+    {
+        get => _strength;
+        set
+        {
+            if (value < 3 || value > 20)
+            {
+                throw new ArgumentException("character skill must be between 3 and 20");
+            }
+
+            _strength = value;
+        }
+
+    }
+
+    private int _dexterity;
+    public int Dexterity
+    {
+        get => _dexterity;
+        set
+        {
+            if (value < 3 || value > 20)
+            {
+                throw new ArgumentException("character skill must be between 3 and 20");
+            }
+
+            _dexterity = value;
+        }
+
+    }
+
+    private int _constitution;
+    public int Constitution
+    {
+        get => _constitution;
+        set
+        {
+            if (value < 3 || value > 20)
+            {
+                throw new ArgumentException("character skill must be between 3 and 20");
+            }
+
+            _constitution = value;
+        }
+
+    }
+
+    private int _intelligence;
+    public int Intelligence
+    {
+        get => _intelligence;
+        set
+        {
+            if (value < 3 || value > 20)
+            {
+                throw new ArgumentException("character skill must be between 3 and 20");
+            }
+
+            _intelligence = value;
+        }
+
+    }
+
+    private int _wisdom;
+    public int Wisdom 
+    {
+        get => _wisdom;
+        set
+        {
+            if (value < 3 || value > 20)
+            {
+                throw new ArgumentException("character skill must be between 3 and 20");
+            }
+
+            _wisdom = value;
+        }
+
+    }
+
+    private int _charisma;
+    public int Charisma 
+    {
+        get => _charisma;
+        set
+        {
+            if (value < 3 || value > 20)
+            {
+                throw new ArgumentException("character skill must be between 3 and 20");
+            }
+
+            _charisma = value;
+        }
+
+    }
 
     public Character(int id, string name, int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma)
     {
@@ -63,6 +166,6 @@ public abstract class Character
 
     public override string ToString()
     {
-        return $"{typeof(Character)} ({Id}) {Name} [{Strength}{Dexterity}{Constitution}{Intelligence}{Wisdom}{Charisma}]";
+        return $"({base.GetType()}) ({Id}) {Name} [{Strength} {Dexterity} {Constitution} {Intelligence} {Wisdom} {Charisma}]";
     }
 }

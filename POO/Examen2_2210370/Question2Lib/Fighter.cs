@@ -12,16 +12,16 @@ public class Fighter : Character
 
     public override string Speak()
     {
-        throw new NotImplementedException();
+        return $"Until the END!";
     }
 
     public override string Attack()
     {
-        throw new NotImplementedException();
+        return $"You gonna die MOFO!";
     }
 
     public override string Die()
     {
-        throw new NotImplementedException();
+        return $"Holy HELL!";
     }
 }

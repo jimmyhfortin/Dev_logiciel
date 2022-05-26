@@ -12,16 +12,18 @@ public class Cleric : Character
 
     public override string Speak()
     {
-        throw new NotImplementedException();
+        return $"Drive a motorcycle instead";
     }
 
     public override string Attack()
     {
-        throw new NotImplementedException();
+        return $"From blackest night and Brightest sky";
     }
 
     public override string Die()
     {
-        throw new NotImplementedException();
+        return $"The Blackest Night falls from the skies, The darkness grows as all light dies";
     }
+
+    
 }
