@@ -174,5 +174,37 @@
       "Name": "Dumas",
       "Website": null
     }
+  },
+  {
+    "Id": 12,
+    "Title": "Enter sad man",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 0,
+      "Seconds": 562,
+      "TotalSeconds": 562
+    },
+    "Artist": {
+      "Id": 13,
+      "Name": "Metallica",
+      "Website": null
+    }
+  },
+  {
+    "Id": 13,
+    "Title": "il etait une fois",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 0,
+      "Seconds": 563,
+      "TotalSeconds": 563
+    },
+    "Artist": {
+      "Id": 13,
+      "Name": "Ti paul",
+      "Website": null
+    }
   }
 ]

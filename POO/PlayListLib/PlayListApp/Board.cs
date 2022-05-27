@@ -26,11 +26,9 @@ public class Board
 
         public static string PadMessage(string source, int longeure)
         {
-            int espace = longeure - source.Length; //espace restant de 33 (espace vide)
-            int padLeft = espace / 2 + source.Length;//ajout de la moitié d'espace vide à la taille du message (variable source)
-            return source.PadLeft(padLeft).PadRight(longeure);//ajout de padleft espace à gauche et longeure espace à droite:
-                                                            //-->PadLeft(padleft): compter de droite à gauche padleft fois 
-                                                            //-->Padright(longeure) :compter de gauche à droite longeure fois
+            int espace = longeure - source.Length; 
+            int padLeft = espace / 2 + source.Length;
+            return source.PadLeft(padLeft).PadRight(longeure);
         }
 
         public static void  Endmessage(string message1, string message2 = "")
