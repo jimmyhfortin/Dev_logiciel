@@ -6,26 +6,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a155a9-e543-451e-91ba-c6cd4ff00cb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/filename.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question1App/filename.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question1App/Question1App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/Question1App.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1Lib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/ref/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/ref/Question1App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/refint/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/refint/Question1App.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1Lib/WordList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/WordList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1Lib/bin/Debug/net6.0/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/bin/Debug/net6.0/Question1Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1Lib/bin/Debug/net6.0/Question1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/bin/Debug/net6.0/Question1Lib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/ref/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/ref/Question1Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/refint/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/refint/Question1Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/Cleric.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Cleric.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/Druid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Druid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Fighter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PlayListLib/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayListLib/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>
@@ -58,7 +70,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Question1App">
+  <component name="RunManager" selected=".NET Project.Question2App">
     <configuration name="Question1App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -104,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653578093658</updated>
-      <workItem from="1653578101656" duration="30837000" />
+      <workItem from="1653578101656" duration="34330000" />
     </task>
     <servers />
   </component>

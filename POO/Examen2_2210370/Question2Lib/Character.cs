@@ -4,6 +4,7 @@ public abstract class Character
 {
     public static int NextId { get; set; } = 1;
     private int _id;
+
     public int Id
     {
         get => _id;
@@ -16,10 +17,11 @@ public abstract class Character
 
             _id = value;
         }
-
     }
+
     public string Name { get; set; }
     private int _strength;
+
     public int Strength
     {
         get => _strength;
@@ -32,10 +34,10 @@ public abstract class Character
 
             _strength = value;
         }
-
     }
 
     private int _dexterity;
+
     public int Dexterity
     {
         get => _dexterity;
@@ -48,10 +50,10 @@ public abstract class Character
 
             _dexterity = value;
         }
-
     }
 
     private int _constitution;
+
     public int Constitution
     {
         get => _constitution;
@@ -64,10 +66,10 @@ public abstract class Character
 
             _constitution = value;
         }
-
     }
 
     private int _intelligence;
+
     public int Intelligence
     {
         get => _intelligence;
@@ -80,11 +82,11 @@ public abstract class Character
 
             _intelligence = value;
         }
-
     }
 
     private int _wisdom;
-    public int Wisdom 
+
+    public int Wisdom
     {
         get => _wisdom;
         set
@@ -96,11 +98,11 @@ public abstract class Character
 
             _wisdom = value;
         }
-
     }
 
     private int _charisma;
-    public int Charisma 
+
+    public int Charisma
     {
         get => _charisma;
         set
@@ -112,10 +114,10 @@ public abstract class Character
 
             _charisma = value;
         }
-
     }
 
-    public Character(int id, string name, int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma)
+    public Character(int id, string name, int strength, int dexterity, int constitution, int intelligence, int wisdom,
+        int charisma)
     {
         Id = id;
         Name = name;
@@ -126,7 +128,9 @@ public abstract class Character
         Wisdom = wisdom;
         Charisma = charisma;
     }
-    public Character(string name, int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma)
+
+    public Character(string name, int strength, int dexterity, int constitution, int intelligence, int wisdom,
+        int charisma)
     {
         Id = NextId;
         NextId++;
@@ -146,7 +150,7 @@ public abstract class Character
 
 
     public abstract string Die();
-    
+
 
     public override bool Equals(object? obj)
     {
@@ -155,7 +159,7 @@ public abstract class Character
             return false;
         }
 
-        Character other = (Character)obj;
+        Character other = (Character) obj;
         return Id == other.Id;
     }
 
@@ -166,7 +170,8 @@ public abstract class Character
 
     public override string ToString()
     {
-        //return $"({base.GetType()}) ({Id}) {Name} [{Strength} {Dexterity} {Constitution} {Intelligence} {Wisdom} {Charisma}]";
-        return $"({GetType().Name}) ({Id}) {Name} [{Strength} {Dexterity} {Constitution} {Intelligence} {Wisdom} {Charisma}]";
+        
+        return
+            $"({GetType().Name}) ({Id}) {Name} [{Strength} {Dexterity} {Constitution} {Intelligence} {Wisdom} {Charisma}]";
     }
 }
