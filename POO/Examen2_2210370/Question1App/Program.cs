@@ -1,4 +1,6 @@
 ﻿using Question1Lib;
+using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Question1App
 {
@@ -37,13 +39,20 @@ namespace Question1App
 
         static char AskForLetter(string message = "Enter a letter")
         {
+            string RegexPattern = @"(^[A-Za-z0-9]*)$";
+            //string s = Regex.Replace(answer.Trim(),@"[^A-Za-z0-9]+","");
             while (true)
             {
                 Console.Write($"{message} \n->> ");
                 string answer = Console.ReadLine();
+                if (RegexPattern == answer)
+                {
+                    Console.WriteLine("ERROR: you must enter a letter");
+                }
                 if (answer.Length == 1)
                 {
-                    answer = answer.ToLower(); // changer pour to lower
+                    
+                    answer = answer.ToLower();
                     return answer[0];
                 }
 
@@ -136,6 +145,10 @@ namespace Question1App
             {
                 Console.WriteLine($"Error file : {nomFichier} {ex.Message}");
             }
+            catch
+            {
+                Console.WriteLine($"Unknown error strike! ");
+            }
 
             return null;
         }
@@ -189,6 +202,7 @@ namespace Question1App
                     Console.Clear();
                 }
             }
+            
 
             // End______________________________________________________________________________________________________
         }

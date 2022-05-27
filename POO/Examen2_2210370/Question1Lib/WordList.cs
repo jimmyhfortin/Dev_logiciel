@@ -6,8 +6,12 @@ public class WordList
 {
     public string Name { get; set; }
     public List<string> Words { get; set; }
-    public int Count { get; set; }
-
+    public int Count 
+    {
+        get => Words.Count;
+        set { }
+        
+    }
     public WordList(String name)
     {
         Name = name;
@@ -78,6 +82,6 @@ public class WordList
 
     public override string ToString()
     {
-        return $"Person({Name}, {Count}, {string.Join("\n", Words)})";
+        return $"({Name}, {Count}, {string.Join("\n", Words)})";
     }
 }

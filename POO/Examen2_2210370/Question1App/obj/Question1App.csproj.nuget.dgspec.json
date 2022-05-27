@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1App/Question1App.csproj": {}
+    "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1App/Question1App.csproj": {}
   },
   "projects": {
-    "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1App/Question1App.csproj": {
+    "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1App/Question1App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1App/Question1App.csproj",
+        "projectUniqueName": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1App/Question1App.csproj",
         "projectName": "Question1App",
-        "projectPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1App/Question1App.csproj",
+        "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1App/Question1App.csproj",
         "packagesPath": "/home/jimmy/.nuget/packages/",
-        "outputPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1App/obj/",
+        "outputPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1App/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jimmy/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj": {
-                "projectPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj"
+              "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj": {
+                "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj"
               }
             }
           }
@@ -56,18 +56,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj": {
+    "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj",
+        "projectUniqueName": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj",
         "projectName": "Question1Lib",
-        "projectPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj",
+        "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1Lib/Question1Lib.csproj",
         "packagesPath": "/home/jimmy/.nuget/packages/",
-        "outputPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question1Lib/obj/",
+        "outputPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1Lib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jimmy/.nuget/NuGet/NuGet.Config"
@@ -108,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }

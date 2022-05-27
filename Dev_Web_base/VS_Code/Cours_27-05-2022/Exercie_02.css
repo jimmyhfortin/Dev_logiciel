@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+
+#container {
+
+    max-width: 900px;
+    margin: auto;
+}
+#header {
+    background-color: purple;
+    text-align: center;
+    overflow: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 16px;
+}
+#content h1 {
+    color: plum;
+}
+#content p {
+    text-align: justify;
+}
+ul {
+    padding-left: 16px;
+}
+a {
+    color:purple;
+}
+a:hover {
+    color: plum;
+}

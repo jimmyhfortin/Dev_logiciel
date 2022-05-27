@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2App/Question2App.csproj",
+      "projectUniqueName": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2App/Question2App.csproj",
       "projectName": "Question2App",
-      "projectPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2App/Question2App.csproj",
+      "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2App/Question2App.csproj",
       "packagesPath": "/home/jimmy/.nuget/packages/",
-      "outputPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2App/obj/",
+      "outputPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2App/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jimmy/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj": {
-              "projectPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj"
+            "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj": {
+              "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj"
             }
           }
         }
@@ -81,7 +81,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   }

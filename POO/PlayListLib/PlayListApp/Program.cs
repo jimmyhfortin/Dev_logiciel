@@ -1,5 +1,6 @@
 ﻿using System.Net.Security;
 using System.Net.Sockets;
+
 using DataRepoLib;
 using PlayListLib;
 
@@ -7,7 +8,27 @@ namespace PlayListApp;
 
 public class Program
 {
-    static int ReadInt(string message, int start, int end)
+    static bool DemanderRejourer()
+    {
+        Console.WriteLine("Voulez-vous recommencer (o/n) : ");
+        char answer = Convert.ToChar(Console.ReadLine());
+        if ((answer == 'o') || (answer == 'O'))
+        {
+            return true;
+        }
+
+        if ((answer == 'n') || (answer == 'N'))
+        {
+            return false;
+        }
+        else
+        {
+            Console.WriteLine($"You should enter the correct letter");
+            return DemanderRejourer();
+        }
+    }
+
+    public static int ReadInt(string message, int start, int end)
     {
         while (true)
         {
@@ -27,6 +48,33 @@ public class Program
                 Console.WriteLine("Exception ! " + e.Message);
             }
         }
+    }
+
+    public static List<Artist> SupprimerArtists(Artist artiste)
+    {
+        string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
+        var artistRepo = new JsonArtistRepo(Path.Combine(dir, "artists1.json"));
+        artistRepo.Delete(artiste);
+        var artists = artistRepo.SelectAll();
+        return artists;
+    }
+
+    public static List<Artist> AjouterArtists(Artist artiste)
+    {
+        string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
+        var artistRepo = new JsonArtistRepo(Path.Combine(dir, "artists1.json"));
+        artistRepo.Insert(artiste);
+        var artists = artistRepo.SelectAll();
+        return artists;
+    }
+
+    public static List<Song> SupprimerChanson(Song songe)
+    {
+        string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
+        var songRepo = new JsonSongRepo(Path.Combine(dir, "songs1.json"));
+        songRepo.Delete(songe);
+        var songs = songRepo.SelectAll();
+        return songs;
     }
 
     /*static bool chansonexistante()
@@ -79,7 +127,9 @@ public class Program
 
         // Fin de la partie A && B des insertions de donnees dans la base de donnees____________________________________
         // Partie C PlayListApp_________________________________________________________________________________________
-
+        /*Song song1 = new Song("Alors Alors", artists[2], new Duration(0, 3, 12));
+        songRepo.Insert(song1);
+        Console.ReadLine();*/
         while (true)
         {
             int selectionInt = 0;
@@ -97,111 +147,86 @@ public class Program
             {
                 do
                 {
-                    Board.Print("Mode *ARTIST*", "[1] Afficher *Artiste* [2] Selection *Artist* Id [3] Creer *Artist* [4] supprimer *Artist*", "[0] *Quitter*");
+                    Board.Print("Mode *ARTIST*",
+                        "[1] Afficher *Artiste* [2] Selection *Artist* Id [3] Creer *Artist* [4] supprimer *Artist*",
+                        "[0] *Quitter*");
                     selectionInt = ReadInt("Entrer un nombre entre 0 & 4 ->>>>: ", 0, 4);
-                } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3 && selectionInt != 4);
+                } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3 &&
+                         selectionInt != 4);
 
                 switch (selectionInt)
                 {
                     case 0:
                         break;
-                    case 1:
-                        
-                        artists = artistRepo.SelectAll();
+                    case 1: // Fonctionne
+
                         foreach (var artist in artists)
                         {
                             Console.WriteLine(artist);
                         }
 
                         Console.ReadKey();
-                        
+
 
                         break;
-                    case 2: // marche pas mis a part le Id #1
+                    case 2: // Fonctionne
                         Console.WriteLine("Entrer l'Id de l'Artist :");
                         selectionInt = int.Parse(Console.ReadLine());
-                        artists = artistRepo.SelectAll();
-                        /*foreach (var artist in artists)
-                        {
-                            //if (selectionInt == artist.Id)
-                            if (selectionInt.Equals(artist.Id))
-                            {
-                                Console.WriteLine(artist);
-                                break;
-                            }
-                            else
-                            {
-                                Console.WriteLine($"Id invalide");
-                                break;
-                            }
-                        }*/
 
                         for (int i = 0; i < artists.Count; i++)
                         {
-                            if (selectionInt.Equals(artists[i].Id))
+                            //if (selectionInt.Equals(artists[i].Id))
+
+                            if (selectionInt == artists[i].Id)
                             {
                                 Console.WriteLine(artists[i]);
                                 break;
                             }
-                            else
-                            {
-                                Console.WriteLine($"Id invalide");
-                                break;
-                            }
                         }
+
                         Console.ReadKey();
                         break;
-                    case 3:
-                        artists = artistRepo.SelectAll();
+                    case 3: // Fonctionne 
                         Console.WriteLine("Entrer le nom de l'Artiste a ajouter");
                         selectionString1 = Console.ReadLine();
+                        bool artistExistant = false;
                         for (int i = 0; i < artists.Count; i++)
                         {
-                            if (!selectionString1.Equals(artists[i].Name))
+                            if (selectionString1 == (artists[i].Name))
                             {
+                                artistExistant = true;
                                 Console.WriteLine($"Artiste deja existant");
                                 break;
                             }
-                            else
-                            {
-                                artistRepo.Insert(new Artist(selectionString1));
-                                Board.Endmessage("Artist","ajouté");
-                                break;
-                            }
+                            
                         }
+                        if (!artistExistant)
+                        {
+                            artists = AjouterArtists(new Artist(selectionString1));
+                            Board.Endmessage("Artist", "ajouté");
+                            break;
+                        }
+                        
                         Console.ReadKey();
                         break;
 
                     case 4: // marche pas sur tout les Id
-                        artists = artistRepo.SelectAll();
                         Console.WriteLine("Entrer l'Id de l'artiste a supprimer");
                         selectionInt = int.Parse(Console.ReadLine());
-                        //artistRepo.Delete(artists(choix));
-                        /*foreach (var artist in artists)
-                        {
-                            if (selectionInt == artist.Id)
-                            {
-                                artistRepo.Delete(artist);
-                            }
-                            else
-                            {
-                                Console.WriteLine($"Id invalide");
-                                break;
-                            }
-                        }*/
+
                         for (int i = 0; i < artists.Count; i++)
                         {
                             //if (artists[i].Equals(selectionInt))
-                            if(selectionInt.Equals(artists[i]))
+                            //if(selectionInt.Equals(artists[i]))
+                            if (selectionInt == artists[i].Id)
                             {
-                                artistRepo.Delete(selectionInt);
-                            }
-                            else
-                            {
-                                Console.WriteLine($"Id invalide");
+                                artists = SupprimerArtists(artists[i]);
                                 break;
                             }
                         }
+
+                        Board.Endmessage("Artist", "supprimé");
+                        //Console.WriteLine($"Id invalide");
                         Console.ReadKey();
                         break;
                 }
@@ -211,22 +236,24 @@ public class Program
             {
                 do
                 {
-                    Board.Print("Mode *CHANSON*", "[1] Afficher *Chansons* [2] Selection *Id-Chanson* [3] Creer *Chanson* [4] suprimer *Chanson*", "[0] *Quitter*");
+                    Board.Print("Mode *CHANSON*",
+                        "[1] Afficher *Chansons* [2] Selection *Id-Chanson* [3] Creer *Chanson* [4] suprimer *Chanson*",
+                        "[0] *Quitter*");
                     selectionInt = ReadInt("Entrer un nombre entre 0 & 4 ->>>>: ", 0, 4);
-                } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3 && selectionInt != 4);
+                } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3 &&
+                         selectionInt != 4);
 
                 switch (selectionInt)
                 {
                     case 0:
                         break;
                     case 1:
-                        
+
                         Console.WriteLine(string.Join("\n", songs));
                         Console.ReadKey();
 
                         break;
                     case 2:
-                        songs = songRepo.SelectAll();
                         Console.WriteLine("Entrer l'Id de la Chanson :");
                         selectionInt = int.Parse(Console.ReadLine());
                         foreach (var song in songs) // utiliser la methode find
@@ -236,34 +263,34 @@ public class Program
                                 Console.WriteLine(song);
                             }
                         }
+
                         Console.ReadKey();
                         break;
                     case 3: // plusieurs conditions a verifier manquante (si l'artist existe et le chanson aussi)
-                        songs = songRepo.SelectAll();
                         Console.WriteLine("Entrer le titre de la Chanson a ajouter");
                         selectionString1 = Console.ReadLine();
                         Console.WriteLine("Entrer l'Artist de la Chanson a ajouter");
                         selectionString2 = Console.ReadLine();
                         Console.WriteLine("Entrer la duree de la Chanson a ajouter en seconde");
                         selectionInt = int.Parse(Console.ReadLine());
-                        
+
                         songRepo.Insert(new Song(selectionString1, new Artist(selectionString2), selectionInt));
-                        songs = songRepo.SelectAll(); // verifier si chanson est supprimer meme si ont redemare pas l'application
-                        Board.Endmessage("Chanson","cree");
+                        Board.Endmessage("Chanson", "cree");
                         Console.ReadKey();
                         break;
                     case 4:
-                        songs = songRepo.SelectAll();
                         Console.WriteLine("Entrer l'Id de la Chanson a supprimer");
                         selectionInt = int.Parse(Console.ReadLine());
-                        foreach (var song in songs)
+                        for (int i = 0; i < songs.Count; i++)
                         {
-                            if (selectionInt == song.Id)
+                            if (selectionInt == songs[i].Id)
                             {
-                                songRepo.Delete(song);
+                                songs = SupprimerChanson(songs[i]);
+                                break;
                             }
                         }
-                        Board.Endmessage("Chanson","supprime");
+
+                        Board.Endmessage("Chanson", "supprimé");
                         Console.ReadKey();
                         break;
                 }
@@ -274,9 +301,12 @@ public class Program
             {
                 do
                 {
-                    Board.Print("Mode *PLAYLIST*", "[1] Afficher *PlayList* [2] Selection nom *PlayList* [3] Creer *PlayList* [4] suprimer *Chanson* [5] inserer *Chanson*","[0] *Quitter*");
+                    Board.Print("Mode *PLAYLIST*",
+                        "[1] Afficher *PlayList* [2] Selection nom *PlayList* [3] Creer *PlayList* [4] suprimer *Chanson* [5] inserer *Chanson*",
+                        "[0] *Quitter*");
                     selectionInt = ReadInt("Entrer un nombre entre 0 & 4 : ", 0, 4);
-                } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3 && selectionInt != 4 && selectionInt != 5);
+                } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3 &&
+                         selectionInt != 4 && selectionInt != 5);
 
                 switch (selectionInt)
                 {
@@ -296,17 +326,16 @@ public class Program
                                 Console.WriteLine(playlist);
                             }
                         }
+
                         Console.ReadKey();
                         break;
                     case 3: // condition si une nouvelle playlist a le meme nom
-                        playLists = playListRepo.SelectAll();
                         Console.WriteLine("Entrer le titre de la PlayList a ajouter");
                         selectionString1 = Console.ReadLine();
                         playListRepo.Insert(new PlayList(selectionString1));
                         Console.ReadKey();
                         break;
                     case 4: // marche pas
-                        playLists = playListRepo.SelectAll();
                         Console.WriteLine("Entrer le nom de la PlayList a supprimer");
                         selectionString1 = Console.ReadLine();
                         //playLists.Remove(choix1);
@@ -317,22 +346,21 @@ public class Program
                                 playLists.Remove(choix);
                             }
                         }*/
-                        
+
                         foreach (var playlist in playLists)
                         {
                             if (selectionString1 == playlist.Name)
                             {
                                 playListRepo.Delete(playlist);
                                 //choix.Delete(choix);
-                                
                             }
                         }
+
                         Console.ReadKey();
                         break;
                     case 5:
-                        playLists = playListRepo.SelectAll();
                         Console.WriteLine("Entrer l'Id de la Chanson a ajouter");
-                        selectionInt = int.Parse(Console.ReadLine()); 
+                        selectionInt = int.Parse(Console.ReadLine());
                         Console.WriteLine("Entrer le nom de la PlayList a lequel la Chanson va etre ajoute");
                         selectionString1 = Console.ReadLine();
                         //selectionString2 = existingSongs.Find(Console.ReadLine());
@@ -351,12 +379,15 @@ public class Program
 
                         Console.ReadKey();
                         break;
-
                 }
-                
             }
-            else break;
 
+            if (!DemanderRejourer())
+            {
+                break;
+            }
+
+            Console.Clear();
 
             /* exemple de sortie de cette méthode :
             Artistes :

@@ -8,6 +8,7 @@
     <list default="true" id="79a155a9-e543-451e-91ba-c6cd4ff00cb5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/Program.cs" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.pdb" afterDir="false" />
@@ -74,6 +75,9 @@
       <change beforePath="$PROJECT_DIR$/Question2Lib/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2Lib/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2Lib/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/rider.project.restore.info" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +108,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected=".NET Project.Question1App">
+=======
+  <component name="RunManager" selected=".NET Project.Question2App">
+>>>>>>> Stashed changes
     <configuration name="Question1App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -151,7 +159,11 @@
       <option name="presentableId" value="Default" />
       <updated>1653578093658</updated>
       <workItem from="1653578101656" duration="34330000" />
+<<<<<<< Updated upstream
       <workItem from="1653649976293" duration="1520000" />
+=======
+      <workItem from="1653620872978" duration="541000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
