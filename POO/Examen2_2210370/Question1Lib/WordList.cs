@@ -33,31 +33,32 @@ public class WordList
         Count = count;
     }
 
-    public WordList(string name, string filename)
+    public WordList(string name, string filename) 
     {
         Name = name;
-        //FileStream fileStream = File.OpenWrite(filename);
-        //Words = new List<string>(fileStream);
-        //FileStream fileStream = File.OpenWrite(filename);
-        string[] lineFileName = File.ReadAllLines("/home/jimmy/filename.txt");
+        string[] lineFileName = File.ReadAllLines("filename.txt");
         string[] listeArray = lineFileName.ToArray();
-        
-        Words = new List<string> {File.ReadAllText(filename)};
+        Words = new List<string>(listeArray);
     }
 
-    public string GetRandomWord()
+    public string GetRandomWord() // Lake of time for that method sorry...She's not perfect but not far at least I hope so.
     {
+        
+        string[] lineFileName = File.ReadAllLines("filename.txt");
+        string[] listeArray = lineFileName.ToArray();
+        List<string> words = new List<string>(listeArray);
         Random random = new Random();
-        int randomNum = random.Next(1,Words.Count);
-        for (int i = 0; i < Words.Count; i++)
+        int randomNum = random.Next(1,words.Count);
+        for (int i = 0; i < words.Count; i++)
         {
-            if (Words[randomNum] == Words[i])
+            if (words[randomNum] == words[i])
             {
-                Words.Remove(Words[i]);
+                File.Delete(words[i]);
+                words.Remove(words[i]);
             }
             else
             {
-                Console.WriteLine(Words[i]);
+                Console.WriteLine(words[randomNum]);
                 throw new ArgumentException("No more word in the list");
             }
         }
@@ -102,16 +103,22 @@ public class WordList
 
     public override bool Equals(object? obj)
     {
-        return base.Equals(obj);
+        if (obj == null || this.GetType() != obj.GetType())
+        {
+            return false;
+        }
+
+        WordList other = (WordList)obj;
+        return Name.Equals(other.Name) && Count.Equals(other.Count);
     }
 
     public override int GetHashCode()
     {
-        return base.GetHashCode();
+        return Name.GetHashCode();
     }
 
     public override string ToString()
     {
-        return base.ToString();
+        return $"Person({Name}, {Count}, {string.Join("\n", Words)})";
     }
 }

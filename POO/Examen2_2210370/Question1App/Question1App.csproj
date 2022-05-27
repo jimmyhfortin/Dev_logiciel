@@ -11,4 +11,10 @@
       <ProjectReference Include="..\Question1Lib\Question1Lib.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="filename.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

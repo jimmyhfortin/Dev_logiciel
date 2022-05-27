@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efcd907f-77a0-483c-b336-dc18ed601ce3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/bin/Debug/net6.0/filename.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/filename.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen2_2210370/.idea/.idea.Examen2_2210370/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/.idea/.idea.Examen2_2210370/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/Question1App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/Question1App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/bin/Debug/net6.0/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/bin/Debug/net6.0/Question1App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/bin/Debug/net6.0/Question1App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/bin/Debug/net6.0/Question1App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/bin/Debug/net6.0/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/bin/Debug/net6.0/Question1Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/bin/Debug/net6.0/Question1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/bin/Debug/net6.0/Question1Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/ref/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/ref/Question1App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/refint/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1App/obj/Debug/net6.0/refint/Question1App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/WordList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/WordList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/bin/Debug/net6.0/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/bin/Debug/net6.0/Question1Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/bin/Debug/net6.0/Question1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/bin/Debug/net6.0/Question1Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/obj/Debug/net6.0/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/obj/Debug/net6.0/Question1Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/obj/Debug/net6.0/Question1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen2_2210370/Question1Lib/obj/Debug/net6.0/Question1Lib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
     </list>

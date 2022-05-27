@@ -16,3 +16,4 @@
 /home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.pdb
 /home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1App/obj/Debug/net6.0/Question1App.genruntimeconfig.cache
 /home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1App/obj/Debug/net6.0/ref/Question1App.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question1App/bin/Debug/net6.0/filename.txt

@@ -5,32 +5,31 @@ namespace Question1App
 {
     public class Program
 {
-    static void AfficherMot(string mot, List<char> lettres)
+    static void ShowWord(string word, List<char> letter)
     {
-        for (int i = 0; i < mot.Length; i++)
+        for (int i = 0; i < word.Length; i++)
         {
-            char lettre = mot[i];
-            if (lettres.Contains(lettre))
+            char letters = word[i];
+            if (letter.Contains(letters))
             {
-                Console.WriteLine(lettre + " ");
+                Console.Write(letters + " ");
             }
             else
             {
-                Console.WriteLine("_ ");
+                Console.Write("_ ");
             }
         }
-
-        Console.WriteLine();
+        
     }
 
-    static bool ToutesLettresDevinees(string mot, List<char> lettres)
+    static bool ShowLetterGuess(string word, List<char> letter)
     {
-        foreach (var lettre in lettres)
+        foreach (var letters in letter)
         {
-            mot = mot.Replace(lettre.ToString(), "");
+            word = word.Replace(letters.ToString(), "");
         }
 
-        if (mot.Length == 0)
+        if (word.Length == 0)
         {
             return true;
         }
@@ -38,133 +37,161 @@ namespace Question1App
         return false;
     }
 
-    static char DemanderUneLettre(string message = "Enter a letter")
+    static char AskForLetter(string message = "Enter a letter")
     {
         while (true)
         {
-            Console.WriteLine(message);
-            string reponse = Console.ReadLine();
-            if (reponse.Length == 1)
+            Console.Write($"{message} \n->> ");
+            string answer = Console.ReadLine();
+            if (answer.Length == 1)
             {
-                reponse = reponse.ToUpper();
-                return reponse[0];
+                answer = answer.ToLower(); // changer pour to lower
+                return answer[0];
             }
 
             Console.WriteLine("ERROR: you must enter a letter");
         }
     }
 
-    static void DevinerMot(string mot)
+    static void guessWord(string word)
     {
-        var lettresDevinees = new List<char>();
-        var lettresExclues = new List<char>();
-        int nbVie = 7;
-        int vieRestantes = nbVie;
-        while (vieRestantes > 0)
+        var guessLetter = new List<char>();
+        var excludedLetter = new List<char>();
+        int nbLife = 7;
+        int lifeRemainig = nbLife;
+        while (lifeRemainig > 0)
         {
-            Console.WriteLine(nbVie- vieRestantes);// a revoir avec l'autre
+            Console.WriteLine(nbLife- lifeRemainig);
             Console.WriteLine();
-            AfficherMot(mot, lettresDevinees);
+            ShowWord(word, guessLetter);
             Console.WriteLine();
-            var lettre = DemanderUneLettre();
+            var letter = AskForLetter();
             Console.Clear();
-            if (mot.Contains(lettre))
+            if (word.Contains(letter))
             {
                 Console.WriteLine("This letter is in the word");
-                lettresDevinees.Add(lettre);
-                if (ToutesLettresDevinees(mot, lettresDevinees))
+                guessLetter.Add(letter);
+                if (ShowLetterGuess(word, guessLetter))
                 {
                     break;
                 }
             }
             else
             {
-                if (!lettresExclues.Contains(lettre))
+                if (!excludedLetter.Contains(letter))
                 {
-                    vieRestantes--;
-                    lettresExclues.Add(lettre);
+                    lifeRemainig--;
+                    excludedLetter.Add(letter);
                 }
 
-                Console.WriteLine($"Remaining life : {vieRestantes}");
+                Console.WriteLine($"Remaining life : {lifeRemainig}");
             }
 
-            if (lettresExclues.Count > 0)
+            if (excludedLetter.Count > 0)
             {
-                Console.WriteLine($"The word does not contain the letters : {string.Join(", ", lettresExclues)}" );
+                Console.WriteLine($"The word does not contain the letters : {string.Join(", ", excludedLetter)}" );
             }
             Console.WriteLine();
         }
 
-        Console.WriteLine(nbVie-vieRestantes);// a revoir avec l'autre
-        if (vieRestantes == 0)
+        Console.WriteLine(nbLife-lifeRemainig);
+        if (lifeRemainig == 0)
         {
-            Console.WriteLine($"Lost ! the was {mot}");
+            Console.WriteLine($"Lost ! the word was {word}");
         }
+        
         else
         {
-            AfficherMot(mot, lettresDevinees);
+            ShowWord(word, guessLetter);
             Console.WriteLine();
             Console.WriteLine("BRAVISSIMO!!!!!");
         }
     }
+
+    static bool AskeForReplay()
+    {
+        char answer = AskForLetter("Do you want tu replay (o/n) : ");
+            if ((answer == 'o') || (answer == 'O'))
+            {
+                return true;
+            }
+
+            if ((answer == 'n') || (answer == 'N'))
+            {
+                return false;
+            }
+            else
+            {
+                Console.WriteLine($"You should enter the correct letter");
+                return AskeForReplay();
+            }
+    }
+
+    static string[] LoadFile(string nomFichier)
+    {
+        try
+        {
+            return File.ReadAllLines(nomFichier);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error file : {nomFichier} {ex.Message}");
+        }
+
+        return null;
+    }
     
     static void Main(string[] args)
     {
-        string line;
-        try
-        {
-            //Pass the file path and file name to the StreamReader constructor
-            StreamReader sr = new StreamReader("/home/jimmy/filename.txt");
-            //Read the first line of text
-            line = sr.ReadLine();
-            //Continue to read until you reach end of file
-            while (line != null)
-            {
-                //write the line to console window
-                Console.WriteLine(line);
-                //Read the next line
-                line = sr.ReadLine();
-            }
-
-            //close the file
-            sr.Close();
-            Console.ReadLine();
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine("Exception: " + e.Message);
-        }
-        finally
-        {
-            Console.WriteLine("Executing finally block.");
-        }
-        // string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
-        // string filename = new (Path.Combine(dir, "filename.txt"));
-        /*string text = File.ReadAllText("/home/jimmy/filename.txt");
-        Console.WriteLine(text);
-        WordList essai = new WordList("essai1");
-        essai.GetRandomWord();*/
         
-        /*string[] lineFileName = File.ReadAllLines("/home/jimmy/filename.txt");
-        for (int i = 0; i < lineFileName.Length; i++)
-        {
-            Console.WriteLine(lineFileName[i]);
-        }*/
-        //List<string> lineDileName = File.ReadAllLines("/home/jimmy/filename.txt");
-        WordList liste2 = new WordList("liste1", new List<string>()
+        /*WordList liste2 = new WordList("liste1", new List<string>()
         {
             "home", 
             "boat", 
             "chair", 
             "car", 
             "spoon"
-        });
-        var essaie = liste2;
-        Console.WriteLine(liste2.GetRandomWord());
+        });*/
         
         
-      
         
+        
+        
+        //var essaie = liste2;
+        //Console.WriteLine(liste2.GetRandomWord());
+        var mots = LoadFile("filename.txt");
+        
+        if((mots == null) || (mots.Length == 0))
+        {
+            Console.WriteLine("The word List is empty");
+        }
+        else
+        {
+            while (true)
+            {
+                Random randomWord = new Random(); //As my function GetRandomWord does not work correctly I make the selection in the Main without removing the word from the list.
+                int i = randomWord.Next(mots.Length);
+                string TrimedWord = mots[i].Trim().ToLower();
+                guessWord(TrimedWord);
+                if (!AskeForReplay())
+                {
+                    break;
+                }
+                Console.Clear();
+            }
+        }
+        
+        // WordList liste1 = new WordList("essai1","filename");
+        // liste1.GetRandomWord();
+        // liste1.Words.Add("house");
+        
+        
+
+
+
+
+
+
 
 
 
