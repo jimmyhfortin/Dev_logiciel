@@ -153,6 +153,10 @@ public class Program
             if (selectionInt == 0) break;
             if (selectionInt == 1)
             {
+                modeArtist(artists);
+            }
+            /*if (selectionInt == 1)
+            {
                 do
                 {
                     Board.Print("Mode *ARTIST*",
@@ -243,7 +247,7 @@ public class Program
                 do
                 {
                     Board.Print("Mode *CHANSON*",
-                        "[1] Afficher *Chansons* [2] Selection *Id-Chanson* \n|[3] Creer *Chanson* avec nouveau Artiste [4] Creer *Chanson* [5] suprimer *Chanson*",
+                        "[1] Afficher *Chansons* [2] Selection *Id-Chanson* \n|[3] Creer *Chanson* avec nouveau *Artiste* [4] Creer *Chanson* [5] suprimer *Chanson*",
                         "[0] *Quitter*");
                     selectionInt = ReadInt("Entrer un nombre entre 0 & 4 ->>>>: ", 0, 4);
                 } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3 &&
@@ -254,10 +258,8 @@ public class Program
                     case 0:
                         break;
                     case 1: // Fonctionne
-
                         Console.WriteLine(string.Join("\n", songs));
                         Console.ReadKey();
-
                         break;
                     case 2: // Fonctionne
                         Console.WriteLine("Entrer l'Id de la Chanson :");
@@ -269,14 +271,12 @@ public class Program
                                 Console.WriteLine(song);
                             }
                         }
-
                         Console.ReadKey();
                         break;
-                    case 3: // plusieurs conditions a verifier manquante (si l'artist existe et le chanson aussi)
-                        
+                    case 3:
                         Console.WriteLine("Entrer le titre de la Chanson a ajouter");
                         selectionString1 = Console.ReadLine();
-                        Console.WriteLine("Entrer l'Artist de la Chanson a ajouter");
+                        Console.WriteLine("Entrer le nouveau *Artist* de la Chanson a ajouter");
                         selectionString2 = Console.ReadLine();
                         Console.WriteLine("Entrer la duree de la Chanson a ajouter en seconde");
                         selectionInt = int.Parse(Console.ReadLine());
@@ -302,14 +302,20 @@ public class Program
                         selectionInt = int.Parse(Console.ReadLine());
                         for (int i = 0; i < songs.Count; i++)
                         {
-                            if (selectionString1 != songs[i].Title)
+                            if (selectionString2 != artists[i].Name)
                             {
-                                songs = AjouterChasnon(new Song(selectionString1, new Artist(selectionString2), selectionInt));
+                                Board.Endmessage("Artist", "invalide");
+                                //songs = AjouterChasnon(new Song(selectionString1, new Artist(selectionString2), selectionInt));
+                                break;
+                            }
+                            if (selectionString2 == artists[i].Name)
+                            {
+                                Console.ReadLine();
+                                songs = AjouterChasnon(new Song(selectionString1, artists[i], selectionInt));
                                 Board.Endmessage("Nouvelle chansson", "créé");
                                 break;
                             }
                         }
-                       
                         Console.ReadKey();
                         break;
                     case 5:
@@ -323,7 +329,6 @@ public class Program
                                 break;
                             }
                         }
-
                         Board.Endmessage("Chanson", "supprimé");
                         Console.ReadKey();
                         break;
@@ -379,7 +384,7 @@ public class Program
                             {
                                 playLists.Remove(choix);
                             }
-                        }*/
+                        }#1#
 
                         foreach (var playlist in playLists)
                         {
@@ -409,7 +414,7 @@ public class Program
                                 //choix.Delete(choix);
                                 
                             }
-                        }*/
+                        }#1#
 
                         Console.ReadKey();
                         break;
@@ -419,7 +424,7 @@ public class Program
             if (!DemanderRejourer())
             {
                 break;
-            }
+            }*/
 
             Console.Clear();
 
