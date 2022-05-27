@@ -10,3 +10,15 @@
 /home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/refint/Question2Lib.dll
 /home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/Question2Lib.pdb
 /home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/ref/Question2Lib.dll
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/bin/Debug/net6.0/Question2Lib.deps.json
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/bin/Debug/net6.0/Question2Lib.dll
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/bin/Debug/net6.0/Question2Lib.pdb
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.AssemblyReference.cache
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/Question2Lib.GeneratedMSBuildEditorConfig.editorconfig
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/Question2Lib.AssemblyInfoInputs.cache
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/Question2Lib.AssemblyInfo.cs
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.CoreCompileInputs.cache
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/Question2Lib.dll
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/refint/Question2Lib.dll
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/Question2Lib.pdb
+/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/Debug/net6.0/ref/Question2Lib.dll

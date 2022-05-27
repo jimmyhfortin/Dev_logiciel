@@ -143,11 +143,12 @@ namespace Question1App
         static void Main(string[] args)
         {
             // Question #1 part-A_______________________________________________________________________________________
-            // In part A everything works except the part where  we have to use a text file (See Question1Lin).
-            //I have the text file in the Question1App folder. But I can't find how to change it with GetRandomWord function.
+            // In part A everything works except the part where we have to use a text file (See Question1Lin).
+            //I have the text file in the Question1App folder. But I can't find how to write on it and change it with GetRandomWord function.
             // I did not see this material in class and I did not manage to find all the elements in the given time.
-            // I'm sorry. however the application works perfectly except for the file part and the GetRandomWord method.
-            // I am proud of the work accomplished today. Thanks!
+            // I'm sorry. however the application works perfectly except part of deleting used line in file
+            // in the GetRandomWord method and finally the constructor whit the two string (filename).
+            // I am proud of the work accomplished today. It took me nearly 16 hours. 
 
             // Question #1 part-B_______________________________________________________________________________________
             
@@ -176,7 +177,7 @@ namespace Question1App
             {
                 while (true)
                 {
-                    Random randomWord = new Random(); //As my function GetRandomWord does not work correctly I make the selection in the Main without removing the word from the list.
+                    Random randomWord = new Random(); //As my function GetRandomWord does not work correctly randomWord is in the Main without removing the word from the list.
                     int i = randomWord.Next(mots.Length);
                     string TrimedWord = mots[i].Trim().ToLower(); // Remove Space and the MAJ. 
                     guessWord(TrimedWord);

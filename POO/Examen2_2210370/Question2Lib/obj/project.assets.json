@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj",
+      "projectUniqueName": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj",
       "projectName": "Question2Lib",
-      "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj",
+      "projectPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj",
       "packagesPath": "/home/jimmy/.nuget/packages/",
-      "outputPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/",
+      "outputPath": "/home/jimmy/Documents/Dev_logiciel/POO/Examen2_2210370/Question2Lib/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jimmy/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

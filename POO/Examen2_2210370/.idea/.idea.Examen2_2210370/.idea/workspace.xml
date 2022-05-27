@@ -8,38 +8,72 @@
     <list default="true" id="79a155a9-e543-451e-91ba-c6cd4ff00cb5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Examen2_2210370/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1App.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/bin/Debug/net6.0/Question1Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/Question1App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question1Lib/WordList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/WordList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/Question1App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/Question1App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Question1App/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1Lib/bin/Debug/net6.0/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/bin/Debug/net6.0/Question1Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1Lib/bin/Debug/net6.0/Question1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/bin/Debug/net6.0/Question1Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/Question1Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/ref/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/ref/Question1Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/refint/Question1Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Debug/net6.0/refint/Question1Lib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/Question1Lib.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/Question1Lib.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1Lib/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Question1Lib/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2App.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/bin/Debug/net6.0/Question2Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/Question2App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2Lib/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2Lib/Cleric.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Cleric.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2Lib/Druid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Druid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question2Lib/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/Fighter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/Question2App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/Question2App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Question2App/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/bin/Debug/net6.0/Question2Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Debug/net6.0/Question2Lib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlayListLib/.idea/.idea.PlayListLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayListLib/.idea/.idea.PlayListLib/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_de_base_sur_PC_420-1B0-SW/Lab_prog_base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/Question2Lib.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/Question2Lib.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question2Lib/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Question2Lib/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,20 +91,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeLensConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Project.Question2App">
+}</component>
+  <component name="RunManager" selected=".NET Project.Question1App">
     <configuration name="Question1App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -117,6 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653578093658</updated>
       <workItem from="1653578101656" duration="34330000" />
+      <workItem from="1653649976293" duration="1520000" />
     </task>
     <servers />
   </component>
