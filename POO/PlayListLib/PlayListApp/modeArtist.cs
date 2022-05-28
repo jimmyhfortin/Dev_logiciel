@@ -1,10 +1,11 @@
+using DataRepoLib;
 using PlayListLib;
 
 namespace PlayListApp;
 
 public class modeArtist
 {
-    public List<Artist> ModeArtist(List<Artist> artists)
+    public static List<Artist> ModeArtist(List<Artist> artists)
     {
         int selectionInt = 0;
         string selectionString1 = "";
@@ -68,7 +69,7 @@ public class modeArtist
 
                 if (!existant)
                 {
-                    artists = Program.AjouterArtists(new Artist(selectionString1));
+                    artists = AjouterArtists(new Artist(selectionString1));
                     Board.Endmessage("Artist", "ajouté");
                     break;
                 }
@@ -84,7 +85,7 @@ public class modeArtist
                 {
                     if (selectionInt == artists[i].Id)
                     {
-                        artists = Program.SupprimerArtists(artists[i]);
+                        artists = SupprimerArtists(artists[i]);
                         break;
                     }
                 }
@@ -94,8 +95,34 @@ public class modeArtist
                 Console.ReadKey();
                 break;
         }
+        /*if (!Program.DemanderRejourer())
+        {
+            break;
+        }*/
 
+        Console.Clear();
+        return artists;
+        
+        
+    }
+    
+    public static List<Artist> SupprimerArtists(Artist artiste)
+    {
+        string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
+        var artistRepo = new JsonArtistRepo(Path.Combine(dir, "artists1.json"));
+        artistRepo.Delete(artiste);
+        var artists = artistRepo.SelectAll();
         return artists;
     }
+
+    public static List<Artist> AjouterArtists(Artist artiste)
+    {
+        string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
+        var artistRepo = new JsonArtistRepo(Path.Combine(dir, "artists1.json"));
+        artistRepo.Insert(artiste);
+        var artists = artistRepo.SelectAll();
+        return artists;
+    }
+    
 }
 
