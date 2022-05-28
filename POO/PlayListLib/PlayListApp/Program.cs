@@ -89,14 +89,14 @@ public class Program
         var playLists = playListRepo.SelectAll();
         return playLists;
     }
-   public static List<PlayList> AjouterChansonPlayList(PlayList playListe, Song songe)
+   /*public static List<PlayList> AjouterChansonPlayList(PlayList playListe, Song songe)
     {
         string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
         var playListRepo = new JsonPlayListRepo(Path.Combine(dir, "playlists1.json"));
         playListRepo.Insert(playListe.Songs.Add(songe));
         var playLists = playListRepo.SelectAll();
         return playLists;
-    }
+    }*/
    public static List<PlayList> SupprimerPlayList(PlayList playListe)
     {
         string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
@@ -191,7 +191,7 @@ public class Program
                     case 0:
                         break;
                     case 1: // Fonctionne
-
+                        Console.WriteLine("Artist :");
                         foreach (var artist in artists)
                         {
                             Console.WriteLine(artist);
@@ -278,6 +278,7 @@ public class Program
                     case 0:
                         break;
                     case 1: // Fonctionne
+                        Console.WriteLine("Chansons :");
                         Console.WriteLine(string.Join("\n", songs));
                         Console.ReadKey();
                         break;
@@ -372,6 +373,7 @@ public class Program
                     case 0:
                         break;
                     case 1: // Fonctionne
+                        Console.WriteLine("PlayList :");
                         Console.WriteLine(string.Join("\n", playLists));
                         Console.ReadKey();
                         break;
@@ -420,7 +422,7 @@ public class Program
                             if (selectionString1 == playLists[i].Name)
                             {
                                 //playLists = SupprimerPlayList(playLists[i].Name);
-                                playLists = SupprimerPlayList(selectionString1);
+                                playLists = SupprimerPlayList(playLists[i]);
 
                                 break;
                             }

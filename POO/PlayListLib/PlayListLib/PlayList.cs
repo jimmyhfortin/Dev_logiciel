@@ -128,6 +128,6 @@ public class PlayList
         TimeSpan.FromSeconds(times);
         TimeSpan.FromSeconds(length)*/
         
-        return $"{Count} {TotalLength.TotalSeconds}\n{Name}\n{string.Join("\n", Songs)}"; 
+        return $"{Count} {TimeSpan.FromSeconds( TotalLength.TotalSeconds )}\n{Name}\n{string.Join("\n", Songs)}"; 
     }
 }
