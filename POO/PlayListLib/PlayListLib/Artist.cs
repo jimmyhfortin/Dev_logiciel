@@ -5,26 +5,27 @@ namespace PlayListLib;
 public class Artist
 {
     public static int NextId { get; set; } = 1;
-    public int Id { get; set; } // assurer que le id nest pas la 2 fois
+    public int Id { get; set; }
     public string Name { get; set; }
     public string Website { get; set; }
 
     public Artist()
     {
     }
+
     public Artist(int id, string name, string website)
     {
         Id = id;
         Name = name;
         Website = website;
     }
+
     public Artist(string name, string website)
     {
         Name = name;
         Website = website;
         Id = NextId;
         NextId++;
-
     }
 
     public Artist(int id, string name)
@@ -40,16 +41,6 @@ public class Artist
         NextId++;
     }
 
-    /*public void Remove(int id) //Songs
-    {
-        if ((id = Artist.NextId) != 0 )
-        {
-            Name.Remove(Id);
-            
-        }
-            
-    }*/
-
     public override bool Equals(object? obj)
     {
         if (obj == null || this.GetType() != obj.GetType())
@@ -57,9 +48,8 @@ public class Artist
             return false;
         }
 
-        Artist other = (Artist)obj;
+        Artist other = (Artist) obj;
         return Id.Equals(other.Id) && Name.Equals(other.Name);
-        //return Id.Equals(other.Id); 
     }
 
     public override int GetHashCode()
@@ -69,6 +59,6 @@ public class Artist
 
     public override string ToString()
     {
-        return $"({Id}) {Name} {String.Join("",Website)}";
+        return $"({Id}) {Name} {String.Join("", Website)}";
     }
 }

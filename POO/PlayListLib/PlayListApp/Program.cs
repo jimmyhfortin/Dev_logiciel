@@ -7,7 +7,7 @@ public class Program
 {
     public static bool DemanderRejourer()
     {
-        Console.WriteLine("Voulez-vous recommencer (o/n) : ");
+        Console.WriteLine("Retourner au menu pricipal (o/n) : ");
         char reponse = Convert.ToChar(Console.ReadLine());
         if ((reponse == 'o') || (reponse == 'O'))
         {
@@ -73,7 +73,8 @@ public class Program
         var songs = songRepo.SelectAll();
         return songs;
     }
-   public static List<Song> AjouterChasnon(Song songe)
+
+    public static List<Song> AjouterChasnon(Song songe)
     {
         string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
         var songRepo = new JsonSongRepo(Path.Combine(dir, "songs1.json"));
@@ -81,7 +82,8 @@ public class Program
         var songs = songRepo.SelectAll();
         return songs;
     }
-   public static List<PlayList> AjouterPlayList(string playListe)
+
+    public static List<PlayList> AjouterPlayList(string playListe)
     {
         string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
         var playListRepo = new JsonPlayListRepo(Path.Combine(dir, "playlists1.json"));
@@ -89,15 +91,17 @@ public class Program
         var playLists = playListRepo.SelectAll();
         return playLists;
     }
-   /*public static List<PlayList> AjouterChansonPlayList(PlayList playListe, Song songe)
-    {
-        string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
-        var playListRepo = new JsonPlayListRepo(Path.Combine(dir, "playlists1.json"));
-        playListRepo.Insert(playListe.Songs.Add(songe));
-        var playLists = playListRepo.SelectAll();
-        return playLists;
-    }*/
-   public static List<PlayList> SupprimerPlayList(PlayList playListe)
+
+    /*public static List<PlayList> AjouterChansonPlayList(PlayList playListe, Song songe)
+     {
+         string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
+         var playListRepo = new JsonPlayListRepo(Path.Combine(dir, "playlists1.json"));
+         playListRepo.Insert(new Song(songe));
+         playListRepo.Update(playListRepo.Insert(playListe,new Song()));
+         var playLists = playListRepo.SelectAll();
+         return playLists;
+     }*/
+    public static List<PlayList> SupprimerPlayList(PlayList playListe)
     {
         string dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? "";
         var playListRepo = new JsonPlayListRepo(Path.Combine(dir, "playlists1.json"));
@@ -106,10 +110,6 @@ public class Program
         return playLists;
     }
 
-    /*static bool chansonexistante()
-    {
-        if
-    }*/
     static void Main(string[] args)
     {
         // Partie A PLayListLib && partie B DataRepoLib_________________________________________________________________
@@ -118,16 +118,16 @@ public class Program
 
         var artistRepo = new JsonArtistRepo(Path.Combine(dir, "artists1.json"));
         var artists = artistRepo.SelectAll();
-
         // artistRepo.Insert(new Artist("Metallica","www.metallica.com"));
         // artistRepo.Insert(new Artist("Iron Maiden", "www.ironmaiden.com"));
         // artistRepo.Insert(new Artist("Dumas"));
         // artistRepo.Insert(new Artist("Paul Plamondon"));
-        //artists = artistRepo.SelectAll();
-        //Console.WriteLine("Artistes :");
-        //Console.WriteLine(string.Join("\n", artists));
+        // artists = artistRepo.SelectAll();
+        Console.WriteLine("Artistes :");
+        Console.WriteLine(string.Join("\n", artists));
 
         var songRepo = new JsonSongRepo(Path.Combine(dir, "songs1.json"));
+        var songs = songRepo.SelectAll();
         // songRepo.Insert(new Song("Enter Sandman", artists[0], 331));
         // songRepo.Insert(new Song("Sad But True", "Metal", artists[0], new Duration(0, 5, 24)));
         // songRepo.Insert(new Song("The Uniforgiven", artists[0], new Duration(0, 3, 47)));
@@ -140,28 +140,25 @@ public class Program
         // songRepo.Insert(new Song("Ne me dis pas", artists[2], new Duration(0, 3, 23)));
         // songRepo.Insert(new Song("Alors Alors", artists[2], new Duration(0, 3, 12)));
 
-        var songs = songRepo.SelectAll();
-        //Console.WriteLine("Chansons :");
-        //Console.WriteLine(string.Join("\n", songs));
-
+        // Console.WriteLine("Chansons :");
+        // Console.WriteLine(string.Join("\n", songs));
 
         var playListRepo = new JsonPlayListRepo(Path.Combine(dir, "playlists1.json"));
+        var playLists = playListRepo.SelectAll();
         // playListRepo.Insert(new PlayList("Metallica", songs[0], songs[1], songs[2], songs[3]));
         // playListRepo.Insert(new PlayList("Iron Maiden", songs[4], songs[5], songs[6], songs[7]));
         // playListRepo.Insert(new PlayList("Dumas", songs[8], songs[9],songs[10]));
-        //playListRepo.Update(playListRepo.FileName.Insert(Metallica,songs[0]));
-        var playLists = playListRepo.SelectAll();
-        //Console.WriteLine("Listes :");
-        //Console.WriteLine(string.Join("\n", playLists));
+        // Console.WriteLine("Listes :");
+        // Console.WriteLine(string.Join("\n", playLists));
 
         // Fin de la partie A && B des insertions de donnees dans la base de donnees____________________________________
         // Partie C PlayListApp_________________________________________________________________________________________
-        
+
         while (true)
         {
-            int selectionInt = 0;
-            string selectionString1 = "";
-            string selectionString2 = "";
+            int selectionInt;
+            string selectionString1;
+            string selectionString2;
 
             do
             {
@@ -170,11 +167,6 @@ public class Program
             } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3);
 
             if (selectionInt == 0) break;
-            /*if (selectionInt == 1)
-            {
-                
-                modeArtist.ModeArtist(artists);
-            }*/
             if (selectionInt == 1)
             {
                 do
@@ -230,15 +222,15 @@ public class Program
                                 Console.WriteLine($"Artiste deja existant");
                                 break;
                             }
-                            
                         }
+
                         if (!existant)
                         {
                             artists = AjouterArtists(new Artist(selectionString1));
                             Board.Endmessage("Artist", "ajouté");
                             break;
                         }
-                        
+
                         Console.ReadKey();
                         break;
 
@@ -256,7 +248,6 @@ public class Program
                         }
 
                         Board.Endmessage("Artist", "supprimé");
-                        //Console.WriteLine($"Id invalide");/////////////////////////////////////////////
                         Console.ReadKey();
                         break;
                 }
@@ -271,7 +262,7 @@ public class Program
                         "[0] *Quitter*");
                     selectionInt = ReadInt("Entrer un nombre entre 0 & 4 ->>>>: ", 0, 4);
                 } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3 &&
-                         selectionInt != 4 &&  selectionInt != 5);
+                         selectionInt != 4 && selectionInt != 5);
 
                 switch (selectionInt)
                 {
@@ -292,9 +283,10 @@ public class Program
                                 Console.WriteLine(song);
                             }
                         }
+
                         Console.ReadKey();
                         break;
-                    case 3:
+                    case 3: // Fonctionne
                         Console.WriteLine("Entrer le titre de la Chanson a ajouter");
                         selectionString1 = Console.ReadLine();
                         Console.WriteLine("Entrer le nouveau *Artist* de la Chanson a ajouter");
@@ -305,16 +297,16 @@ public class Program
                         {
                             if (selectionString1 != songs[i].Title)
                             {
-                                songs = AjouterChasnon(new Song(selectionString1, new Artist(selectionString2), selectionInt));
+                                songs = AjouterChasnon(new Song(selectionString1, new Artist(selectionString2),
+                                    selectionInt));
                                 Board.Endmessage("Nouvelle chansson & nouvelle Artiste", "créé");
                                 break;
                             }
                         }
-                        //songRepo.Insert(new Song(selectionString1, new Artist(selectionString2), selectionInt));
-                        //Board.Endmessage("Chanson", "cree");
+
                         Console.ReadKey();
                         break;
-                    case 4:
+                    case 4: // Fonctionne
                         Console.WriteLine("Entrer le titre de la Chanson a ajouter");
                         selectionString1 = Console.ReadLine();
                         Console.WriteLine("Entrer l'Artist de la Chanson a ajouter");
@@ -326,20 +318,20 @@ public class Program
                             if (selectionString2 != artists[i].Name)
                             {
                                 Board.Endmessage("Artist", "invalide");
-                                //songs = AjouterChasnon(new Song(selectionString1, new Artist(selectionString2), selectionInt));
                                 break;
                             }
+
                             if (selectionString2 == artists[i].Name)
                             {
-                                Console.ReadLine();
                                 songs = AjouterChasnon(new Song(selectionString1, artists[i], selectionInt));
                                 Board.Endmessage("Nouvelle chansson", "créé");
                                 break;
                             }
                         }
+
                         Console.ReadKey();
                         break;
-                    case 5:
+                    case 5: // Fonctionne
                         Console.WriteLine("Entrer l'Id de la Chanson a supprimer");
                         selectionInt = int.Parse(Console.ReadLine());
                         for (int i = 0; i < songs.Count; i++)
@@ -350,6 +342,7 @@ public class Program
                                 break;
                             }
                         }
+
                         Board.Endmessage("Chanson", "supprimé");
                         Console.ReadKey();
                         break;
@@ -362,7 +355,7 @@ public class Program
                 do
                 {
                     Board.Print("Mode *PLAYLIST*",
-                        "[1] Afficher *PlayList* [2] Selection nom *PlayList* [3] Creer *PlayList* [4] suprimer *Chanson* [5] inserer *Chanson*",
+                        "[1] Afficher *PlayList* [2] Selection nom *PlayList* [3] Creer *PlayList* \n|[4] supprimer *PlayList* [5] inserer *Chanson*",
                         "[0] *Quitter*");
                     selectionInt = ReadInt("Entrer un nombre entre 0 & 4 : ", 0, 4);
                 } while (selectionInt != 0 && selectionInt != 1 && selectionInt != 2 && selectionInt != 3 &&
@@ -402,17 +395,17 @@ public class Program
                                 Console.WriteLine($"PlayList deja existante");
                                 break;
                             }
-                            
                         }
+
                         if (!existant)
                         {
                             playLists = AjouterPlayList(selectionString1);
                             Board.Endmessage("Nouvelle", "PlayList ajouté");
                             break;
                         }
-                        
+
                         Console.ReadKey();
-                        
+
                         break;
                     case 4: // marche pas
                         Console.WriteLine("Entrer le nom de la PlayList a supprimer");
@@ -427,25 +420,30 @@ public class Program
                                 break;
                             }
                         }
+
                         Board.Endmessage("PlayList", "supprimé");
                         Console.ReadKey();
                         break;
-                    case 5:
+                    case 5: // marche pas
                         Console.WriteLine("Entrer l'Id de la Chanson a ajouter");
                         selectionInt = int.Parse(Console.ReadLine());
                         Console.WriteLine("Entrer le nom de la PlayList a lequel la Chanson va etre ajoute");
                         selectionString1 = Console.ReadLine();
-                        //selectionString2 = existingSongs.Find(Console.ReadLine());
-                        /*foreach (var playlist in playLists)
+                        //selectionString2 = PlayList.selectionInt.Id.Find(Console.ReadLine());
+                        /*for (int i = 0; i < songs.Count; i++)
                         {
-                            if (selectionString1.Equals(playlist.Name))
+                            if (selectionInt == songs[i].Id)
                             {
-                                
-                                playLists.Insert(songs[selectionInt],selectionInt);
-                                playLists.Insert(selectionString1[selectionInt],);
-                                playlist.Add(selectionInt);
-                                //choix.Delete(choix);
-                                
+                                playLists = AjouterPlayList()
+                            }
+                        }
+                        for (int i = 0; i < playLists.Count; i++)
+                        {
+                            if (selectionString1 == playLists[i].Name)
+                            {
+                                songs = AjouterChasnon(songs.Add(selectionInt));
+                                Board.Endmessage("Nouvelle chansson", "créé");
+                                break;
                             }
                         }*/
 
@@ -460,25 +458,6 @@ public class Program
             }
 
             Console.Clear();
-
-            /* exemple de sortie de cette méthode :
-            Artistes :
-            (1) Patrice Michaud
-            (2) Marie-Pier Arthur
-            Chansons :
-            (1) Kamikaze (Patrice Michaud) 00:04:05
-            (2) Mécaniques générales (Patrice Michaud) 00:03:18
-            (3) Droit devant (Marie-Pier Arthur) 00:03:38
-            (4) Pourquoi (Marie-Pier Arthur) 00:03:08
-            Listes :
-            Un 00:10:51
-            (1) Kamikaze (Patrice Michaud) 00:04:05
-            (4) Pourquoi (Marie-Pier Arthur) 00:03:08
-            (3) Droit devant (Marie-Pier Arthur) 00:03:38
-            Deux 00:07:23
-            (2) Mécaniques générales (Patrice Michaud) 00:03:18
-            (1) Kamikaze (Patrice Michaud) 00:04:05     
-                 */
         }
     }
 }

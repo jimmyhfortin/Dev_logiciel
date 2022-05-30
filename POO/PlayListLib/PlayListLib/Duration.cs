@@ -3,21 +3,14 @@ namespace PlayListLib;
 public class Duration
 {
     public int Hours { get; set; }
-    
+
     public int Minutes { get; set; }
 
     public int Seconds { get; set; }
-    
-    /*public TimeSpan TotalSeconds
-    {
-        
-        get => TimeSpan.FromSeconds(Hours * 3600 + Minutes * 60 + Seconds); 
-    }*/
+
     public int TotalSeconds
     {
-        //TimeSpan t = TimeSpan.FromSeconds( TotalSeconds );
-        get => (Hours * 3600 + Minutes * 60 + Seconds); 
-        
+        get => (Hours * 3600 + Minutes * 60 + Seconds);
     }
 
     public Duration()
@@ -43,8 +36,8 @@ public class Duration
             return false;
         }
 
-        Duration other = (Duration)obj;
-        
+        Duration other = (Duration) obj;
+
         return TotalSeconds == other.TotalSeconds;
     }
 
@@ -55,7 +48,7 @@ public class Duration
 
     public override string ToString()
     {
-        TimeSpan t = TimeSpan.FromSeconds( TotalSeconds );
+        TimeSpan t = TimeSpan.FromSeconds(TotalSeconds);
         return $"{TotalSeconds}";
     }
 }

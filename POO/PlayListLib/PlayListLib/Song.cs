@@ -2,31 +2,29 @@ namespace PlayListLib;
 
 public class Song
 {
-    public static int NextId { get; set; } = 1; 
-    
+    public static int NextId { get; set; } = 1;
+
     public int Id { get; set; }
     public string Title { get; set; }
     public string Genre { get; set; }
-    
-    public Duration Length { get; set; } 
-    
+
+    public Duration Length { get; set; }
+
     public Artist Artist { get; set; }
 
     public Song()
     {
-        
     }
-    
+
     public Song(int id, string title, string genre, Artist artist, Duration minutes)
     {
-        Id= id;
+        Id = id;
         Title = title;
         Genre = genre;
         Artist = artist;
         Length = minutes;
-
-
     }
+
     public Song(string title, string genre, Artist artist, Duration minutes)
     {
         Id = NextId;
@@ -35,8 +33,8 @@ public class Song
         Genre = genre;
         Artist = artist;
         Length = minutes;
-
     }
+
     public Song(string title, string genre, Artist artist, int length)
     {
         Id = NextId;
@@ -45,8 +43,8 @@ public class Song
         Genre = genre;
         Artist = artist;
         Length = new Duration(length);
-
     }
+
     public Song(string title, Artist artist, Duration minutes)
     {
         Id = NextId;
@@ -55,6 +53,7 @@ public class Song
         Artist = artist;
         Length = minutes;
     }
+
     public Song(string title, Artist artist, int length)
     {
         Id = NextId;
@@ -62,9 +61,8 @@ public class Song
         Title = title;
         Artist = artist;
         Length = new Duration(length);
-
     }
-    
+
     public override bool Equals(object? obj)
     {
         if (obj == null || this.GetType() != obj.GetType())
@@ -72,7 +70,7 @@ public class Song
             return false;
         }
 
-        Song other = (Song)obj;
+        Song other = (Song) obj;
         return Id.Equals(other.Id) && Title.Equals(other.Title);
     }
 

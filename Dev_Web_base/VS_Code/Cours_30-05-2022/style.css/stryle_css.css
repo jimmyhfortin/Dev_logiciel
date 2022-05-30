@@ -1,0 +1,7 @@
+/* 3 maniere d'apliquer du css
+1- style en ligne
+2- style interne
+3- Fuille de style externe */
+span {
+    color:green
+}

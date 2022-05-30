@@ -1,0 +1,16 @@
+div {
+    background-color: aqua;
+}
+
+#div_id {
+    background-color: blueviolet;
+}
+
+.div_classe {
+    background-color: chartreuse;
+}
+.border {
+    border: 1px solid black;
+
+
+}

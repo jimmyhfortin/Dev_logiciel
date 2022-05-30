@@ -8,8 +8,8 @@ public class PlayList
     {
         get => Songs.Count;
         set { }
-        
     }
+
     public List<Song> Songs { get; set; }
 
     public Duration TotalLength
@@ -24,34 +24,35 @@ public class PlayList
             }
 
             return length;
-        } 
-        set {}
+        }
+        set { }
     }
 
     public PlayList()
     {
     }
+
     public PlayList(string name)
     {
         Name = name;
         Songs = new List<Song>();
-        TotalLength = new Duration(Count); //revoir si le count est bon 
+        TotalLength = new Duration(Count);
     }
-    public PlayList(string name, List <Song> songs)
+
+    public PlayList(string name, List<Song> songs)
     {
         Name = name;
         Songs = songs;
         TotalLength = new Duration(Count);
-
-
     }
+
     public PlayList(string name, params Song[] song)
     {
         Name = name;
         Songs = new List<Song>(song);
         TotalLength = new Duration(Count);
     }
-    
+
     public Song Find(int Id)
     {
         for (int i = 0; i < Songs.Count; i++)
@@ -60,8 +61,8 @@ public class PlayList
             {
                 return Songs[i];
             }
-            
         }
+
         return Songs[-1];
     }
 
@@ -80,8 +81,10 @@ public class PlayList
                 return true;
             }
         }
+
         return false;
     }
+
     public bool Remove(int songUserInt) //Songs
     {
         for (int i = 0; i < Songs.Count; i++)
@@ -92,18 +95,9 @@ public class PlayList
                 return true;
             }
         }
+
         return false;
     }
-    /*public int TotalLengthBord()
-    {
-        int second = 0;
-        for (int i = 0; i < Songs.Count; i++)
-        {
-            second += Songs[i].;
-        }
-
-        return second;
-    }*/
 
     public override bool Equals(object? obj)
     {
@@ -112,8 +106,7 @@ public class PlayList
             return false;
         }
 
-        PlayList other = (PlayList)obj;
-        // return Name.Equals(other.Name) && Dob.Equals(other.Dob);
+        PlayList other = (PlayList) obj;
         return Name.Equals(other.Name) && Songs.Equals(other.Songs);
     }
 
@@ -124,10 +117,6 @@ public class PlayList
 
     public override string ToString()
     {
-        /*double times = Convert.ToDouble(TotalLength);
-        TimeSpan.FromSeconds(times);
-        TimeSpan.FromSeconds(length)*/
-        
-        return $"{Count} {TimeSpan.FromSeconds( TotalLength.TotalSeconds )}\n{Name}\n{string.Join("\n", Songs)}"; 
+        return $"{Count} {TimeSpan.FromSeconds(TotalLength.TotalSeconds)}\n{Name}\n{string.Join("\n", Songs)}";
     }
 }
