@@ -7,5 +7,9 @@
     background-color: blue;
     color:aliceblue
 }
-.blueTable
+.blueTable tbody td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
 
