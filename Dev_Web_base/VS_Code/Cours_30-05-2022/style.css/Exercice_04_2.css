@@ -1,0 +1,16 @@
+body table {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.minimalistBlack th {
+    border: 3px solid black; 
+    border-collapse: collapse;
+}
+body table tfoot {
+    border: 3px solid black ;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+

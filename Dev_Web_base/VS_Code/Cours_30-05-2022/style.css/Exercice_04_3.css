@@ -1,0 +1,11 @@
+.blueTable {
+    border: 2px solid black;
+}
+.blueTable thead {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: blue;
+    color:aliceblue
+}
+.blueTable
+
