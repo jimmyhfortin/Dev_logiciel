@@ -40,6 +40,7 @@ header li:hover {
     padding: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
+    
 }
 
 section.vp {
@@ -48,23 +49,50 @@ section.vp {
     width: auto;
     height: 900px;
 }
-div.vp-content {
-    
-}
+
 h1.category {
     padding-top: 10%;
     font-size: 30px;
     max-width: 400px;
-    
     text-align: center;
-    color: white;
     display: inline-block;
 }
-div.category {
-    text-align: center;
+
+div.separator {
+    width: 80px;
+    height: 6px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
+div.vp-content, section.vp {
+    text-align: center;
+    color: white;
+}
+
 p.category {
+    padding-top: 1%;
     text-align: center;
     max-width: 500px;
-    
+    display: inline-block;
+    line-height: 2;
+}
+.button {
+    border: none;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    font-size: 12px;
+    margin: 2%;
+    font-weight: bold ;
+    cursor: pointer;
+}
+.discover {
+    border-radius: 22px;
+}
+.discover:hover {
+    background-color: black;
+    color: white;
 }
