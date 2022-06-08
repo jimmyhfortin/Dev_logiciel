@@ -8,7 +8,7 @@
 h1, h2, h3 {
     margin-bottom: 20px;
 }
-
+/* header */
 header {
     background-color: #333333;
     height: 80px;
@@ -48,10 +48,12 @@ header li:overlay {
     padding-bottom: 30px;
     
 }
+/* section vp */
 section.vp {
     background-image: url(./frame.jpg);
     display: block;
     background-size: cover;
+    background-position: center;
     width: auto;
     height: 900px;
     background-color: lightslategray;
@@ -104,11 +106,20 @@ p.category {
     background-color: black;
     color: white;
 }
-section.vp-info {
+
+/* section vp-info */
+div.container {
     text-align: center;
- 
     
 }
-div.category-info {
-    display: inline;
+div.feature {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    padding: 8%;
+}
+div.feature p {
+    font-size: 15px;
 }
