@@ -10,7 +10,6 @@ h1, h2, h3 {
 }
 
 header {
-    color: white;
     background-color: #333333;
     height: 80px;
     padding-top: 20px;
@@ -37,17 +36,25 @@ header li {
 
 header li:hover {
     background-color: #444444;
-    padding: 25px;
+    padding: 15px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     
 }
-
+header li:overlay {
+    background-color: #444444;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    
+}
 section.vp {
     background-image: url(./frame.jpg);
+    display: block;
     background-size: cover;
     width: auto;
     height: 900px;
+    background-color: lightslategray;
 }
 
 h1.category {
@@ -80,14 +87,15 @@ p.category {
 .button {
     border: none;
     text-align: center;
-    padding: 15px;
+    padding: 15px 20px;
     display: inline-block;
     color: black;
     background-color: white;
     font-size: 12px;
-    margin: 2%;
+    margin-top: 2%;
     font-weight: bold ;
     cursor: pointer;
+    transition: 0.5s;
 }
 .discover {
     border-radius: 22px;
@@ -95,4 +103,12 @@ p.category {
 .discover:hover {
     background-color: black;
     color: white;
+}
+section.vp-info {
+    text-align: center;
+ 
+    
+}
+div.category-info {
+    display: inline;
 }
