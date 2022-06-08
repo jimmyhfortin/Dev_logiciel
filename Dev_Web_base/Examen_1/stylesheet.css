@@ -114,7 +114,7 @@ p.category {
 }
 
 /* section vp-info */
-div.container {
+div.container, div.booking-info {
     text-align: center;
 }
 
@@ -142,5 +142,16 @@ img.booking-img {
     background-color: lightslategray;
 }
 div.booking-info {
-    
+    margin-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.boonking {
+    border-radius: 22px;
+}
+
+.boonking:hover {
+    background-color: black;
+    color: white;
 }
