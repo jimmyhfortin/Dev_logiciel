@@ -9,39 +9,23 @@ h1, h2, h3 {
     margin-bottom: 20px;
 }
 
+header {
+    color: white;
+    background-color: #333333;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
 header a {
     text-decoration: none;
     color: white;
 }
 
-header h1 {
-    
-    padding-top: 20px;
-    padding-left: 25px;
-}
-
-header {
-    color: white;
-    background-color: #333333;
-    height: 80px;
-}
-
-/* header ul li {
-    display: inline-block;
-    width: 100px;
-    height: 80px;
-    padding: 24px;    
-    background-color: #333333;
-    float: right;
-    text-align: center;
-    margin-top: -54px;
-}
- */
-
 header ul {
     float: right;
     margin: 30px;
-    margin-top: -45px;
+    margin-top: -48px;
 }
 
 header li {
@@ -56,4 +40,31 @@ header li:hover {
     padding: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+section.vp {
+    background-image: url(./frame.jpg);
+    background-size: cover;
+    width: auto;
+    height: 900px;
+}
+div.vp-content {
+    
+}
+h1.category {
+    padding-top: 10%;
+    font-size: 30px;
+    max-width: 400px;
+    
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+div.category {
+    text-align: center;
+}
+p.category {
+    text-align: center;
+    max-width: 500px;
+    
 }
