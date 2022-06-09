@@ -159,7 +159,7 @@ div.booking-info {
 }
 .footer {
     clear: both;
-    position: relative;
+    position: relative ;
     width: 100%;
     text-align: center;
     background-color: #333333;
@@ -167,6 +167,9 @@ div.booking-info {
     font-size: 20px;
     padding: 30px;
     bottom: 0;
+}
+.abs {
+    position: absolute;
 }
 /* section location */
 div.container2 {
