@@ -93,20 +93,18 @@ p.category {
 .button {
     border: none;
     text-align: center;
-    padding: 15px 20px;
+    padding: 13px 18px;
     display: inline-block;
     color: black;
     background-color: white;
-    font-size: 12px;
+    font-size: 18px;
     margin-top: 2%;
     font-weight: bold ;
     cursor: pointer;
     transition: 0.5s;
+    border-radius: 30px;
 }
 
-.discover {
-    border-radius: 22px;
-}
 
 .discover:hover {
     background-color: black;
@@ -116,15 +114,17 @@ p.category {
 /* section features */
 div.container, div.booking-info {
     text-align: center;
+    padding: 7%;
 }
 
 div.feature {
-    margin-top: 5%;
-    margin-bottom: 5%;
     width: 50%;
     float: left;
     display: inline-block;
-    padding: 8%;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 div.feature p {
@@ -148,9 +148,6 @@ div.booking-info {
 
 }
 .book {
-    margin: 8%;
-    margin-left: 47%;
-    border-radius: 22px;
     background-color: black;
     color: white;
 }
@@ -160,15 +157,21 @@ div.booking-info {
     color: black;
     
 }
-footer {
+.footer {
+    clear: both;
+    position: relative;
+    width: 100%;
     text-align: center;
     background-color: #333333;
     color: white;
-    padding: 1.4%;
-    margin-bottom: -5%;
     font-size: 20px;
+    padding: 30px;
+    bottom: 0;
 }
 /* section location */
+div.container2 {
+    margin-top: 5%;
+}
 img.location-img {
     height: auto;
     width: 100%;
@@ -205,4 +208,29 @@ span.circle-b, span.circle-o  {
 }
 span.circle-o {
     background: #f18b19;
+}
+/* section contact */
+section.form {
+    width: 500px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.contact {
+    line-height: 3.0;
+}
+div.separator-line.form {
+   width: 100%;
+}
+
+div.contact form label {
+    font-size: 18px;
+    font-weight: 300;
+    font-weight: bold;
+}
+input, textarea {
+    padding:10px;
+    border-radius:3px;
+    width: 100%;
+    border-color: lightgray;
 }
