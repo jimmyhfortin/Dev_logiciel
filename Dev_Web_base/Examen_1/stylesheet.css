@@ -52,7 +52,7 @@ header li:overlay {
 
 /* section vp */
 section.vp {
-    background-image: url(./frame.jpg);
+    background-image: url(./img/frame.jpg);
     display: block;
     background-size: cover;
     background-position: center;
@@ -113,14 +113,14 @@ p.category {
     color: white;
 }
 
-/* section vp-info */
+/* section features */
 div.container, div.booking-info {
     text-align: center;
 }
 
 div.feature {
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 50%;
     float: left;
     display: inline-block;
@@ -131,14 +131,14 @@ div.feature p {
     font-size: 15px;
 }
 
-/* section */
+/* section booking */
 img.booking-img {
     object-fit: cover; 
     display: block;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: lightslategray;
 }
 div.booking-info {
@@ -147,11 +147,47 @@ div.booking-info {
     padding-right: 10%;
 
 }
-.boonking {
+.book {
+    margin: 8%;
+    margin-left: 47%;
     border-radius: 22px;
-}
-
-.boonking:hover {
     background-color: black;
     color: white;
 }
+
+.book:hover {
+    background-color: white;
+    color: black;
+    
+}
+footer {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 1.4%;
+    margin-bottom: -5%;
+    font-size: 20px;
+}
+/* section location */
+div.feature img {
+    height: auto;
+    width: 100%;
+    border-color: black 2px;
+}
+div.location {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    padding: 8%;
+    
+}
+/* div.location-img {
+    height: auto;
+    max-width: 800px;
+    padding: 0%;
+    margin-left: 15%;
+    
+    
+} */
