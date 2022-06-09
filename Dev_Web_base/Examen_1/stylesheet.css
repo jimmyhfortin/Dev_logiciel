@@ -180,14 +180,39 @@ div.location {
     width: 50%;
     float: left;
     display: inline-block;
-    padding: 8%;
+    padding: 5%;
+    text-align: left;
     
+    
+}
+div.separator-line {
+    width: 400px;
+    height: 2px;
+    background-color: lightgray;
+    margin-bottom: 2%;
+    margin-top: -2%;
+    
+}
+span.circle-b, span.circle-o  {
+    border-radius: 48%;
+    width: 36px;
+    height: 36px;
+    padding: 5px 20px;
+
+    background: #007ac3;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700 bold;
+}
+span.circle-o {
+    background: #f18b19;
 }
 /* div.location-img {
     height: auto;
     max-width: 800px;
     padding: 0%;
     margin-left: 15%;
-    
+    f18b19
     
 } */
