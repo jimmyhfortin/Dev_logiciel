@@ -1,0 +1,29 @@
+#activate-div{display:none}    
+
+.my-div{color:#FFF} 
+
+#activate-div:checked ~ label 
+.my-div{background-color:#000}
+
+#activate-div{display:none}
+
+.my-div{color:#FFF} 
+
+#activate-div:checked + 
+.my-div{background-color:#000}
+
+.active:active {
+    color: red;
+
+  }
+  .focus:focus {
+    color: red;
+  }
+  :target {
+    color: blue;
+    padding: 5%;
+    background-color: #333333;
+    margin: 5%;
+    border-top: 25px;
+    border: 2px solid black;
+  }
