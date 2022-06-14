@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexbox | Les éléments flexibles</title>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        background: green;
+      }
+
+      .flex-container-large {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 300px;
+        width: 100%;
+        background: green;
+      }
+
+      .flex-elem {
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+        text-align: center;
+        line-height: 40px;
+        background: orange;
+      }
+
+      .flex-elem-large {
+        width: 300px;
+        height: 40px;
+        margin: 0 5px;
+        text-align: center;
+        line-height: 40px;
+        background: orange;
+      }
+
+      /* L'ordre */
+      .premier {
+        order: 1;
+      }
+
+      .apres {
+        order: 2;
+      }
+
+      /* Utilisation de flex-grow  */
+
+      .gros {
+        flex-grow: 10;
+      }
+
+      .moyen {
+        flex-grow: 5;
+      }
+
+      .petit {
+        flex-grow: 1;
+      }
+
+      /* Utilisation de flex-shrink  */
+      .pas-retrecir {
+        flex-shrink: 0;
+      }
+
+      .retrecir-beaucoup {
+        flex-shrink: 4;
+      }
+
+      .retrecir-moins {
+        flex-shrink: 2;
+      }
+
+      /* align-self */
+
+      .bas {
+        align-self: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Les éléments flexibles</h1>
+    <h2>Modifier l'ordre des éléments flexibles</h2>
+    <div class="flex-container flex-start">
+      <div class="flex-elem apres">1</div>
+      <div class="flex-elem apres">2</div>
+      <div class="flex-elem premier">3</div>
+      <div class="flex-elem apres">4</div>
+    </div>
+
+    <h2>Modifier la capacité à s'élargir</h2>
+    <!-- Les éléments qui ont un flex-grow se répartissent tout l'espace disponible.
+      Ensuite, l'espace disponible est divisée entre les éléments suivant la 
+      valeur de flex-grow des éléments.-->
+    <div class="flex-container flex-start">
+      <div class="flex-elem moyen">1</div>
+      <div class="flex-elem petit">2</div>
+      <div class="flex-elem gros">3</div>
+      <!-- Il n'a pas le droit de s'élargir sans flex-grow -->
+      <div class="flex-elem">4</div>
+    </div>
+
+    <h2>Modifier la capacité à rétrécir</h2>
+    <!-- Par défaut flex-shrink est définie à 1 nous devons donc ajouter une classe
+      pour empêcher certains éléments de rétrécir. -->
+    <div class="flex-container flex-start">
+      <div class="flex-elem-large pas-retrecir">1</div>
+      <div class="flex-elem-large retrecir-beaucoup">2</div>
+      <div class="flex-elem-large retrecir-moins">3</div>
+      <div class="flex-elem-large pas-retrecir">4</div>
+    </div>
+
+    <h2>Modifier l'alignement d'un élément</h2>
+    <div class="flex-container-large">
+      <div class="flex-elem">1</div>
+      <div class="flex-elem">2</div>
+      <div class="flex-elem bas">3</div>
+      <div class="flex-elem">4</div>
+    </div>
+  </body>
+</html>

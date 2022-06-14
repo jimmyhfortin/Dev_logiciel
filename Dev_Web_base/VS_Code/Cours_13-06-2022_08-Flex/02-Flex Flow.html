@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexbox</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .wrap {
+        flex-wrap: wrap;
+      }
+      .flex-flow {
+        height: 200px;
+        flex-flow: column-reverse wrap;
+      }
+      .item {
+        background: blue;
+        color: white;
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Par défaut</h2>
+    <!-- Les éléments flexibles rétrécissent pour tenir sur la même ligne.
+      Par défaut la direction est row et flex-wrap vaut nowrap. 
+    .container>.item{$}*10 -->
+    <div class="container">
+      <p class="item">1</p>
+      <p class="item">2</p>
+      <p class="item">3</p>
+      <p class="item">4</p>
+      <p class="item">5</p>
+      <p class="item">6</p>
+      <p class="item">7</p>
+      <p class="item">8</p>
+      <p class="item">9</p>
+      <p class="item">10</p>
+    </div>
+
+    <h2>Utilisation d'une autre direction</h2>
+    <!-- .container.column>.item{$}*3 -->
+    <div class="container column">
+      <p class="item">1</p>
+      <p class="item">2</p>
+      <p class="item">3</p>
+    </div>
+
+    <h2>Utilisation de wrap</h2>
+    <!-- Wrap permet d'autoriser les éléments à passer à la ligne -->
+    <div class="container wrap">
+      <p class="item">1</p>
+      <p class="item">2</p>
+      <p class="item">3</p>
+      <p class="item">4</p>
+      <p class="item">5</p>
+      <p class="item">6</p>
+      <p class="item">7</p>
+      <p class="item">8</p>
+      <p class="item">9</p>
+      <p class="item">10</p>
+    </div>
+
+    <h2>Utilisation de flex-flow</h2>
+    <div class="container flex-flow">
+      <!-- L'axe principal est ici vertical, et les éléments sont alignés du bas vers le haut (reverse).
+        Ils prennent plusieurs colonnes grâce à wrap, sinon leur hauteur serait réduite pour tenir sur 
+        une seule colonne.-->
+      <p class="item">1</p>
+      <p class="item">2</p>
+      <p class="item">3</p>
+      <p class="item">4</p>
+      <p class="item">5</p>
+      <p class="item">6</p>
+      <p class="item">7</p>
+      <p class="item">8</p>
+      <p class="item">9</p>
+      <p class="item">10</p>
+    </div>
+  </body>
+</html>

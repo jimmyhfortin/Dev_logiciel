@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexbox | align-items</title>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100px;
+        background: green;
+        margin: 10px 0;
+      }
+
+      .flex-elem {
+        background: orange;
+        width: 50px;
+        /* Remarquez que nous utilisons une hauteur minimale, mais
+          pas de hauteur fixe, ni de hauteur maximale.  */
+        min-height: 50px;
+        margin: 5px;
+      }
+
+      .elem2 {
+        min-height: 30px;
+        font-size: 2em;
+      }
+
+      .elem3 {
+        font-size: 1.2em;
+        min-height: 70px;
+      }
+
+      .flex-start {
+        align-items: flex-start;
+      }
+
+      .flex-end {
+        align-items: flex-end;
+      }
+
+      .center {
+        align-items: center;
+      }
+
+      .stretch {
+        align-items: stretch;
+      }
+
+      .baseline {
+        align-items: baseline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>align-items</h1>
+    <h2>flex-start</h2>
+    <div class="flex-container flex-start">
+      <div class="flex-elem">1</div>
+      <div class="flex-elem">2</div>
+      <div class="flex-elem">3</div>
+    </div>
+
+    <h2>flex-end</h2>
+    <div class="flex-container flex-end">
+      <div class="flex-elem">1</div>
+      <div class="flex-elem">2</div>
+      <div class="flex-elem">3</div>
+    </div>
+
+    <h2>center</h2>
+    <div class="flex-container center">
+      <div class="flex-elem">1</div>
+      <div class="flex-elem">2</div>
+      <div class="flex-elem">3</div>
+    </div>
+
+    <h2>stretch</h2>
+    <div class="flex-container stretch">
+      <div class="flex-elem">1</div>
+      <div class="flex-elem">2</div>
+      <div class="flex-elem">3</div>
+    </div>
+
+    <h2>baseline vs start</h2>
+    <div class="flex-container flex-start">
+      <div class="flex-elem">1</div>
+      <div class="flex-elem elem2">2</div>
+      <div class="flex-elem elem3">3</div>
+    </div>
+
+    <div class="flex-container baseline">
+      <div class="flex-elem">1</div>
+      <div class="flex-elem elem2">2</div>
+      <div class="flex-elem elem3">3</div>
+    </div>
+  </body>
+</html>
