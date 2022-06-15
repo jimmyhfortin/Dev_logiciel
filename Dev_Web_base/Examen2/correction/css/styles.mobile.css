@@ -1,0 +1,85 @@
+.title {
+    text-align: center;
+  }
+  
+  header {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  
+  header ul {
+    flex-flow: column wrap;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  header ul {
+    flex-flow: column wrap;
+    text-align: center;
+  }
+  
+  .vp-logo {
+    justify-content: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* VP */
+  .vp-content h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+  .vp-content  {
+    font-size: 1.5rem;
+    letter-spacing: none;
+  }
+  
+  /* Offer */
+  .offer {
+    padding: 5rem 1rem 5rem 1rem;
+    text-align: center;
+  }
+  
+  .offer-list {
+    flex-direction: column;
+  }
+  
+  /* Section à propos */
+  .who {
+    flex-direction: column-reverse;
+  }
+  
+  .who-content-text {
+    padding: 4rem 2rem;
+  }
+  
+  /* Testimonials */
+  .testimonials-elem {
+    flex-direction: column;
+  }
+  
+  .testimonials-elem-reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .testimonials-elem-text  {
+    text-align: center;
+  }
+  
+  .testimonials-elem-profile {
+    text-align: center;
+  }
+  
+  .testimonials-elem-profile img {
+    margin: 1rem;
+  }
+  
+  /* Contact */
+  .contact {
+    padding: 5rem 1rem;
+  }
+  
+  .contact button {
+    margin-bottom: 0;
+  }
