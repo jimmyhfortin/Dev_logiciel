@@ -5,23 +5,62 @@
     font-family: 'Long Cang', cursive;
     font-family: 'Montserrat', sans-serif;
 }
-section.main {
+/* HEADER-MAIN section */
+section.header-main {
     background-image: url(../images/montreal.jpg);
     color: antiquewhite;
-    
     background-position: center;
     background-size: cover;
-    background-size: 100vh;
+    height: 100vh;
 } 
 header {
-    
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row ;
+    flex-flow: nowrap;
     justify-content: space-between;
-    border-bottom: 1px solid whitesmoke;
-    
+    border-bottom: 2px solid antiquewhite;
+    height: 10vh;
+    padding: 2rem;
 }
-ul {
+h2 i {
+    font-size: 32px;
+    color: #ffdc35;
+    padding-right: .7rem;
+}
+h2 {
     display: flex;
-    justify-content: flex-end;
+    flex-flow: nowrap;
+    align-items: center;
+    font-family: Long Cang;
+    font-size: 4rem;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+    padding-top: .3rem;
+}
+header a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 1rem;
+}
+header a:hover {
+    color: #ffdc35;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+}
+.content {
+    width: 55rem;
+    justify-content: center;
+}
+.content h1 {
+    font-size: 4rem;
+}
+span.note {
+    font-weight: 300;
+    color: #ffdc35;
 }
