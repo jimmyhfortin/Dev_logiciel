@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Long Cang', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+section.main {
+    background-image: url(./);
+} 
+header {
+    display: flex;
+
+}
