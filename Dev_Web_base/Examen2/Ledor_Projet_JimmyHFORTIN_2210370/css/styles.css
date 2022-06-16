@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Long Cang', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+section.main {
+    background-image: url(../images/montreal.jpg);
+    color: antiquewhite;
+    
+    background-position: center;
+    background-size: cover;
+    background-size: 100vh;
+} 
+header {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
