@@ -27,7 +27,7 @@ h2 i {
     color: #ffdc35;
     padding-right: .7rem;
 }
-h2 {
+header h2 {
     display: flex;
     flex-flow: nowrap;
     align-items: center;
@@ -38,7 +38,7 @@ header ul {
     display: flex;
     list-style: none;
     font-size: 22px;
-    padding-top: .3rem;
+    margin-top: 1.2rem;
 }
 header a {
     text-decoration: none;
@@ -54,13 +54,186 @@ header a:hover {
     margin-top: 20rem;
 }
 .content {
-    width: 55rem;
+    width: 68rem;
     justify-content: center;
+    text-align: center;
 }
 .content h1 {
     font-size: 4rem;
+    margin-bottom: 1rem;
 }
 span.note {
     font-weight: 300;
     color: #ffdc35;
+}
+.content p {
+    font-size: 2rem;
+}
+
+/* OFFER section*/
+#offers {
+    display: flex;
+    height: 80vh;
+    padding-top: 10vh;
+    justify-content: center;
+    background-color: #eeee;
+}
+
+.offer h2 {
+    margin-bottom: 5vh;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.offer ul {
+    display: flex;
+    justify-content: space-between;
+}
+.offer ul li {
+   padding: 2rem;
+   list-style: none;
+}
+.offer ul li img {
+    max-width: 20vw;
+    height: auto;
+    
+}
+.offer-container {
+    max-width: 20vw;
+    height: 24vh;
+    padding: 2rem;
+    line-height: 2.2rem;
+    background-color: #ffff;
+    margin-top: -.2rem;
+}
+.offer-container p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.offer-line {
+    border-bottom: solid 0.2rem;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* CREW section */
+#crew {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #333333;
+    color: #ffff;
+}
+.team img {
+    width: 50vw;
+    height: auto;
+}
+.moto {
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.moto h2 {
+    font-size: 2rem;
+}
+
+/* TESTIMONIAL section */
+#testimonial {
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eeee;
+}
+.testi-content {
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 0.3rem; 
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: #ffff;
+    
+}
+.testi-p {
+    margin-right: 4rem;
+    max-width: 60vw;
+}
+.testi-content img {
+    border-radius: 40rem;
+    height: 5rem;
+}
+h3 {
+    font-style: italic;
+    font-weight: 300;
+}
+.testi-content.reverse {
+    flex-direction: row-reverse;
+}
+
+/* CONTACT section */
+#contact {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    height: 80vh;
+    background-color: #333333;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vh;
+    text-align: left;
+    
+}
+.form p {
+    font-size: 3rem;
+    color: #ffff;
+}
+.form input, textarea {
+    background-color: #333333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: .8rem;
+}
+button {
+    display: block;
+    border: none;
+    text-align: center;
+    padding: 1.8rem;
+    width: 15vw;
+    color: #ffff;
+    background-color: #ffdc35;
+    font-size: 1.8rem;
+    font-weight: bold ;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 1.7rem;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+}
+button:hover {
+    background-color: red;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    height: 15vh;
+}
+footer p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffff;
+    font-size: 1.4rem;
 }
