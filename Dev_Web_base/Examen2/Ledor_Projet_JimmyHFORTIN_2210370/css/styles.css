@@ -11,15 +11,16 @@ section.header-main {
     color: antiquewhite;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
 } 
 header {
     display: flex;
-    flex-flow: row ;
+    
     flex-flow: nowrap;
     justify-content: space-between;
     border-bottom: 2px solid antiquewhite;
-    height: 10vh;
     padding: 2rem;
 }
 h2 i {
@@ -49,14 +50,19 @@ header a:hover {
     color: #ffdc35;
 }
 .main-container {
+    flex-grow: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 20rem;
+    align-items: center;
+    
 }
+
 .content {
     width: 68rem;
-    justify-content: center;
+    
     text-align: center;
+    
 }
 .content h1 {
     font-size: 4rem;
@@ -74,11 +80,15 @@ span.note {
 #offers {
     display: flex;
     height: 80vh;
-    padding-top: 10vh;
-    justify-content: center;
     background-color: #eeee;
+    flex-flow: nowrap row;
+    justify-content: center;
 }
-
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .offer h2 {
     margin-bottom: 5vh;
     font-size: 3rem;
@@ -120,19 +130,37 @@ span.note {
 /* CREW section */
 #crew {
     display: flex;
-    flex-flow: row nowrap;
-    background-color: #333333;
+    /* justify-content: space-between; */
+    /* flex-flow: row nowrap; */
+    flex-direction: row;
+    /* align-items: stretch; */
     color: #ffff;
+    height: 40vh;
+}
+.team {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+
 }
 .team img {
-    width: 50vw;
-    height: auto;
+    width: 100%;
+    /* position: center;
+   
+    display: flex; */
+    /* height: 45vh; */
 }
 .moto {
     display: flex;
     padding: 5rem;
     flex-direction: column;
     justify-content: center;
+    background-color: #333333;
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+
 }
 .moto h2 {
     font-size: 2rem;

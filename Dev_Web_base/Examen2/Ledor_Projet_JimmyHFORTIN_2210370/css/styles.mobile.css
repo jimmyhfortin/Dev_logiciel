@@ -1,0 +1,49 @@
+
+@media (min-width: 370px) and (max-width: 800px) {
+    /* OFFER section*/
+    #offers {
+        display: flex;
+        height: 80vh;
+        background-color: #eeee;
+        flex-flow: wrap row;
+        justify-content: center;
+    }
+    #crew {
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+@media (min-width: 801px) {
+    body {
+      background: orange;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
