@@ -135,32 +135,29 @@ span.note {
     flex-direction: row;
     /* align-items: stretch; */
     color: #ffff;
-    height: 40vh;
+    
 }
 .team {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
-
 }
 .team img {
     width: 100%;
-    /* position: center;
+    background-color: #eeee;
+    margin-bottom: -.4%;
+    
    
-    display: flex; */
-    /* height: 45vh; */
 }
 .moto {
     display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
     padding: 5rem;
     flex-direction: column;
     justify-content: center;
     background-color: #333333;
-    
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-
 }
 .moto h2 {
     font-size: 2rem;
@@ -170,26 +167,39 @@ span.note {
 #testimonial {
     display: flex;
     padding: 5rem;
-    flex-direction: column;
     justify-content: center;
     background-color: #eeee;
+}
+.testi-container {
+    
 }
 .testi-content {
     display: flex;
     flex-flow: row nowrap;
+    max-width: 50vw;
     border-radius: 0.3rem; 
     padding: 2rem;
     margin-bottom: 2rem;
     background-color: #ffff;
     
 }
-.testi-p {
-    margin-right: 4rem;
-    max-width: 60vw;
+.testi-container h2 {
+    font-weight: 300;
+    font-size: 2.2rem;
+    padding-bottom: 6%;
+}
+.testi-p p {
+    font-size: 1.2rem;
+    
+}
+.person {
+    
+    
 }
 .testi-content img {
-    border-radius: 40rem;
-    height: 5rem;
+    border-radius: 50rem;
+    height: auto;
+    width: 100%;
 }
 h3 {
     font-style: italic;

@@ -11,6 +11,18 @@
     #crew {
         flex-direction: column;
     }
+    .team {
+        flex-grow: unset;
+        flex-shrink: unset;
+        flex-basis: unset;
+    }
+    .moto {
+        
+        flex-grow: unset;
+        flex-shrink: unset;
+        flex-basis: unset;
+      
+    }
 
 
 
@@ -23,7 +35,7 @@
 
 
 
-    
+
 }
 
 
