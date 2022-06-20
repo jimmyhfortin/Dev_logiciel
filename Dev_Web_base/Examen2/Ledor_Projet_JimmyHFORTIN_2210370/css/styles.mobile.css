@@ -44,6 +44,17 @@ header ul li {
     flex-direction: column-reverse;
     background-color: #eeee;
 }
+.moto {
+    padding: 5rem 2rem;
+}
+.moto h2 {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    
+}
+.moto p {
+    line-height: 1.8rem;
+}
 /* TESTIMONIAL section */
 #testimonial {
     padding-left: 1rem;

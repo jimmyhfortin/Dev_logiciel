@@ -154,6 +154,7 @@ span.note {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
 /* CREW section */
 #crew {
     display: flex;
@@ -162,6 +163,7 @@ span.note {
     flex-direction: row;
     /* align-items: stretch; */
     color: #ffff;
+    background-color: #eeee;
     
 }
 .team {
@@ -171,8 +173,9 @@ span.note {
 }
 .team img {
     width: 100%;
-    background-color: #eeee;
+   
     margin-bottom: -.4%;
+    
     
    
 }
