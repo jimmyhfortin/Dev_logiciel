@@ -1,12 +1,5 @@
 
-@media (min-width: 800px) and (max-width: 1000px) {
-    .offer ul {
-        display: flex;
-        flex-wrap: wrap;
-        
-        
-    }
-}
+
 /* MAIN section */
 header {
     flex-direction: column;
@@ -101,8 +94,8 @@ header ul li {
 .form p {
     font-size: 2rem;
 }
-button {
-    margin-top: 4vh;
+a button {
+    margin-top: 10vh;
     max-width: 170px;
     font-size: 18px;
     padding: 1rem;
