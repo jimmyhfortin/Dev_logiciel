@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" media="only screen and (max-width:500px)" href="./css/styles.mobile.css">
+    <link rel="stylesheet" media="only screen and (max-width:1000px)" href="./css/styles.mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet"> 
@@ -13,7 +13,7 @@
 </head>
 <body>
     <script src="https://kit.fontawesome.com/cf4de32367.js" crossorigin="anonymous"></script>
-    <section class="header-main">
+    <section id="header-main">
         <header>
             <h2><i class="fa-solid fa-crown"></i>Ledor</h2>
             <ul>
@@ -66,11 +66,12 @@
         </div>
     </section>
 
-    <section id="crew">
-        <div class="team"><img src="./images/team.jpg" alt=""></div>
-        <div class="moto">
-            <h2>Une équipe de <span class="note">professionnels</span> avec plus de 10 ans d'expérience</h2>
-            <p>Lorem ipsum dolor sit, amet Id obcaecati assumenda cumque ea officia officiis eligendi consectetur adipisicing elit. Eaque inventore a reprehenderit numquam qui earum optio dolorum dignissimos est aliquam sunt omnis libero dolorem, nulla, et similique explicabo Id obcaecati assumenda cumque ea officia officiis eligendi hic facere?</p>
+    <section id="crew">   
+        <div class="team"><img src="./images/team.jpg" alt="">
+            <div class="moto">
+                <h2>Une équipe de <span class="note">professionnels</span> avec plus de 10 ans d'expérience</h2>
+                <p>Lorem ipsum dolor sit, amet Id obcaecati assumenda cumque ea officia officiis eligendi consectetur adipisicing elit. Eaque inventore a reprehenderit numquam qui earum optio dolorum dignissimos est aliquam sunt omnis libero dolorem, nulla, et similique explicabo Id obcaecati exercitationem nam  nemo eaque assumenda cumque ea officia officiis eligendi nam  nemo eaque ad iste hic facere?</p>
+            </div>
         </div>
     </section>
 
@@ -83,7 +84,7 @@
                 </div>
                 <div class="person">
                     <img src="./images/person-1.jpg" alt="">
-                    <p>Katrine Dubé</p>
+                    <p class="name">Katrine Dubé</p>
                     <h3>Osthéopathe</h3>
                 </div>
             </div>
@@ -93,7 +94,7 @@
                 </div>
                 <div class="person">
                     <img src="./images/person-2.jpg" alt="">
-                    <p>Noundou Tchebongé</p>
+                    <p class="name">Noundou Tchebongé</p>
                     <h3>CEO GYM-Nord</h3>
                 </div>
          
@@ -104,7 +105,7 @@
                 </div>
                 <div class="person">
                     <img src="./images/person-3.jpg" alt="">
-                    <p>Patrick Tremblay</p>
+                    <p class="name">Patrick Tremblay</p>
                     <h3>Dentiste</h3>
                 </div>
             </div>
@@ -118,7 +119,7 @@
             <input type="email" name="" placeholder="Courriel">
             <textarea name="message" id="" cols="10" rows="0" placeholder="Votre message. . ."></textarea>
             <!-- <a href="./" class="button">Soumettre</a> -->
-            <button>Soumettre</button>
+            <a href="#header-main"><button>Soumettre</button></a>
         </form>
     </section>
     <footer>

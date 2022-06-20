@@ -5,8 +5,12 @@
     font-family: 'Long Cang', cursive;
     font-family: 'Montserrat', sans-serif;
 }
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
 /* HEADER-MAIN section */
-section.header-main {
+#header-main {
     background-image: url(../images/montreal.jpg);
     color: antiquewhite;
     background-position: center;
@@ -42,7 +46,6 @@ header ul {
     margin-top: 1.2rem;
 }
 header a {
-    text-decoration: none;
     color: antiquewhite;
     margin: 1rem;
 }
@@ -55,7 +58,6 @@ header a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .content {
@@ -79,14 +81,15 @@ span.note {
 /* OFFER section*/
 #offers {
     display: flex;
-    
-    background-color: #eeee;
-    flex-flow: nowrap row;
+    flex-direction: row;
     justify-content: center;
-    padding: 20rem;
+    background-color: #eeee;
+    /* flex-flow: nowrap row;
+    justify-content: center; */
+    padding: 10rem 2rem 10rem 2rem;
 }
 .offer {
-    display: block;
+    flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,18 +120,20 @@ span.note {
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    border: solid lightslategray 1px;
+    border: solid lightgrey 1px;
     background-color: #ffff;
 }
 .offer-img img {
     width: 100%;
+    height: auto;
+    object-fit: cover;
     
     /* max-width: 20vw;
     height: auto; */
 }
 .offer-container {
     background-color: #ffff;
-    padding: 3rem;
+    padding: 2rem;
     line-height: 3rem;
     
 }
@@ -157,27 +162,22 @@ span.note {
 
 /* CREW section */
 #crew {
-    display: flex;
-    /* justify-content: space-between; */
-    /* flex-flow: row nowrap; */
-    flex-direction: row;
-    /* align-items: stretch; */
+    display: block;
     color: #ffff;
     background-color: #eeee;
+    width: 100%;
     
 }
 .team {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 .team img {
-    width: 100%;
-   
-    margin-bottom: -.4%;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
     
-    
-   
 }
 .moto {
     display: flex;
@@ -191,7 +191,13 @@ span.note {
 }
 .moto h2 {
     font-size: 2rem;
+    padding-bottom: 4rem;
 }
+.moto p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
 
 /* TESTIMONIAL section */
 #testimonial {
@@ -222,6 +228,7 @@ span.note {
 }
 .testi-p p {
     font-size: 1.2rem;
+    padding: 0rem 2rem 0rem 2rem;
 }
 .person {
     flex: auto; 
@@ -234,17 +241,22 @@ h3 {
     font-style: italic;
     font-weight: 300;
 }
+
 .testi-content.reverse {
     flex-direction: row-reverse;
     flex: auto;
 }
-
+p.name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: .4rem;
+}
 /* CONTACT section */
 #contact {
     display: flex;
     justify-content: center;
-    padding: 5rem;
-    height: 80vh;
+    padding: 15rem 2rem 15rem 2rem;
+    
     background-color: #333333;
 
 }
@@ -252,12 +264,13 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 950px;
+    width: 900px;
     text-align: left;
     
 }
 .form p {
     font-size: 3rem;
+    margin-bottom: 2rem;
     color: #ffff;
 }
 .form input, textarea {
@@ -270,12 +283,10 @@ h3 {
     padding-bottom: 1rem;
     padding-left: .8rem;
 }
-button {
+a button {
     display: block;
     border: none;
-    text-align: center;
-    padding: 1.8rem;
-    max-width: 250px;
+    padding: 1.5rem;
     color: #ffff;
     background-color: #ffdc35;
     font-size: 1.8rem;
@@ -296,7 +307,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #444;
-    height: 15vh;
+    height: 10vh;
 }
 footer p {
     display: flex;

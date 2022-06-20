@@ -1,4 +1,12 @@
 
+@media (min-width: 800px) and (max-width: 1000px) {
+    .offer ul {
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+}
 /* MAIN section */
 header {
     flex-direction: column;
@@ -24,6 +32,7 @@ header ul li {
 }
 .content p {
     font-size: 1.8rem;
+    padding-bottom: 2rem;
 }
 /* OFFERs section */
 #offers {
@@ -39,10 +48,17 @@ header ul li {
 .offer ul {
     flex-direction: column;
 }
+
 /* CREW sction */
-#crew {
+.team {
     flex-direction: column-reverse;
     background-color: #eeee;
+}
+.team img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
 }
 .moto {
     padding: 5rem 2rem;
@@ -65,8 +81,11 @@ header ul li {
     text-align: center;
     
 }
+.testi-content img {
+    height: 8vh;
+}
 .testi-p {
-    padding: 2rem;
+    padding-bottom: 2rem;
 }
 
 
