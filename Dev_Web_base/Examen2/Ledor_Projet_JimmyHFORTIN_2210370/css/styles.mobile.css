@@ -2,10 +2,13 @@
 /* MAIN section */
 header {
     flex-direction: column;
+    border-bottom: 1px solid antiquewhite;
+    padding-bottom: unset;
 }
 header ul {
     flex-direction: column;
     text-align: center;
+    border-top: 1px solid antiquewhite;
 }
 header ul li {
     padding: 1rem;
@@ -15,13 +18,23 @@ header ul li {
     flex-direction: column;
     width: unset;
 }
-h1 {
-    
+.content h1 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+.content p {
+    font-size: 1.8rem;
 }
 /* OFFERs section */
 #offers {
-    padding: 5rem;
+    padding: 5rem 1rem;
     
+}
+.offer h2 {
+    font-size: 1.8rem;
+}
+.offer-container p{
+    font-size: 1rem;
 }
 .offer ul {
     flex-direction: column;
@@ -46,7 +59,26 @@ h1 {
 }
 
 
-
+/* CONTACT section */
 #contact {
     padding: 6rem 1rem;
+    flex-direction: column;
+    height: unset;
+}
+.form {
+    width: auto;
+}
+.form p {
+    font-size: 2rem;
+}
+button {
+    margin-top: 4vh;
+    max-width: 170px;
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 1.3rem;
+}
+/* FOOTER */
+footer p {
+    font-size: unset;
 }
