@@ -1,61 +1,52 @@
 
-@media (min-width: 370px) and (max-width: 800px) {
-    /* OFFER section*/
-    #offers {
-        display: flex;
-        height: 80vh;
-        background-color: #eeee;
-        flex-flow: wrap row;
-        justify-content: center;
-    }
-    #crew {
-        flex-direction: column;
-    }
-    .team {
-        flex-grow: unset;
-        flex-shrink: unset;
-        flex-basis: unset;
-    }
-    .moto {
-        
-        flex-grow: unset;
-        flex-shrink: unset;
-        flex-basis: unset;
-      
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* MAIN section */
+header {
+    flex-direction: column;
+}
+header ul {
+    flex-direction: column;
+    text-align: center;
+}
+header ul li {
+    padding: 1rem;
+    font-size: 2rem;
+}
+.content {
+    flex-direction: column;
+    width: unset;
+}
+h1 {
+    
+}
+/* OFFERs section */
+#offers {
+    padding: 5rem;
+    
+}
+.offer ul {
+    flex-direction: column;
+}
+/* CREW sction */
+#crew {
+    flex-direction: column-reverse;
+    background-color: #eeee;
+}
+/* TESTIMONIAL section */
+#testimonial {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.testi-content {
+    flex-flow: row wrap;
+    text-align: center;
+    
+}
+.testi-p {
+    padding: 2rem;
 }
 
 
 
-@media (min-width: 801px) {
-    body {
-      background: orange;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#contact {
+    padding: 6rem 1rem;
 }
