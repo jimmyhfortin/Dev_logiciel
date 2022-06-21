@@ -78,7 +78,6 @@ span.note {
 /* OFFER section*/
 #offers {
     display: flex;
-    
     justify-content: center;
     background-color: #eeee;
     padding: 15rem 2rem 15rem 2rem;

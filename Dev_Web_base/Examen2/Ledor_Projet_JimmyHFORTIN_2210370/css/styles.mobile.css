@@ -1,12 +1,4 @@
-@media (min-width: 800px) {
-    #offers {
-        padding: 5rem 1rem;
-        background-color: aqua;
-    }
-    .offer ul {
-        flex-wrap: wrap;
-    }
-  }
+
 
 /* MAIN section */
 header {
