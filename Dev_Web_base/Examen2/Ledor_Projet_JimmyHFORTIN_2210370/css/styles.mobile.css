@@ -1,4 +1,12 @@
-
+@media (min-width: 800px) {
+    #offers {
+        padding: 5rem 1rem;
+        background-color: aqua;
+    }
+    .offer ul {
+        flex-wrap: wrap;
+    }
+  }
 
 /* MAIN section */
 header {
@@ -10,6 +18,10 @@ header ul {
     flex-direction: column;
     text-align: center;
     border-top: 1px solid antiquewhite;
+}
+header h2, .offer h2, .testi-container h2 {
+    display: block;
+    text-align: center;
 }
 header ul li {
     padding: 1rem;
@@ -27,10 +39,10 @@ header ul li {
     font-size: 1.8rem;
     padding-bottom: 2rem;
 }
-/* OFFERs section */
+
+/* OFFER section */
 #offers {
     padding: 5rem 1rem;
-    
 }
 .offer h2 {
     font-size: 1.8rem;
@@ -50,29 +62,30 @@ header ul li {
 .team img {
     width: 100%;
     height: auto;
-    object-fit: cover;
-    
+    object-fit: cover; 
 }
 .moto {
     padding: 5rem 2rem;
 }
 .moto h2 {
     font-size: 1.5rem;
-    padding-bottom: 2rem;
-    
+    padding-bottom: 2rem; 
 }
 .moto p {
     line-height: 1.8rem;
 }
+
 /* TESTIMONIAL section */
 #testimonial {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.testi-container h2 {
+    padding-bottom: 4rem;
+}
 .testi-content {
     flex-flow: row wrap;
     text-align: center;
-    
 }
 .testi-content img {
     height: 8vh;
@@ -80,7 +93,6 @@ header ul li {
 .testi-p {
     padding-bottom: 2rem;
 }
-
 
 /* CONTACT section */
 #contact {
@@ -93,6 +105,9 @@ header ul li {
 }
 .form p {
     font-size: 2rem;
+}
+.form input, .form textarea {
+    font-size: 1.3rem;
 }
 a button {
     margin-top: 10vh;

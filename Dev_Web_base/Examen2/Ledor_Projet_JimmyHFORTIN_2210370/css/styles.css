@@ -12,6 +12,7 @@ a, a:hover {
 /* HEADER-MAIN section */
 #header-main {
     background-image: url(../images/montreal.jpg);
+    background-color: #eeee;
     color: antiquewhite;
     background-position: center;
     background-size: cover;
@@ -21,7 +22,6 @@ a, a:hover {
 } 
 header {
     display: flex;
-    
     flex-flow: nowrap;
     justify-content: space-between;
     border-bottom: 2px solid antiquewhite;
@@ -59,12 +59,9 @@ header a:hover {
     justify-content: center;
     align-items: center;
 }
-
 .content {
     max-width: 68rem;
-    
     text-align: center;
-    
 }
 .content h1 {
     font-size: 4rem;
@@ -81,21 +78,16 @@ span.note {
 /* OFFER section*/
 #offers {
     display: flex;
-    flex-direction: row;
+    
     justify-content: center;
     background-color: #eeee;
-    /* flex-flow: nowrap row;
-    justify-content: center; */
-    padding: 10rem 2rem 10rem 2rem;
+    padding: 15rem 2rem 15rem 2rem;
 }
 .offer {
-    flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 950px;
-    
-    
+    max-width: 1200px;
 }
 .offer h2 {
     margin-bottom: 5vh;
@@ -104,18 +96,7 @@ span.note {
 }
 .offer ul {
     display: flex;
-    
-    
 }
-/* .offer ul li {
-   padding: 2rem;
-   list-style: none;
-} */
-/* .offer ul li img {
-    max-width: 20vw;
-    height: auto;
-    
-} */
 .offer ul li {
     display: flex;
     flex-direction: column;
@@ -127,26 +108,12 @@ span.note {
     width: 100%;
     height: auto;
     object-fit: cover;
-    
-    /* max-width: 20vw;
-    height: auto; */
 }
 .offer-container {
     background-color: #ffff;
-    padding: 2rem;
+    padding: 2rem 0rem 2rem 0rem;
     line-height: 3rem;
-    
 }
-
-
-/* .offer-container {
-    max-width: 20vw;
-    max-height: 24vh;
-    padding: 2rem;
-    line-height: 2.2rem;
-    background-color: #ffff;
-    margin-top: -.2rem;
-} */
 .offer-container p {
     text-align: center;
     font-size: 1.5rem;
@@ -166,7 +133,6 @@ span.note {
     color: #ffff;
     background-color: #eeee;
     width: 100%;
-    
 }
 .team {
     display: flex;
@@ -177,7 +143,6 @@ span.note {
     width: 40%;
     height: auto;
     object-fit: cover;
-    
 }
 .moto {
     display: flex;
@@ -208,18 +173,14 @@ span.note {
 }
 .testi-container {
     max-width: 950px;
-    
 }
 .testi-content {
     display: flex;
     flex-flow: row nowrap;
-    
     border-radius: 0.3rem; 
     padding: 2rem;
     margin-bottom: 2rem;
     background-color: #ffff;
-    
-    
 }
 .testi-container h2 {
     font-weight: 300;
@@ -241,7 +202,6 @@ h3 {
     font-style: italic;
     font-weight: 300;
 }
-
 .testi-content.reverse {
     flex-direction: row-reverse;
     flex: auto;
@@ -256,17 +216,14 @@ p.name {
     display: flex;
     justify-content: center;
     padding: 15rem 2rem 15rem 2rem;
-    
     background-color: #333333;
-
 }
 .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 900px;
-    text-align: left;
-    
+    outline: 0;
 }
 .form p {
     font-size: 3rem;
@@ -275,6 +232,7 @@ p.name {
 }
 .form input, textarea {
     background-color: #333333;
+    color: #ffff;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -282,6 +240,10 @@ p.name {
     padding-top: 2rem;
     padding-bottom: 1rem;
     padding-left: .8rem;
+    outline: 0;
+}
+textarea {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 a button {
     display: block;
@@ -294,7 +256,6 @@ a button {
     cursor: pointer;
     transition: 0.5s;
     border-radius: 1.7rem;
-    text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     margin-top: 8vh;
