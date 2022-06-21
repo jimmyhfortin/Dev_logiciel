@@ -146,8 +146,6 @@ span.note {
 .moto {
     display: flex;
     flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
     padding: 5rem;
     flex-direction: column;
     justify-content: center;
