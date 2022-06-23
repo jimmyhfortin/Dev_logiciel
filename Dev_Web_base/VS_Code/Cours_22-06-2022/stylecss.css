@@ -1,0 +1,11 @@
+.mydiv p {
+    color: red;
+}
+.mydiv > p {
+    color: blue;
+}
+
+div + p {
+    color: palegreen;
+}
+input[]
