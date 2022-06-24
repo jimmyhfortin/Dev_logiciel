@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Exactement comme cela que fonctionne FontAwesome */
+    .required::after {
+      content: "*";
+      color: red;
+      font-size: 0.8rem;
+    }
+
+    .required::before {
+      content: "- ";
+      color: teal;
+    }
+
+    /* Cas d'utilisation réel */
+    .quote {
+      font-style: italic;
+      color: #333;
+    }
+    .quote::before {
+      content:"\201C";
+      font-size: 1.2rem;
+      
+    }
+    .quote::after{
+      content: "\201D";
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <label class="required">Name</label><br>
+  <input type="text"/>
+  <p class="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati sequi quo iure est omnis. Harum odio eius corporis, maxime voluptatem, voluptatibus aperiam, dolor facere dicta quos at doloribus placeat accusantium.</p>
+  <p>Test</p>
+  <p class="quote">Test2</p>
+</body>
+</html>
+<!--Les pseudo-éléments
+ https://codesandbox.io/s/htmlcss-c8-l3-uejsv?from-embed -->
+

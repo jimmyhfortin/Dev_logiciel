@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Reprendre le code de 05-grid-area.html*/
+
+      .container {
+        min-height: 100vh;
+        display: grid;
+        /*      grid: 
+        "header header header header" 80px
+        "aside main main main" minmax(400px, 1fr)
+        "footer footer footer footer" 80px
+        / 1fr 1fr 1fr
+        ; */
+
+        grid:
+          "header header header header" 80px
+          "aside main main main" 1fr
+          "aside main main main" 1fr
+          "footer footer footer footer" 80px
+          / 1fr 1fr 1fr;
+        background-color: green;
+      }
+
+      header {
+        background: #333;
+        grid-area: header;
+      }
+      main {
+        grid-area: main;
+        background: purple;
+      }
+      footer {
+        grid-area: footer;
+        background: #333;
+      }
+      aside {
+        grid-area: aside;
+        background: orange;
+      }
+
+      @media only screen and (max-width: 500px) {
+        .container {
+          grid-template-areas:
+            "header header header header"
+            "aside aside aside aside"
+            "main main main main"
+            "footer footer footer footer";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header></header>
+      <main></main>
+      <aside></aside>
+      <footer></footer>
+    </div>
+  </body>
+</html>

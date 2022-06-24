@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .box {
+        margin: 1rem;
+        width: 250px;
+        height: 250px;
+        background-color: orange;
+
+        /*         transition-duration: 2s;
+        transition-property: background-color, width;
+        transition-timing-function: ease-out; */
+
+        transition: background-color 2s ease-out, width 4s ease-in;
+
+        /* transition: all 3s; */
+      }
+
+      .box:hover {
+        background-color: blue;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
+<!-- Les transitions 
+  https://codesandbox.io/s/htmlcss-c8-l8-yg2vn?from-embed -->

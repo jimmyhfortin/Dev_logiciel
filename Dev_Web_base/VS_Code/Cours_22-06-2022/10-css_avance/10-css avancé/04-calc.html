@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    /* Voici comment corriger la hauteur des menus quand on ne PEUT PAS utiliser de Flex */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: white;
+    }
+    
+    header {
+      height: 50px;
+      background-color: #333;
+      text-align: center;
+    }
+
+    .vp {
+      height: calc( 100vh - 100px);
+      background: url(https://source.unsplash.com/weekly?night) center center / cover;
+    }
+    footer {
+      height: 50px;
+      background-color: #333;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p>Menu ici</p>
+  </header>
+  <div class="vp">
+
+  </div>
+  <footer>
+    <p>Footer ici</p>
+  </footer>
+</body>
+</html>
+<!-- La fonction calc
+   https://codesandbox.io/s/htmlcss-c8-l4-g7uk6?from-embed -->

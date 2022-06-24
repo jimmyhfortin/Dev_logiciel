@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filters</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      .box {
+        display: flex;
+        text-shadow: 3px 2px 2px #eee;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 1rem;
+        width: 250px;
+        height: 250px;
+        background: url(https://source.unsplash.com/random?day) center center / cover;
+      }
+      .brightness {
+        filter: brightness(40%);
+      }
+      .blur {
+        filter: blur(5px);
+      }
+      .saturation {
+        filter: saturate(300%);
+      }
+      .greyscale {
+        filter: grayscale(100%);
+      }
+      .sepia {
+        filter: sepia(100%);
+      }
+      .opacity {
+        opacity: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">Original</div>
+    <div class="box brightness">Brightness -</div>
+    <div class="box blur">Blur</div>
+    <div class="box saturation">Saturation +</div>
+    <div class="box greyscale">Greyscale</div>
+    <div class="box sepia">Sepia</div>
+    <div class="box opacity">Opacity</div>
+  </body>
+</html>
+<!-- Les filtres 
+  https://codesandbox.io/s/htmlcss-c8-l7-l4ujk?from-embed -->

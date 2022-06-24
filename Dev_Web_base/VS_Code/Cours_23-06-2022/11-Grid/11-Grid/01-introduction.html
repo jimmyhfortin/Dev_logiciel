@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .container {
+      min-height: 100vh;
+      display:grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: 300px auto;
+      gap: 5px;
+    }
+
+    .item {
+      background: blue;
+      border: 1px solid red;
+      font-weight: 700;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- .container>.item{item-$}*6 -->
+
+  <div class="container">
+    <div class="item">item-1</div>
+    <div class="item">item-2</div>
+    <div class="item">item-3</div>
+    <div class="item">item-4</div>
+    <div class="item">item-5</div>
+    <div class="item">item-6</div>
+  </div>
+</body>
+</html>

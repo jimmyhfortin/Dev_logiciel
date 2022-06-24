@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .container {
+      min-height: 100vh;
+      display:grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-template-rows: 200px 200px;
+      gap: 5px 25px;
+
+      /*justify-content: space-evenly;
+      align-content: space-between;*/
+
+      place-content: space-evenly space-between;
+
+      /* Présenter à l'aide des dev tools.*/
+      
+      /*justify-items: center;
+      align-items: center;*/
+
+      place-items: center;
+    }
+
+    .item {
+      width: 100px;
+      height: 100px;
+      background: blue;
+      border: 1px solid red;
+      font-weight: 700;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- .container>.item{item-$}*6 -->
+
+  <div class="container">
+    <div class="item">item-1</div>
+    <div class="item">item-2</div>
+    <div class="item">item-3</div>
+    <div class="item">item-4</div>
+    <div class="item">item-5</div>
+    <div class="item">item-6</div>
+  </div>
+</body>
+</html>

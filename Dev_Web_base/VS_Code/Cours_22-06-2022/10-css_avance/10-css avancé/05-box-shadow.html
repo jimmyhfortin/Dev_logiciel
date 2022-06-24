@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+
+  /* Démontrer comment copier un box-shadow venant d'un autre site firebase.goole.com */
+
+  /* Exercice supplémentaire : 
+    Faire un menu d'un beau bleu avec fond vp bleur pareil et shadow au menu */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ddd;
+  }
+
+  .box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+  }
+
+  .shadow {
+    box-shadow: 10px 10px  #3333;
+    text-shadow: 5px 5px  #3333;
+  }
+
+  .blur {
+    box-shadow: 10px 10px 5px #3333;
+    text-shadow: 5px 5px 5px #3333;
+  }
+  
+  .spread {
+    box-shadow: 0px 5px 5px 5px #3333;
+    /* Il n'y a pas de portée sur le texte */
+    text-shadow: 0px 5px 5px #3333;
+  }
+
+
+
+</style>
+<body>
+
+  <!-- .container>(.box>h1)*4 -->
+  <div class="container">
+    <div class="box shadow"><h1>Shadow</h1></div>
+    <div class="box blur"><h1>Blur</h1></div>
+    <div class="box spread"><h1>Spread</h1></div>
+    <div class="box"><h1>Plain</h1></div>
+  </div>
+</body>
+</html>
+<!-- Box et text shadow 
+   https://codesandbox.io/s/htmlcss-c8-l5-8m0yh?from-embed -->

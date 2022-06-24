@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sélecteurs avancés</title>
+  </head>
+  <style>
+    /* Mini Défi */
+    /* Avec au maximum deux éléments et un combinateur, créez le css nécessaire
+     à l'affichage suivant (affichier le résultat).*/
+
+    /* Combinateur par héritage */
+    .mydiv p {
+      color: red;
+    }
+
+    /* Le combinateur enfant
+    Le combinateur > cible seulement les éléments correspondant au second sélecteur qui sont
+    imbriqués directement dans les éléments ciblés par le premier sélecteur.*/
+    .mydiv > p {
+      color: blue;
+    }
+
+    /* Le combinateur de voisin direct */
+    /* Pour sélectionner un élément uniquement si celui-ci suit un élément donné et que les deux éléments
+   sont imbriqués dans le même élément parent, alors on utilise un + entre les deux sélecteurs. */
+    div + p {
+      color: purple;
+    }
+
+    /* Le regroupement */
+    input[type="text"],
+    input[type="email"] {
+      border-color: red;
+    }
+
+    /* Sélecteur spéciaux */
+    ::placeholder {
+      color: teal;
+    }
+
+    ::selection {
+      background-color: red;
+      color: white;
+    }
+  </style>
+  <body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div class="mydiv">
+      <p>Lorem ipsum dolor sit amet (BLEU).</p>
+      <div>
+        <span>
+          <p>Lorem ipsum dolor sit amet (ROUGE).</p>
+        </span>
+      </div>
+      <p>Lorem ipsum dolor sit amet (BLEU).</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet (MAUVE).</p>
+    <p id>Lorem ipsum dolor sit amet.</p>
+    <p id="test">Lorem ipsum dolor sit amet.</p>
+    <input type="text" placeholder="name" /> Contour rouge<br />
+    <input type="number" placeholder="age" /><br />
+    <input type="email" placeholder="email" /> Contour Rouge<br />
+  </body>
+</html>
+<!-- Les combinateurs :
+https://codesandbox.io/s/htmlcss-c8-l1-2-mn4nr?from-embed
+
+Les sélecteurs d'attribut
+https://codesandbox.io/s/htmlcss-c8-l1-3-0p8jk?from-embed -->
