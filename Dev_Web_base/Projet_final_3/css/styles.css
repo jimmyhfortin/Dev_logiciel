@@ -122,9 +122,11 @@ img {
 /* ADS-section */
 .pub {
     display: block;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ads-content {
-    
     max-height: 20vh;
     background-color: #ddd;
     display: grid;
@@ -132,16 +134,11 @@ img {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 .img_ads {
-    
     width: 70%;
     height: auto;
     object-fit: cover;
 }
 .img_ads {
-    /* grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 6; */
     grid-row: 1 / 6;
 }
 .title-ads {
@@ -149,24 +146,46 @@ img {
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 2;
-    font-size: 2.5rem;
-    /* grid-column: 2 / 4; */
+    font-size: 2.3rem;
+    font-weight: 700;
+    align-self: end;
 }
 .content-ads {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+    font-size: 1.2rem;
+    align-self: center;
 }
 .form-ads {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-end: 4;
+    align-self: end;
+}
+.form-ads input {
+    background-color: #ddd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1.6rem;
+    width: 90%;
+    
 }
 .ads-content button {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
+    color: whitesmoke;
+    background-color: #333;
+    border: none;
+    margin-right: 30%;
+    padding: unset;
+    width: 60%;
+    font-size: auto;
 }
+/* CONTENT-section */
+
