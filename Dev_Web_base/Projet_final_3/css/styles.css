@@ -189,7 +189,6 @@ img {
 }
 /* CONTENT-section */
 .content-img img {
-    margin-right: 5%;
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -201,9 +200,11 @@ img {
     grid-area: popular;
 }
 .content-mode {
+    margin-top: 2rem;
     grid-area: mode;
 }
 .section-content {
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -211,6 +212,16 @@ img {
         "tech popular"
         "mode . ";
 }
-.content-tech h2 {
-    
+.content-tech h2, .content-mode h2 {
+    font-size: 2rem;
+    border-bottom: solid .1rem #eee;
+    padding-bottom: 1rem;
+}
+.content-tech_1, .content-tech_2, .content-tech_3, .content-mode_1, .content-mode_2, .content-mode_3 {
+    display: flex;
+    justify-content: space-between;
+}
+.content-img {
+    display: flex;
+    align-items: center;
 }
