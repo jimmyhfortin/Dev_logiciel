@@ -188,4 +188,29 @@ img {
     font-size: auto;
 }
 /* CONTENT-section */
-
+.content-img img {
+    margin-right: 5%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.content-tech {
+    grid-area: tech;
+}
+.popular-content {
+    grid-area: popular;
+}
+.content-mode {
+    grid-area: mode;
+}
+.section-content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "tech popular"
+        "mode . ";
+}
+.content-tech h2 {
+    
+}
