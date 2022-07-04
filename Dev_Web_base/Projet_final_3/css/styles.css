@@ -16,6 +16,7 @@ a, a:hover, ul {
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
+    
 }
 /* MAIN-section */
 .header-main {
@@ -54,6 +55,12 @@ header ul li {
     border-top: solid .1rem #001890;
     border-bottom: solid .1rem #001890;
     position: sticky;
+}
+
+.menu a:hover {
+    color: #001890;
+    font-size: 1.8rem;
+    transition: 1s;
 }
 h1 {
     font-size: 2.5rem;
@@ -140,8 +147,6 @@ img {
     width: 70%;
     height: auto;
     object-fit: cover;
-}
-.img_ads {
     grid-row: 1 / 6;
 }
 .title-ads {
@@ -175,7 +180,6 @@ img {
     border-right: none;
     font-size: 1.6rem;
     width: 90%;
-    
 }
 .ads-content button {
     grid-column-start: 3;
