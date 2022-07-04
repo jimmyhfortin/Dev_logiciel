@@ -40,8 +40,10 @@ header ul {
 header ul li {
     padding-right: 2rem;
 }
-.menu {
+.sticky {
     position: sticky;
+    top: 0;
+    background-color: white;
 }
 .menu ul {
     display: flex;
@@ -199,11 +201,8 @@ img {
 }
 .popular-content {
     grid-area: popular;
+    
 }
-/* .content-mode {
-    margin-top: 2rem;
-    grid-area: mode;
-} */
 .head_1 {
     grid-area: head_1;
 }
@@ -219,11 +218,6 @@ img {
         "head_1 head_2 "
         "main popular";
 }
-/* .content-tech h2, .content-mode h2 {
-    font-size: 2rem;
-    border-bottom: solid .1rem #eee;
-    padding-bottom: 1rem;
-} */
 .content-tech_1, .content-tech_2, .content-tech_3, .content-mode_1, .content-mode_2, .content-mode_3 {
     display: flex;
     justify-content: space-between;
