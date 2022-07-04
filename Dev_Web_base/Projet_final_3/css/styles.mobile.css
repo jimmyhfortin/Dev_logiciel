@@ -7,12 +7,22 @@
   }
   
   @media (min-width: 376px) and (max-width: 667px) {
-    
+    .show-case {
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+        
+    }
     
   }
   
   @media (max-width: 375px) {
-  
+    .show-case {
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+        
+    }
     
 
     
