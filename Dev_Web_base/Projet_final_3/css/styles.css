@@ -194,23 +194,26 @@ img {
     object-fit: cover;
 }
 .content-tech {
-    grid-area: tech;
+    grid-area: main;
 }
 .popular-content {
     grid-area: popular;
 }
-.content-mode {
+/* .content-mode {
     margin-top: 2rem;
     grid-area: mode;
+} */
+.head {
+    grid-area: head;
 }
 .section-content {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     display: grid;
     grid-template-columns: 4fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 3rem auto;
     grid-template-areas: 
-        "tech popular"
-        "mode . ";
+        "head head "
+        "main popular";
 }
 .content-tech h2, .content-mode h2 {
     font-size: 2rem;
