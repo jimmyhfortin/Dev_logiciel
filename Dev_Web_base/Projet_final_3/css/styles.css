@@ -240,3 +240,6 @@ img {
 .head_2 {
     padding-bottom: .2rem; 
 }
+header input {
+    display: none;
+}
