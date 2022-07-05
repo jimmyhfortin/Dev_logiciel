@@ -95,12 +95,7 @@ button {
     cursor: pointer;
     transition: 0.5s;
     border-radius: .5rem;
-    
 }
-/* button:hover {
-    background-color: #001890;
-    color: white;
-} */
 .button:hover {
     background-color: #001890;
     color: white;
@@ -108,7 +103,7 @@ button {
 
 .button:active {
   background-color: #040e3f;
-  box-shadow: 0 5px #eee;
+  box-shadow: 0 5px rgba(238, 238, 238, 0.829);
   transform: translateY(4px);
 }
 #menuToggle input {
@@ -183,10 +178,8 @@ img {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 .img_ads {
-    width: 59%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
-    height: inherit;
     grid-row: 1 / 6;
 }
 .title-ads {
